@@ -10,147 +10,15 @@
   <meta name="twitter:title" content="This Week In React ⚛️">
   <meta name="twitter:description" content="Weekly coverage of interesting pull requests, discussions, and RFCs around React Core and React DOM.">
   <meta name="twitter:image" content="https://philippspiess.com/this-week-in-react/twitter-card.png">
-  <link rel="icon" type="image/png" href="./favicon.png" />
-
-  <style>
-    html,
-    body {
-      height: 100%;
-      margin: 0;
-    }
-
-    html {
-      background:
-        linear-gradient(0deg, rgba(0, 0, 0, .25) -5%, transparent 100%),
-        linear-gradient(158deg, #874da2 0%, #c43a30 100%);
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-    }
-
-    body {
-      color: white;
-      font-family: 'Helvetica Neue', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', sans-serif;
-    }
-
-    .atoms, .main {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-    }
-
-    .atoms {
-      position: fixed;
-      overflow: hidden;
-      opacity: 0.07;
-    }
-
-    .main {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    section {
-      max-width: calc(100% - 20px);
-      width: 500px;
-    }
-
-    h1 {
-      font-weight: bold;
-      font-size: 46px;
-      text-shadow: rgba(0, 0, 0, .18) 0 2px 4px;
-      margin-bottom: 20px;
-      line-height: 80px;
-    }
-
-    h1 > img {
-      top: 8px;
-      left: 8px;
-      position: relative;
-    }
-
-    h2, .issues {
-      font-weight: 300;
-      font-size: 24px;
-      line-height: 1.8;
-      margin-bottom: 40px;
-    }
-
-    h3 {
-      font-weight: 300;
-      font-size: 20px;
-      line-height: 1.8;
-      margin-top: 40px;
-      text-align: center;
-    }
-
-    ol {
-      list-style: none;
-      text-indent: 0;
-      padding: 0;
-      text-align: center;
-    }
-
-
-    h3 > a, .issues a {
-      color: white;
-    }
-
-    .button {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      display: inline-block;
-      width: calc(50% - 20px);
-      line-height: 60px;
-      border: 3px solid white;
-      background: transparent;
-      font-weight: 300;
-      font-size: 20px;
-      color: white;
-      transition: background ease-in-out 150ms;
-      cursor: pointer;
-      text-align: center;
-      text-decoration: none;
-    }
-
-    button:hover, a.button:hover {
-      background: rgba(255, 255, 255, .2);
-    }
-
-    .button-icon {
-      position: relative;
-      font-size: 30px;
-      left: 6px;
-      top: 6px;
-    }
-
-    .button-right {
-      margin-left: 20px;
-    }
-
-    @media only screen and (max-width: 600px) {
-      button, a.button {
-        width: 100%;
-      }
-      .button-right {
-        margin-left: 0;
-        margin-top: 10px;
-      }
-      .main {
-        align-items: baseline;
-      }
-    }
-  </style>
+  <link rel="icon" type="image/png" href="./favicon.png">
+  <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 
 <body>
   <div aria-hidden="true" class="atoms"></div>
   <div class="main">
     <section>
-      <h1>This Week In React <img src="./react.svg" width="60px" alt="⚛️" /></h1>
+      <h1>This Week In React <img src="./react.svg" width="60px" alt="⚛️" id="logo" /></h1>
       <h2>Weekly coverage of interesting pull requests, discussions, and RFCs around React Core and React DOM. Coming out every Friday.</h2>
       <div class="issues">
         <ol>
@@ -165,33 +33,7 @@
     </section>
   </div>
 
-  <script>
-    var atoms = document.querySelector(".atoms");
-    var neighborhood = 150;
-
-    function createRandomNumberBetween(min, max) {
-      return Math.random() * (max - min) + min;
-    }
-
-    function createRandomAtom(x, y) {
-      var image = new Image();
-      image.src = "./react.svg";
-      image.style.position = "absolute";
-      image.width = createRandomNumberBetween(30, 60);
-      image.style.left =
-      createRandomNumberBetween(x + 5, x - 10 + neighborhood) + "px";
-      image.style.top =
-        createRandomNumberBetween(y + 5, y - 10 + neighborhood) + "px";
-      atoms.appendChild(image);
-    }
-
-    for (var x = 0; x < screen.width; x += neighborhood) {
-      for (var y = 0; y < screen.height; y += neighborhood) {
-        createRandomAtom(x, y);
-      }
-    }
-  </script>
-
+  <script type="text/javascript" src="./atoms.js"></script>
   <script type="text/javascript">
   var clicky_site_ids = clicky_site_ids || [];
   clicky_site_ids.push(101115144);

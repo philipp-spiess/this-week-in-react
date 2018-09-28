@@ -55,7 +55,7 @@ tweets.forEach((tweet, index) => {
         process.exit(1);
       }
 
-      const text = tweet.replace(url, '').trim();
+      const text = tweet.replace(url, "").trim();
       cards[index] = createCard(index, text, url, ogsResults);
 
       done();
@@ -82,41 +82,40 @@ function createCard(index, text, url, openGraphData) {
       }
     } = openGraphData;
 
-    let title;
-    const isGitHubTitle = ogTitle.match(GITHUB_TITLE_SEPARATOR);
+    // let title;
+    // const isGitHubTitle = ogTitle.match(GITHUB_TITLE_SEPARATOR);
 
-    if (!isGitHubTitle) {
-      title = `
-        <h2 style="font-family:Helvetica,sans-serif;font-size: 16px;font-weight:bold;padding:0;margin:5px;">${ogTitle}</h2>
-      `.trim();
-    } else {
-      const [_, h1, __, h2] = isGitHubTitle;
+    // if (!isGitHubTitle) {
+    //   title = `
+    //     <h2 style="font-family:Helvetica,sans-serif;font-size: 14px;font-weight:bold;padding:0;margin:5px;">${ogTitle}</h2>
+    //   `.trim();
+    // } else {
+    //   const [_, h1, __, h2] = isGitHubTitle;
 
-      title = `
-        <h2 style="font-family:Helvetica,sans-serif;font-size: 16px;font-weight:bold;padding:0;margin:5px;">${h1}</h2>
-        <h3 style="font-family:Helvetica,sans-serif;font-size: 14px;font-weight:bold;padding:0;margin:5px;">${h2}</h3>
-      `.trim();
-    }
+    //   title = `
+    //     <h2 style="font-family:Helvetica,sans-serif;font-size: 14px;font-weight:bold;padding:0;margin:5px;">${h1}</h2>
+    //     <h3 style="font-family:Helvetica,sans-serif;font-size: 14px;font-weight:normal;padding:0;margin:5px;color:#666">${h2}</h3>
+    //   `.trim();
+    // }
 
     // Some open graph websites also use truncate (GitHub) so we remove the ... first in case we end
     // up with more than three dots.
-    const truncatedDescription = truncate(
-      ogDescription.replace("...", ""),
-      110
-    );
+    // const truncatedDescription = truncate(
+    //   ogDescription.replace("...", ""),
+    //   110
+    // );
 
     og = `
-      <div style="margin: 10px 0; padding: 0; border: 1px solid #ccc;border-radius: 5px;">
+      <div style="margin: 10px 0; padding: 0; border: 0;">
         <table style="margin: 0; padding: 0;">
           <tr style="margin: 0; padding: 0">
-            <td width="135" style="margin: 0; padding: 0">
-              <a href="${ogUrl}" style="display: block;">
-                <img src="${imageUrl}" width="135" style="margin:5px; display: block;" /></a>
+            <td width="530" style="margin: 0; padding: 0;padding-right: 5px;vertical-align:top;">
+              <p style="font-family:Helvetica,sans-serif;font-size: 14px;padding:0;margin:5px;margin-left:0;">${simpleMarkdown(text)}</p>
+              <a href="${url}" style="font-family:Helvetica,sans-serif;font-size: 14px;padding:0;margin:5px;margin-left:0;">${url}</a>
             </td>
-            <td width="475" style="margin: 0; padding: 0">
-              ${title}
-              <p style="font-family:Helvetica,sans-serif;font-size: 14px;padding:0;margin:5px;">${truncatedDescription}</p>
-              <a href="${url}" style="font-family:Helvetica,sans-serif;font-size: 14px;padding:0;margin:5px;">${url}</a>
+            <td width="80" style="margin: 0; padding: 0;vertical-align:top;">
+              <a href="${ogUrl}" style="display: block;">
+                <img src="${imageUrl}" width="80" style="margin:5px;margin-right:0; margin-top:35px; display: block;" /></a>
             </td>
           <tr>
         </table>
@@ -128,15 +127,20 @@ function createCard(index, text, url, openGraphData) {
     <div style="width:560px;margin: ${index === 0 ? "0" : "30px"} 0; ${
     index === tweets.length - 1 ? "margin-bottom: 20px;" : ""
   } padding: 0; ">
-      <div style="font-family:Helvetica,sans-serif;font-size: 16px; margin: 0; padding: 0;">
+      ${
+        og
+          ? og
+          : `<div style="font-family:Helvetica,sans-serif;font-size: 16px; margin: 0; padding: 0;">
         ${simpleMarkdown(text)}
-      </div>
-      ${og}
+      </div>`
+      }
     </div>
   `.trim();
 }
 
-const template = fs.readFileSync("./email-template.html", { encoding: "UTF-8" });
+const template = fs.readFileSync("./email-template.html", {
+  encoding: "UTF-8"
+});
 function createEmail(cards) {
   const cardsHtml = cards.join("\n");
   let html = template.replace("PASTE HTML HERE", cardsHtml);

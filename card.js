@@ -110,8 +110,8 @@ function createCard(index, text, url, openGraphData) {
         <table style="margin: 0; padding: 0;">
           <tr style="margin: 0; padding: 0">
             <td width="135" style="margin: 0; padding: 0">
-              <a href="${ogUrl}">
-                <img src="${imageUrl}" width="135" style="margin:5px;" /></a>
+              <a href="${ogUrl}" style="display: block;">
+                <img src="${imageUrl}" width="135" style="margin:5px; display: block;" /></a>
             </td>
             <td width="475" style="margin: 0; padding: 0">
               ${title}

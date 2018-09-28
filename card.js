@@ -40,7 +40,7 @@ function done() {
 
 tweets.forEach((tweet, index) => {
   const endsWithUrl = tweet
-    .split(" ")
+    .split(/\s+/)
     .slice(-1)[0]
     .startsWith("http");
 
@@ -48,16 +48,14 @@ tweets.forEach((tweet, index) => {
     cards[index] = createCard(index, tweet);
     done();
   } else {
-    const url = tweet.split(" ").slice(-1)[0];
+    const url = tweet.split(/\s+/).slice(-1)[0];
     ogs({ url, timeout: 5000 }, function(error, ogsResults) {
       if (error) {
         console.error("Error:", error, ogsResults);
         process.exit(1);
       }
 
-      let words = tweet.split(" ");
-      words.splice(-1, 1);
-      const text = words.join(" ");
+      const text = tweet.replace(url, '').trim();
       cards[index] = createCard(index, text, url, ogsResults);
 
       done();
@@ -69,7 +67,7 @@ function simpleMarkdown(text) {
   return md.render(text);
 }
 
-const GITHUB_TITLE_SEPARATOR = " · Pull Request ";
+const GITHUB_TITLE_SEPARATOR = /(.*)\ ·\ (Pull\ Request|Issue)\ (.*)/;
 function createCard(index, text, url, openGraphData) {
   let og = "";
 
@@ -85,13 +83,15 @@ function createCard(index, text, url, openGraphData) {
     } = openGraphData;
 
     let title;
-    const isGitHubTitle = ogTitle.indexOf(GITHUB_TITLE_SEPARATOR) > 0;
+    const isGitHubTitle = ogTitle.match(GITHUB_TITLE_SEPARATOR);
+
     if (!isGitHubTitle) {
       title = `
         <h2 style="font-family:Helvetica,sans-serif;font-size: 16px;font-weight:bold;padding:0;margin:5px;">${ogTitle}</h2>
       `.trim();
     } else {
-      const [h1, h2] = ogTitle.split(GITHUB_TITLE_SEPARATOR);
+      const [_, h1, __, h2] = isGitHubTitle;
+
       title = `
         <h2 style="font-family:Helvetica,sans-serif;font-size: 16px;font-weight:bold;padding:0;margin:5px;">${h1}</h2>
         <h3 style="font-family:Helvetica,sans-serif;font-size: 14px;font-weight:bold;padding:0;margin:5px;">${h2}</h3>

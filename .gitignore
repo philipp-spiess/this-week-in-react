@@ -1,2 +1,9 @@
 node_modules/
 issues/**/*.html
+# Project dependencies
+.cache
+node_modules
+
+# Build directory
+/public
+.DS_Store

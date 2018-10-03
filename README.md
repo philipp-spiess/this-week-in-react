@@ -1,5 +1,7 @@
 ![This Week In React ⚛️](https://this-week-in-react.org/twitter-card.png)
 
+# This Week In React ️️⚛️
+
 This repository contains the website and email templates for This Week In React ⚛️ a newsletter that covers React Core and React DOM.
 
 ## Contributing

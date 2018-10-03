@@ -2,6 +2,7 @@ html,
 body {
   height: 100%;
   margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 html {
@@ -56,7 +57,7 @@ section {
 }
 
 h1 {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 46px;
   text-shadow: rgba(0, 0, 0, .18) 0 2px 4px;
   margin-bottom: 20px;
@@ -104,6 +105,7 @@ h3 > a, .issues a {
   width: calc(50% - 20px);
   line-height: 60px;
   border: 3px solid white;
+  border-radius: 100px;
   background: transparent;
   font-weight: 300;
   font-size: 20px;

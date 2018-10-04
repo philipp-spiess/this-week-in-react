@@ -1,0 +1,172 @@
+// Main
+html {
+  background:
+    linear-gradient(0deg, rgba(0, 0, 0, .25) -5%, transparent 100%),
+    linear-gradient(158deg, #874DA2 0%, #C43A30 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body {
+  color: white;
+  font-family: 'Roboto', 'Arial', sans-serif;
+}
+
+a {
+  color: white;
+}
+
+// Helpers
+$bp--sm: 45rem;
+$fs--def: 1.3rem;
+$fs--sm: 1.1rem;
+
+// Utilities
+.u-container {
+  height: 100vh;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: $bp__sm) {
+  .u-container {
+    display: block;
+    padding: 2rem;
+  }
+
+  .c-page__signup {
+    flex-wrap: wrap;
+
+    span {
+      display: block;
+    }
+  }
+}
+
+// Components
+.c-page {
+  max-width: 45rem;
+}
+
+.c-page__title {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  #title {
+    font-weight: 700;
+    font-size: 3rem;
+    text-shadow: rgba(0, 0, 0, .15) 0 .2rem .4rem;
+  }
+
+  #react-logo {
+    transition: transform ease-out 600ms;
+    text-shadow: rgba(0, 0, 0, .15) 0 .2rem .4rem;
+  }
+}
+
+.c-page__title:hover {
+  cursor: pointer;
+
+  #react-logo {
+    transform: rotate(180deg);
+  }
+}
+
+.c-page__description {
+  display: block;
+  font-weight: 400;
+  font-size: $fs--def;
+  line-height: 2.25rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .15));
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.c-list {
+  font-weight: 400;
+  font-size: $fs--def;
+  padding: 2rem;
+  list-style: none;
+  text-align: center;
+
+  li {
+    margin-bottom: 1rem;
+
+    a {
+      text-decoration: none;
+      border-bottom: 2px solid rgba(255, 255, 255, .25);
+    }
+  }
+
+  li:last-child {
+    margin-bottom: 0;
+  }
+}
+
+#c-page__issues {
+  border-bottom: 2px solid rgba(255, 255, 255, .25);
+}
+
+// Mailchimp form
+.c-page__signup {
+  padding: 2rem;
+  font-size: $fs--sm;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2px solid rgba(255, 255, 255, .25);
+
+  span {
+    margin-right: 2rem;
+    padding-bottom: .5rem;
+  }
+
+  input[type=email] {
+    background-color: rgba(0, 0, 0, .25);
+    border-radius: .2rem;
+    border: 0;
+    padding: 1rem;
+    color: white;
+  }
+
+  input[type=submit] {
+    margin-top: 1rem;
+    background-color: rgba(0, 0, 0, .25);
+    border-radius: .2rem;
+    border: 0;
+    padding: 1rem;
+    color: white;
+    cursor: pointer;
+  }
+
+  ::placeholder {
+    color: rgba(255, 255, 255, .5);
+  }
+}
+
+.c-page__footer {
+  padding-top: 2rem;
+  text-align: center;
+
+  a {
+    text-decoration: none;
+    opacity: .25;
+  }
+
+  a:hover {
+    opacity: 1;
+  }
+}

@@ -7,6 +7,7 @@ const md = require("markdown-it")({
 });
 const truncate = require("truncate");
 const path = require("path");
+const octokit = require("@octokit/rest")();
 
 function usage() {
   console.error('Usage: \n  node card.js 1 "21 Aug 2018"');
@@ -15,6 +16,11 @@ function usage() {
 
 const issue = process.argv[2];
 const date = process.argv[3];
+
+const MAILCHIMP_HEADER_IMAGES = {
+  2: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/6441b0d8-bf34-4a9a-bed3-657beb2c5c9b.png",
+  3: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/7dcbb11f-a1e4-46ef-8c7e-0abfec7bda97.png"
+};
 
 if (!issue) {
   console.error(`Invalid issue number passed as parameter: ${issue}\n`);
@@ -25,7 +31,7 @@ if (!date) {
   usage();
 }
 
-const SRC_DIR = path.join(__dirname, '../src')
+const SRC_DIR = path.join(__dirname, "../src");
 
 const rawFile = fs.readFileSync(`${SRC_DIR}/issues/${issue}/README.md`, {
   encoding: "UTF-8"
@@ -42,11 +48,11 @@ function done() {
   }
 
   fs.writeFileSync(`${SRC_DIR}/issues/${issue}/email.html`, createEmail(cards));
-
+  console.log("Done.");
   process.exit(0);
 }
 
-tweets.forEach((tweet, index) => {
+tweets.forEach(async (tweet, index) => {
   const endsWithUrl = tweet
     .split(/\s+/)
     .slice(-1)[0]
@@ -57,17 +63,9 @@ tweets.forEach((tweet, index) => {
     done();
   } else {
     const url = tweet.split(/\s+/).slice(-1)[0];
-    ogs({ url, timeout: 5000 }, function(error, ogsResults) {
-      if (error) {
-        console.error("Error:", error, ogsResults);
-        process.exit(1);
-      }
-
-      const text = tweet.replace(url, "").trim();
-      cards[index] = createCard(index, text, url, ogsResults);
-
-      done();
-    });
+    const imageUrl = await urlToImage(url);
+    cards[index] = createCard(index, tweet, url, imageUrl);
+    done();
   }
 });
 
@@ -76,30 +74,25 @@ function simpleMarkdown(text) {
 }
 
 const GITHUB_TITLE_SEPARATOR = /(.*)\ ·\ (Pull\ Request|Issue)\ (.*)/;
-function createCard(index, text, url, openGraphData) {
-  let og = "";
+function createCard(index, tweet, url, imageUrl) {
+  let twoColumnLayout = "";
+  let text = tweet;
 
-  if (openGraphData) {
-    const {
-      data: {
-        ogSiteName,
-        ogTitle,
-        ogUrl,
-        ogDescription,
-        ogImage: { url: imageUrl }
-      }
-    } = openGraphData;
+  if (imageUrl) {
+    text = tweet.replace(url, "").trim();
 
-    og = `
+    twoColumnLayout = `
       <div style="margin: 10px 0; padding: 0; border: 0;">
         <table style="margin: 0; padding: 0;">
           <tr style="margin: 0; padding: 0">
             <td width="530" style="margin: 0; padding: 0;padding-right: 5px;vertical-align:top;">
-              <p style="font-family:Helvetica,sans-serif;font-size: 14px;padding:0;margin:5px;margin-left:0;">${simpleMarkdown(text)}</p>
+              <p style="font-family:Helvetica,sans-serif;font-size: 14px;padding:0;margin:5px;margin-left:0;">${simpleMarkdown(
+                text
+              )}</p>
               <a href="${url}" style="font-family:Helvetica,sans-serif;font-size: 14px;padding:0;margin:5px;margin-left:0;">${url}</a>
             </td>
             <td width="80" style="margin: 0; padding: 0;vertical-align:top;">
-              <a href="${ogUrl}" style="display: block;">
+              <a href="${url}" style="display: block;">
                 <img src="${imageUrl}" width="80" style="margin:5px;margin-right:0; margin-top:35px; display: block;" /></a>
             </td>
           <tr>
@@ -113,8 +106,8 @@ function createCard(index, text, url, openGraphData) {
     index === tweets.length - 1 ? "margin-bottom: 20px;" : ""
   } padding: 0; ">
       ${
-        og
-          ? og
+        twoColumnLayout
+          ? twoColumnLayout
           : `<div style="font-family:Helvetica,sans-serif;font-size: 16px; margin: 0; padding: 0;">
         ${simpleMarkdown(text)}
       </div>`
@@ -133,7 +126,33 @@ function createEmail(cards) {
   html = html.replace("Issue 1 – 21 Aug 2018", `Issue ${issue} – ${date}`);
   html = html.replace(
     "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/6441b0d8-bf34-4a9a-bed3-657beb2c5c9b.png",
-    "./issue.png"
+    MAILCHIMP_HEADER_IMAGES.hasOwnProperty(issue)
+      ? MAILCHIMP_HEADER_IMAGES[issue]
+      : "./issue.png"
   );
   return html;
+}
+
+async function urlToImage(url) {
+  let match;
+
+  // We test special URL patterns to extract the proper image e.g for a Github
+  // view that shows all commits of a given user.
+  const GITHUB_COMMIT_FILTER_URL_REGEX = /\/commits\?author=([a-zA-Z0-9-_]+)/;
+  if ((match = url.match(GITHUB_COMMIT_FILTER_URL_REGEX))) {
+    const [_, username] = match;
+    const result = await octokit.users.getForUser({ username });
+
+    console.log(result.data.avatar_url);
+  } else {
+    return new Promise((resolve, reject) => {
+      ogs({ url, timeout: 5000 }, function(error, ogsResults) {
+        if (error) {
+          reject(new Error("Error:", error, ogsResults));
+          process.exit(1);
+        }
+        resolve(ogsResults.data.ogImage.url);
+      });
+    });
+  }
 }

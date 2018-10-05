@@ -1,24 +1,33 @@
+#!/usr/bin/env node
+
 const ogs = require("open-graph-scraper");
 const fs = require("fs");
 const md = require("markdown-it")({
   linkify: true
 });
 const truncate = require("truncate");
+const path = require("path");
+
+function usage() {
+  console.error('Usage: \n  node card.js 1 "21 Aug 2018"');
+  process.exit(1);
+}
 
 const issue = process.argv[2];
 const date = process.argv[3];
+
 if (!issue) {
-  console.error(`Invalid issue number passed as parameter: ${url}\n`);
-  console.error('Usage: \n  node card.js 1 "21 Aug 2018"');
-  process.exit(1);
+  console.error(`Invalid issue number passed as parameter: ${issue}\n`);
+  usage();
 }
 if (!date) {
-  console.error(`Invalid date passed as parameter: ${url}\n`);
-  console.error('Usage: \n  node card.js 1 "21 Aug 2018"');
-  process.exit(1);
+  console.error(`Invalid date passed as parameter: ${date}\n`);
+  usage();
 }
 
-const rawFile = fs.readFileSync(`./issues/${issue}/README.md`, {
+const SRC_DIR = path.join(__dirname, '../src')
+
+const rawFile = fs.readFileSync(`${SRC_DIR}/issues/${issue}/README.md`, {
   encoding: "UTF-8"
 });
 const tweets = rawFile.split("---").map(s => s.trim());
@@ -32,8 +41,7 @@ function done() {
     return;
   }
 
-  fs.writeFileSync(`./issues/${issue}/email.html`, createEmail(cards));
-  fs.writeFileSync(`./issues/${issue}/index.html`, createWebsite(cards));
+  fs.writeFileSync(`${SRC_DIR}/issues/${issue}/email.html`, createEmail(cards));
 
   process.exit(0);
 }
@@ -82,29 +90,6 @@ function createCard(index, text, url, openGraphData) {
       }
     } = openGraphData;
 
-    // let title;
-    // const isGitHubTitle = ogTitle.match(GITHUB_TITLE_SEPARATOR);
-
-    // if (!isGitHubTitle) {
-    //   title = `
-    //     <h2 style="font-family:Helvetica,sans-serif;font-size: 14px;font-weight:bold;padding:0;margin:5px;">${ogTitle}</h2>
-    //   `.trim();
-    // } else {
-    //   const [_, h1, __, h2] = isGitHubTitle;
-
-    //   title = `
-    //     <h2 style="font-family:Helvetica,sans-serif;font-size: 14px;font-weight:bold;padding:0;margin:5px;">${h1}</h2>
-    //     <h3 style="font-family:Helvetica,sans-serif;font-size: 14px;font-weight:normal;padding:0;margin:5px;color:#666">${h2}</h3>
-    //   `.trim();
-    // }
-
-    // Some open graph websites also use truncate (GitHub) so we remove the ... first in case we end
-    // up with more than three dots.
-    // const truncatedDescription = truncate(
-    //   ogDescription.replace("...", ""),
-    //   110
-    // );
-
     og = `
       <div style="margin: 10px 0; padding: 0; border: 0;">
         <table style="margin: 0; padding: 0;">
@@ -138,28 +123,17 @@ function createCard(index, text, url, openGraphData) {
   `.trim();
 }
 
-const template = fs.readFileSync("./email-template.html", {
-  encoding: "UTF-8"
-});
 function createEmail(cards) {
+  const template = fs.readFileSync(`${SRC_DIR}/email-template.html`, {
+    encoding: "UTF-8"
+  });
+
   const cardsHtml = cards.join("\n");
   let html = template.replace("PASTE HTML HERE", cardsHtml);
   html = html.replace("Issue 1 – 21 Aug 2018", `Issue ${issue} – ${date}`);
-  return html;
-}
-
-function createWebsite(cards) {
-  const cardsHtml = cards.join("\n");
-  let html = template.replace("PASTE HTML HERE", cardsHtml);
   html = html.replace(
     "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/6441b0d8-bf34-4a9a-bed3-657beb2c5c9b.png",
     "./issue.png"
   );
-  html = html.replace(
-    `<a href="*|ARCHIVE|*" target="_blank">Open in the browser</a>`,
-    `<a href="/" target="_blank">Back to other issues</a>`
-  );
-  html = html.replace("Issue 1 – 21 Aug 2018", `Issue ${issue} – ${date}`);
-
   return html;
 }

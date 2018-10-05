@@ -5,12 +5,23 @@ import twitter from '../images/twitter.svg'
 import ReactSVG from '../images/react.svg'
 import { createBackgroundPattern } from "./atoms.js"
 
+const Clicky = () => {
+  var clicky_site_ids = [];
+  clicky_site_ids.push(101142968);
+  var s = document.createElement('script');
+  s.type = 'text/javascript';
+  s.async = true;
+  s.src = '//static.getclicky.com/js';
+  ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
+}
+
 class IndexPage extends React.Component {
 
   componentDidMount() {
-    // When the component finishes mounting, run the stuff from script.js
+    // When the component finishes mounting, run the stuff from atom.js and Add clicky
 
     createBackgroundPattern()
+    Clicky()
     }
 
   render() {
@@ -46,7 +57,7 @@ class IndexPage extends React.Component {
             </section>
           </div>
 
-      {/* <script type="text/javascript" src="./initial.js"></script> */}
+      <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101142968ns.gif" /></p></noscript>
 
       
       </div>

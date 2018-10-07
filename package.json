@@ -1,8 +1,31 @@
 {
+  "name": "this-week-in-react",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "react-static start",
+    "stage": "react-static build --staging",
+    "build": "react-static build",
+    "serve": "serve dist -p 3000"
+  },
+  "dependencies": {
+    "chokidar": "2.0.4",
+    "htmr": "0.7.0",
+    "jdown": "^0.6.5",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-helmet": "^5.2.0",
+    "react-hot-loader": "^4.0.0-beta.21",
+    "react-router": "^4.2.0",
+    "react-static": "5.9.12"
+  },
   "devDependencies": {
+    "@octokit/rest": "^15.12.1",
+    "eslint-config-react-tools": "1.x.x",
     "markdown-it": "^8.4.2",
     "open-graph-scraper": "^3.5.1",
-    "truncate": "^2.0.1",
-    "@octokit/rest": "^15.12.1"
+    "serve": "^10.0.2",
+    "truncate": "^2.0.1"
   }
 }

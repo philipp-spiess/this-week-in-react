@@ -4,6 +4,7 @@ import './style.css'
 import twitter from '../../public/twitter.svg'
 import ReactSVG from '../../public/react.svg'
 import { createBackgroundPattern } from "./atoms.js"
+import favicon from '../../public/favicon.png'
 
 const Clicky = () => {
   const clicky_site_ids = [];
@@ -37,6 +38,7 @@ export default class Home extends React.Component {
               <meta name="twitter:description" content="Weekly coverage of interesting pull requests, discussions, and RFCs around React Core and React DOM." />
               <meta name="twitter:image" content="https://philippspiess.com/this-week-in-react/twitter-card.png" />
               <link href="https://fonts.googleapis.com/css?family=Roboto:300,700" rel="stylesheet" />
+              <link rel="icon" type="image/png" href={favicon}/>
             </Helmet>
             <div aria-hidden="true" className="atoms" />
               <div className="main">

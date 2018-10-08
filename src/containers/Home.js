@@ -54,13 +54,13 @@ export default class Home extends React.Component {
                     </ol>
                   </div>
 
-                  <div class="button-row">
+                  <div className="button-row">
                     <a className="button" href="https://twitter.com/PhilippSpiess">Follow on Twitter <span className="button-icon"><img src={ twitter } width="30px" alt="🐦" /></span></a>
                     <a className="button" href="https://t.me/this_week_in_react">Read on Telegram <span className="button-icon"><img src={ telegram } width="30px" alt="✈️" /></span></a>
                   </div>  
 
-                  <div class="button-row">
-                    <a class="button" href="https://eepurl.com/dHV-3X">Subscribe Now <span class="button-icon" role="img" aria-label="Letter">💌</span></a>
+                  <div className="button-row">
+                    <a className="button" href="https://eepurl.com/dHV-3X">Subscribe Now <span className="button-icon" role="img" aria-label="Letter">💌</span></a>
                   </div>
 
                   <h3>Made with <span role="img" aria-label="Hearts">💕</span> by <a href="https://philippspiess.com">@PhilippSpiess</a></h3>

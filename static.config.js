@@ -1,9 +1,3 @@
-import { reloadRoutes } from 'react-static/node'
-import chokidar from 'chokidar'
-
-
-chokidar.watch('issue').on('all', () => reloadRoutes())
-
 export default {
   getSiteData: () => ({
     title: 'React Static',

@@ -39,7 +39,7 @@ function createBackgroundPattern() {
     }
   }
 }
-// document.getElementById("logo").onclick = createBackgroundPattern;
+
 
 export {
   createBackgroundPattern

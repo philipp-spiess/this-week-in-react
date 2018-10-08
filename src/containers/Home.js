@@ -41,7 +41,7 @@ export default class Home extends React.Component {
             <div aria-hidden="true" className="atoms" />
               <div className="main">
                 <section>
-                  <h1>This Week In React <img src={ ReactSVG } width= "60px"  alt="⚛️" id="logo" /></h1>
+                  <h1>This Week In React <img src={ ReactSVG } width= "60px"  alt="⚛️" id="logo" onClick={createBackgroundPattern}/></h1>
                   <h2>Weekly coverage of interesting pull requests, discussions, and RFCs around React Core and React DOM. Coming out every Friday.</h2>
                   <div className="issues">
                   <ol>

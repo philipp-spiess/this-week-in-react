@@ -2,6 +2,7 @@ import React from 'react'
 import { Helmet } from "react-helmet"
 import './style.css'
 import twitter from '../../public/twitter.svg'
+import telegram from '../../public/telegram.svg'
 import ReactSVG from '../../public/react.svg'
 import { createBackgroundPattern } from "./atoms.js"
 import favicon from '../../public/favicon.png'
@@ -23,7 +24,7 @@ export default class Home extends React.Component {
     // When the component finishes mounting, run the stuff from atom.js and Add clicky
     createBackgroundPattern()
     Clicky()
-    }
+  }
 
   render(){
     return (
@@ -46,17 +47,23 @@ export default class Home extends React.Component {
                   <h1>This Week In React <img src={ ReactSVG } width= "60px"  alt="⚛️" id="logo" onClick={createBackgroundPattern}/></h1>
                   <h2>Weekly coverage of interesting pull requests, discussions, and RFCs around React Core and React DOM. Coming out every Friday.</h2>
                   <div className="issues">
-                  <ol>
-                    <li><a href="https://twitter.com/PhilippSpiess/status/1048242551998824450">Issue 3 — 5 Oct 2018</a></li>
-                    <li><a href="https://twitter.com/PhilippSpiess/status/1045714338684837888">Issue 2 — 28 Sept 2018</a></li>
-                    <li><a href="https://twitter.com/PhilippSpiess/status/1043186943624982529">Issue 1 — 21 Sept 2018</a></li>
-                  </ol>
+                    <ol>
+                      <li><a href="https://twitter.com/PhilippSpiess/status/1048242551998824450">Issue 3 — 5 Oct 2018</a></li>
+                      <li><a href="https://twitter.com/PhilippSpiess/status/1045714338684837888">Issue 2 — 28 Sept 2018</a></li>
+                      <li><a href="https://twitter.com/PhilippSpiess/status/1043186943624982529">Issue 1 — 21 Sept 2018</a></li>
+                    </ol>
                   </div>
 
-                  <a className="button" href="https://twitter.com/PhilippSpiess">Follow on Twitter <span className="button-icon"><img src={ twitter } width="30px" alt="🐦" /></span></a>
-                  <a className="button button-right" href="https://eepurl.com/dHV-3X">Subscribe Now <span className="button-icon" role="img" aria-label="Letter">💌 </span></a>
+                  <div class="button-row">
+                    <a className="button" href="https://twitter.com/PhilippSpiess">Follow on Twitter <span className="button-icon"><img src={ twitter } width="30px" alt="🐦" /></span></a>
+                    <a className="button" href="https://t.me/this_week_in_react">Read on Telegram <span className="button-icon"><img src={ telegram } width="30px" alt="✈️" /></span></a>
+                  </div>  
 
-                  <h3>Made with <span role="img" aria-label="Hearts">💕</span> by <a href="/">@PhilippSpiess</a></h3>
+                  <div class="button-row">
+                    <a class="button" href="https://eepurl.com/dHV-3X">Subscribe Now <span class="button-icon" role="img" aria-label="Letter">💌</span></a>
+                  </div>
+
+                  <h3>Made with <span role="img" aria-label="Hearts">💕</span> by <a href="https://philippspiess.com">@PhilippSpiess</a></h3>
                 </section>
               </div>
 

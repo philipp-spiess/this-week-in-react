@@ -96,14 +96,19 @@ h3 > a, .issues a {
   color: white;
 }
 
+.button-row {
+  display: flex;
+  margin: 20px 0;
+}
+
 .button {
+  flex-grow: 1;
   margin: 0;
-  padding: 0;
+  padding: 0 20px;
   box-sizing: border-box;
   display: inline-block;
-  width: calc(50% - 20px);
   line-height: 60px;
-  border: 3px solid white;
+  border: 2px solid white;
   border-radius: 100px;
   background: transparent;
   font-weight: 300;
@@ -126,16 +131,20 @@ button:hover, a.button:hover {
   top: 6px;
 }
 
-.button-right {
+.button + .button {
   margin-left: 20px;
 }
+
 
 @media only screen and (max-width: 600px) {
   button, a.button {
     width: 100%;
   }
-  .button-right {
+  .button + .button {
     margin-left: 0;
+    margin-top: 10px;
+  }
+  .button-row + .button-row {
     margin-top: 10px;
   }
   .main {

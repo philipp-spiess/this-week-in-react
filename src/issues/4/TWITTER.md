@@ -2,11 +2,11 @@ Curious about what happened This Week In React ⚛️?
 
 Enable Suspense, Error Boundaries, React.pure() Automatically Forwards Ref, and more!
 
-Subscribe at this-week-in-react.org or read the thread ➡️
+Subscribe at this-week-in-react.org or read the thread right here ➡️
 
 ---
 
-🎉 Suspense is no longer behind a feature flag which will likely make it part of the next release. Additional changes also include updated API names.
+🎉 Suspense is no longer behind a feature flag and will likely be part of the next release. Additional changes also include updated API names.
 
 https://github.com/facebook/react/pull/13799
 

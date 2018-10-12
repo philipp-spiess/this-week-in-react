@@ -1,8 +1,9 @@
 {
   "devDependencies": {
+    "@octokit/rest": "^15.12.1",
     "markdown-it": "^8.4.2",
+    "mjml": "^4.2.0-beta.3",
     "open-graph-scraper": "^3.5.1",
-    "truncate": "^2.0.1",
-    "@octokit/rest": "^15.12.1"
+    "truncate": "^2.0.1"
   }
 }

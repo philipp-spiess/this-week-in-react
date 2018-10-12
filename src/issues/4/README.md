@@ -4,7 +4,7 @@ With [React Conf 2018](https://conf.reactjs.org/) right around the corner, we’
 
 ## 🎉 Enable Suspense
 
-Suspense is no longer behind a feature flag which will likely make it part of the next release. Additional changes also include updated names for some of the APIs.
+Suspense is no longer behind a feature flag which will likely make it part of the next release. Additional changes also include updated API names.
 
 https://github.com/facebook/react/pull/13799
 

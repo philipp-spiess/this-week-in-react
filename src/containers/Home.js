@@ -1,30 +1,18 @@
 import "./Home.css";
-import { createBackgroundPattern } from "./atoms.js";
+import { createBackgroundPattern } from "../util/atoms.js";
+import { clicky } from "../util/clicky.js";
 import { Helmet } from "react-helmet";
-import favicon from "../../public/favicon.png";
+import favicon from "../images/favicon.png";
 import React from "react";
-import ReactSVG from "../../public/react.svg";
-import telegram from "../../public/telegram.svg";
-import twitter from "../../public/twitter.svg";
-
-const Clicky = () => {
-  const clicky_site_ids = [];
-  clicky_site_ids.push(101142968);
-  const s = document.createElement("script");
-  s.type = "text/javascript";
-  s.async = true;
-  s.src = "//static.getclicky.com/js";
-  (
-    document.getElementsByTagName("head")[0] ||
-    document.getElementsByTagName("body")[0]
-  ).appendChild(s);
-};
+import ReactSVG from "../images/react.svg";
+import TelegramSVG from "../images/telegram.svg";
+import TwitterSVG from "../images/twitter.svg";
+import TwitterCardPNG from "../images/twitter-card.png";
 
 export default class Home extends React.Component {
   componentDidMount() {
-    // When the component finishes mounting, run the stuff from atom.js and Add clicky
     createBackgroundPattern();
-    Clicky();
+    clicky();
   }
 
   render() {
@@ -44,10 +32,7 @@ export default class Home extends React.Component {
             name="twitter:description"
             content="Weekly coverage of interesting pull requests, discussions, and RFCs around React Core and React DOM."
           />
-          <meta
-            name="twitter:image"
-            content="https://philippspiess.com/this-week-in-react/twitter-card.png"
-          />
+          <meta name="twitter:image" content={TwitterCardPNG} />
           <link
             href="https://fonts.googleapis.com/css?family=Roboto:300,700"
             rel="stylesheet"
@@ -101,13 +86,13 @@ export default class Home extends React.Component {
               <a href="https://twitter.com/PhilippSpiess">
                 Follow on Twitter{" "}
                 <span className="button-icon">
-                  <img src={twitter} width="30px" alt="🐦" />
+                  <img src={TwitterSVG} width="30px" alt="🐦" />
                 </span>
               </a>
               <a href="https://t.me/this_week_in_react">
                 Read on Telegram{" "}
                 <span className="button-icon">
-                  <img src={telegram} width="30px" alt="✈️" />
+                  <img src={TelegramSVG} width="30px" alt="✈️" />
                 </span>
               </a>
             </div>

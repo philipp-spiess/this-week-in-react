@@ -1,10 +1,11 @@
-import img from "../../public/react.svg";
+import img from "../images/react.svg";
 
 function createRandomNumberBetween(min, max) {
   return Math.random() * (max - min) + min;
 }
 
 const atomMap = new Map();
+
 function createRandomAtom(id, x, y) {
   const neighborhood = 150;
   const atoms = document.querySelector(".atoms");
@@ -32,8 +33,7 @@ function createRandomAtom(id, x, y) {
   )}px`;
 }
 
-function createBackgroundPattern() {
-  console.log(img);
+export function createBackgroundPattern() {
   const neighborhood = 150;
   let i = 0;
   for (let x = 0; x < window.screen.width; x += neighborhood) {
@@ -43,5 +43,3 @@ function createBackgroundPattern() {
     }
   }
 }
-
-export { createBackgroundPattern };

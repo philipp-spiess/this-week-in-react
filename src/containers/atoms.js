@@ -1,4 +1,4 @@
-import img from "../../public/react.svg"
+import img from "../../public/react.svg";
 
 function createRandomNumberBetween(min, max) {
   return Math.random() * (max - min) + min;
@@ -8,7 +8,7 @@ const atomMap = new Map();
 function createRandomAtom(id, x, y) {
   const neighborhood = 150;
   const atoms = document.querySelector(".atoms");
-  
+
   let image;
   if (atomMap.has(id)) {
     image = atomMap.get(id);
@@ -22,14 +22,18 @@ function createRandomAtom(id, x, y) {
   }
 
   image.width = createRandomNumberBetween(30, 60);
-  image.style.left =
-    `${createRandomNumberBetween(x + 5, x - 10 + neighborhood)  }px`;
-  image.style.top =
-    `${createRandomNumberBetween(y + 5, y - 10 + neighborhood)  }px`;
+  image.style.left = `${createRandomNumberBetween(
+    x + 5,
+    x - 10 + neighborhood
+  )}px`;
+  image.style.top = `${createRandomNumberBetween(
+    y + 5,
+    y - 10 + neighborhood
+  )}px`;
 }
 
 function createBackgroundPattern() {
-  console.log(img)
+  console.log(img);
   const neighborhood = 150;
   let i = 0;
   for (let x = 0; x < window.screen.width; x += neighborhood) {
@@ -40,7 +44,4 @@ function createBackgroundPattern() {
   }
 }
 
-
-export {
-  createBackgroundPattern
-}
+export { createBackgroundPattern };

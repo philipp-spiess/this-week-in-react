@@ -113,7 +113,10 @@ export default class Home extends React.Component {
             </div>
             <div className="button-row">
               <a className="button" href="https://eepurl.com/dHV-3X">
-                Subscribe Now <span className="button-icon" role="img" aria-label="Mail">💌</span>
+                Subscribe Now{" "}
+                <span className="button-icon" role="img" aria-label="Mail">
+                  💌
+                </span>
               </a>
             </div>
 

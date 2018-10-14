@@ -8,7 +8,7 @@
     "stage": "react-static build --staging",
     "build": "react-static build",
     "serve": "serve dist -p 3000",
-    "format": "prettier {src,script}/**/*.js --write"
+    "format": "prettier {{src,script}/**/*.{js,css},*.md} --write"
   },
   "dependencies": {
     "chokidar": "2.0.4",

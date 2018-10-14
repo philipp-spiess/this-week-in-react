@@ -23,7 +23,7 @@ html {
 
 body {
   color: white;
-  font-family: 'Helvetica Neue', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', sans-serif;
+  font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif;
 }
 
 .atoms, .main {
@@ -99,12 +99,21 @@ h3 > a, .issues a {
 .button-row {
   display: flex;
   margin: 20px 0;
+  justify-content: center;
+}
+
+.button-row > *{
+  margin: 0;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.button-row a {
+  text-decoration: none;
 }
 
 .button {
   flex-grow: 1;
-  margin: 0;
-  padding: 0 20px;
   box-sizing: border-box;
   display: inline-block;
   line-height: 60px;
@@ -116,7 +125,6 @@ h3 > a, .issues a {
   color: white;
   transition: background ease-in-out 150ms;
   cursor: pointer;
-  text-align: center;
   text-decoration: none;
 }
 

@@ -1,0 +1,83 @@
+<mjml>
+  <mj-head>
+    <mj-style inline="inline">
+      a {
+        color: #a74b66;
+        text-decoration: underline;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      code {
+        font-size: 13px;
+        background: #ececec;
+        padding: 2px 5px;
+        color: #5b5b5b;
+        text-shadow: 0 1px rgba(255, 255, 255, .5);
+        border-radius: 4px;
+        font-family: "SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace;
+      }
+
+      h2 {
+        font-size: 16px;
+        margin-top: 0;
+      }
+    </mj-style>
+    <mj-style>
+      a {
+        color: #a74b66;
+        text-decoration: underline;
+      }
+
+      @media screen and (max-width: 480px) {
+        .small-padding-mobile>table>tbody>tr>td {
+          padding: 10px 10px !important;
+        }
+        u ~ div {
+          min-width: 100vw;
+        }
+      }
+    </mj-style>
+    <mj-title>This Week In React – Issue 1 – 21 Aug 2018</mj-title>
+    <mj-preview>*|MC_PREVIEW_TEXT|*</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="-apple-system,BlinkMacSystemFont,Helvetica,sans-serif"></mj-all>
+      <mj-text font-size="15px" color="#5b5b5b" line-height="150%"></mj-text>
+      <mj-section background-color="white" padding="10px 0"></mj-section>
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#e3e3e3">
+    <mj-section padding="10px 0">
+      <mj-column css-class="small-padding-mobile">
+        <mj-text align="left" font-size="12px">
+          Issue 1 – 21 Aug 2018
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0">
+      <mj-column padding="0">
+        <mj-image width="700px" src="./issue.png" padding="0" />
+      </mj-column>
+    </mj-section>
+
+    PASTE HTML HERE
+
+    <mj-section background-color="transparent">
+      <mj-column css-class="small-padding-mobile">
+        <mj-text font-size="13px" align="center">
+          Curated with ❤️ by <a href="https://twitter.com/PhilippSpiess">@PhilippSpiess</a>.<br>
+          <br>
+          *|IFNOT:ARCHIVE_PAGE|* *|LIST:DESCRIPTION|*<br>
+          *|END:IF|*<br>
+          Want to change how you receive these emails?<br>
+          You can <a href="*|UPDATE_PROFILE|*">update your preferences</a> or <a href="*|UNSUB|*">unsubscribe
+            from this list</a>.<br>
+          <br>
+          *|IF:REWARDS|* *|HTML:REWARDS|* *|END:IF|*
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

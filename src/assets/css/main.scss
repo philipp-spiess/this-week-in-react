@@ -30,11 +30,11 @@ body {
 }
 
 .u-sidebar {
-  background:
-    linear-gradient(0deg, rgba(0, 0, 0, .25) -5%, transparent 100%),
-    linear-gradient(158deg, #874DA2 0%, #C43A30 100%);
+  background-image: url("../img/bgpattern.png"),
+  linear-gradient(0deg, rgba(0, 0, 0, .25) -5%, transparent 100%),
+  linear-gradient(158deg, #874DA2 0%, #C43A30 100%);;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-size: cover;
   order: 0;
   flex: 0 1 100%;
   @include bp (medium) {
@@ -117,7 +117,6 @@ body {
 // Mailchimp form
 .c-page__signup {
   font-size: $fs--sm;
-  width: 100%;
   padding: 2rem;
 
   span {
@@ -132,8 +131,6 @@ body {
     border: 0;
     padding: 1rem;
     color: white;
-    display: inline-block;
-    width: 400px;
     font-style: italic;
   }
 
@@ -152,9 +149,38 @@ body {
   }
 }
 
+.c-page__social {
+  text-align: center;
+  width: 100%;
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 1rem;
+  }
+
+  li:last-child {
+    margin-bottom: 0;
+  }
+
+  a {
+    text-decoration: none;
+    opacity: .25;
+  }
+
+  a:hover {
+    opacity: 1;
+  }
+}
+
 .c-page__footer {
   padding-top: 2rem;
   text-align: center;
+  display: block;
 
   a {
     text-decoration: none;

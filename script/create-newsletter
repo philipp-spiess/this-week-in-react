@@ -18,10 +18,12 @@ function usage() {
 const issue = process.argv[2];
 const date = process.argv[3];
 
+// prettier-ignore
 const MAILCHIMP_HEADER_IMAGES = {
   2: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/6441b0d8-bf34-4a9a-bed3-657beb2c5c9b.png",
   3: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/7dcbb11f-a1e4-46ef-8c7e-0abfec7bda97.png",
-  4: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/1b1bde12-b7ad-46ab-acbb-df5fb7216aaf.png"
+  4: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/1b1bde12-b7ad-46ab-acbb-df5fb7216aaf.png",
+  5: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/26c03b91-f776-4149-bbdf-58813cfe9828.png",
 };
 
 if (!issue) {
@@ -106,7 +108,7 @@ function createCard(index, tweet, url, imageUrl) {
       <mj-column css-class="small-padding-mobile">
         <mj-text>
           ${simpleMarkdown(text)}
-          ${openDataLink ? openDataLink : "" }
+          ${openDataLink ? openDataLink : ""}
         </mj-text>
       </mj-column>
     </mj-section>

@@ -5,8 +5,7 @@ body {
 }
 
 html {
-  background:
-    linear-gradient(0deg, rgba(0, 0, 0, .25) -5%, transparent 100%),
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.25) -5%, transparent 100%),
     linear-gradient(158deg, #874da2 0%, #c43a30 100%);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -23,10 +22,11 @@ html {
 
 body {
   color: white;
-  font-family: -apple-system,BlinkMacSystemFont,Helvetica,sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
 }
 
-.atoms, .main {
+.atoms,
+.main {
   position: absolute;
   top: 0;
   left: 0;
@@ -58,7 +58,7 @@ section {
 h1 {
   font-weight: 700;
   font-size: 46px;
-  text-shadow: rgba(0, 0, 0, .18) 0 2px 4px;
+  text-shadow: rgba(0, 0, 0, 0.18) 0 2px 4px;
   margin-bottom: 20px;
   line-height: 80px;
 }
@@ -69,7 +69,8 @@ h1 > img {
   position: relative;
 }
 
-h2, .issues {
+h2,
+.issues {
   font-weight: 300;
   font-size: 24px;
   line-height: 1.8;
@@ -91,8 +92,8 @@ ol {
   text-align: center;
 }
 
-
-h3 > a, .issues a {
+h3 > a,
+.issues a {
   color: white;
 }
 
@@ -102,7 +103,7 @@ h3 > a, .issues a {
   justify-content: center;
 }
 
-.button-row > *{
+.button-row > * {
   margin: 0;
   padding: 0 20px;
   text-align: center;
@@ -128,8 +129,9 @@ h3 > a, .issues a {
   text-decoration: none;
 }
 
-button:hover, a.button:hover {
-  background: rgba(255, 255, 255, .2);
+button:hover,
+a.button:hover {
+  background: rgba(255, 255, 255, 0.2);
 }
 
 .button-icon {
@@ -143,9 +145,9 @@ button:hover, a.button:hover {
   margin-left: 20px;
 }
 
-
 @media only screen and (max-width: 600px) {
-  button, a.button {
+  button,
+  a.button {
     width: 100%;
   }
   .button + .button {

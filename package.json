@@ -8,7 +8,9 @@
     "stage": "react-static build --staging",
     "build": "react-static build",
     "serve": "serve dist -p 3000",
-    "format": "prettier {{src,script}/**/*.{js,css},*.md} --write"
+    "format": "prettier {{src,script}/**/*.{js,css},*.md} --write",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^16.0.0",
@@ -20,6 +22,7 @@
   },
   "devDependencies": {
     "@octokit/rest": "^15.12.1",
+    "gh-pages": "^2.0.1",
     "markdown-it": "^8.4.2",
     "mjml": "^4.2.0-beta.3",
     "open-graph-scraper": "^3.5.1",

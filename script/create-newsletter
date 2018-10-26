@@ -8,6 +8,7 @@ const md = require("markdown-it")({
 const truncate = require("truncate");
 const path = require("path");
 const octokit = require("@octokit/rest")();
+const { URL } = require("url");
 const { default: mjml2html } = require("mjml");
 
 function usage() {
@@ -24,6 +25,7 @@ const MAILCHIMP_HEADER_IMAGES = {
   3: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/7dcbb11f-a1e4-46ef-8c7e-0abfec7bda97.png",
   4: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/1b1bde12-b7ad-46ab-acbb-df5fb7216aaf.png",
   5: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/26c03b91-f776-4149-bbdf-58813cfe9828.png",
+  6: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/04ecb2e4-bf1b-4942-91c9-275fa7bffde7.png",
 };
 
 if (!issue) {
@@ -142,8 +144,6 @@ async function urlToImage(url) {
   if ((match = url.match(GITHUB_COMMIT_FILTER_URL_REGEX))) {
     const [_, username] = match;
     const result = await octokit.users.getForUser({ username });
-
-    console.log(result.data.avatar_url);
   } else {
     return new Promise((resolve, reject) => {
       ogs({ url, timeout: 5000 }, function(error, ogsResults) {
@@ -151,7 +151,13 @@ async function urlToImage(url) {
           reject(new Error("Error:", error, ogsResults));
           process.exit(1);
         }
-        resolve(ogsResults.data.ogImage.url);
+
+        let ogUrl = ogsResults.data.ogImage.url;
+        if (ogUrl[0] === "/") {
+          const parsedUrl = new URL(url);
+          ogUrl = parsedUrl.origin + ogUrl;
+        }
+        resolve(ogUrl);
       });
     });
   }

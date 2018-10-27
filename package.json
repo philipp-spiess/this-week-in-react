@@ -6,7 +6,7 @@
   "scripts": {
     "start": "react-static start",
     "stage": "react-static build --staging",
-    "build": "react-static build",
+    "build": "react-static build && echo 'this-week-in-react.org' > dist/CNAME",
     "serve": "serve dist -p 3000",
     "format": "prettier {{src,script}/**/*.{js,css},*.md} --write",
     "predeploy": "npm run build",

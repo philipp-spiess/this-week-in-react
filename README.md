@@ -1,4 +1,4 @@
-![This Week In React ⚛️](https://this-week-in-react.org/twitter-card.png)
+![This Week In React ⚛️](http://cl.ly/03a79bbfcdce/card.png)
 
 # This Week In React ️️⚛️
 

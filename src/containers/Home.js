@@ -60,6 +60,9 @@ export default class Home extends React.Component {
             <div className="issues">
               <ol>
                 <li>
+                  <a href="https://twitter.com/PhilippSpiess/status/1058401709037441024">
+                    Issue 7 — 2 Nov 2018
+                  </a>
                   <a href="https://twitter.com/PhilippSpiess/status/1055869112277258240">
                     Issue 6 — 26 Oct 2018
                   </a>

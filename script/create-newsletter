@@ -12,7 +12,7 @@ const { URL } = require("url");
 const { default: mjml2html } = require("mjml");
 
 function usage() {
-  console.error('Usage: \n  node card.js 1 "21 Aug 2018"');
+  console.error('Usage: \n  node card.js 8 "9 Nov 2018"');
   process.exit(1);
 }
 
@@ -27,6 +27,7 @@ const MAILCHIMP_HEADER_IMAGES = {
   5: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/26c03b91-f776-4149-bbdf-58813cfe9828.png",
   6: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/04ecb2e4-bf1b-4942-91c9-275fa7bffde7.png",
   7: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/891dea1c-21c9-400e-a265-ec93d388fc25.png",
+  8: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/bc922b05-2122-4743-8ecb-a6be2a69ca6b.png",
 };
 
 if (!issue) {
@@ -86,7 +87,7 @@ function createCard(index, tweet, url, imageUrl) {
   let text = tweet;
 
   if (imageUrl) {
-    text = tweet.replace(url, "").trim();
+    text = stringReplaceLast(tweet, url, "").trim();
 
     openDataLink = `
       <table border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%; margin-top: 10px;" width="100%">
@@ -162,4 +163,9 @@ async function urlToImage(url) {
       });
     });
   }
+}
+
+function stringReplaceLast(string, prevWord, newWord) {
+  const n = string.lastIndexOf(prevWord);
+  return string.slice(0, n) + string.slice(n).replace(prevWord, newWord);
 }

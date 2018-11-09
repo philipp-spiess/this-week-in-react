@@ -63,6 +63,8 @@ export default class Home extends React.Component {
                   <a href="https://twitter.com/PhilippSpiess/status/1058401709037441024">
                     Issue 7 — 2 Nov 2018
                   </a>
+                </li>
+                <li>
                   <a href="https://twitter.com/PhilippSpiess/status/1055869112277258240">
                     Issue 6 — 26 Oct 2018
                   </a>
@@ -75,21 +77,6 @@ export default class Home extends React.Component {
                 <li>
                   <a href="https://twitter.com/PhilippSpiess/status/1050780941151588353">
                     Issue 4 — 12 Oct 2018
-                  </a>
-                </li>
-                <li>
-                  <a href="https://twitter.com/PhilippSpiess/status/1048242551998824450">
-                    Issue 3 — 5 Oct 2018
-                  </a>
-                </li>
-                <li>
-                  <a href="https://twitter.com/PhilippSpiess/status/1045714338684837888">
-                    Issue 2 — 28 Sept 2018
-                  </a>
-                </li>
-                <li>
-                  <a href="https://twitter.com/PhilippSpiess/status/1043186943624982529">
-                    Issue 1 — 21 Sept 2018
                   </a>
                 </li>
               </ol>

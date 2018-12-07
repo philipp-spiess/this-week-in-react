@@ -48,7 +48,7 @@ https://github.com/facebook/react/pull/14383
 
 ---
 
-📌 Fabric is the ongoing large-scale architectural rewrite of React Native. You can learn more about it in the State of React Native 2018 blog post.
+📌 Fabric, the ongoing large-scale architectural rewrite of React Native, now has Hooks enabled as well. You can learn more about it in the State of React Native 2018 blog post.
 
 http://facebook.github.io/react-native/blog/2018/06/14/state-of-react-native-2018#architecture
 https://github.com/facebook/react/pull/14301

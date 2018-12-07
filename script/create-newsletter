@@ -31,6 +31,7 @@ const MAILCHIMP_HEADER_IMAGES = {
   9: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/10fb86e7-bd1e-4a39-943c-897dc9d98d24.png",
   10: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/87ebf885-d51a-437b-9260-df40fc269052.png",
   11: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/e6e3ea64-d309-4b41-91f8-53042e37dd33.png",
+  12: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/c4112e2d-5599-4d16-a684-75d72a01478b.png",
 };
 
 if (!issue) {

@@ -1,4 +1,4 @@
-I'm thrilled to present you the latest This Week In React ⚛️. Let’s dive right in.
+I’m thrilled to present you the latest This Week In React ⚛️. Let’s dive right in.
 
 ---
 

@@ -1,8 +1,8 @@
-![This Week In React ⚛️](http://cl.ly/03a79bbfcdce/card.png)
+![This Week in React ⚛️](http://cl.ly/f88f980bd8bb/twitter-card.png)
 
-# This Week In React ️️⚛️
+# This Week in React ️️⚛️
 
-This repository contains the website and email templates for This Week In React ⚛️ a newsletter that covers React Core and React DOM.
+This repository contains the website and email templates for This Week in React ⚛️ a newsletter that covers React Core and React DOM.
 
 ## Contributing
 

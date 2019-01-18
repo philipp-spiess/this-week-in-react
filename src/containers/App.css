@@ -1,26 +1,146 @@
 html,
 body {
-  height: 100%;
+  min-height: 100%;
   margin: 0;
+  font-family: 'Merriweather', serif;
+  font-size: 26px;
+  line-height: 2;
 }
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
 }
 
-.blue {
-  height: 100vh;
-  background-color: rgb(5, 9, 94);
+.left {
+  min-height: 100vh;
+  background: linear-gradient(50deg, #420096 0%,#00025c 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'IBM Plex Sans', sans-serif;
+
 }
 
-.beige {
-  height: 100vh;
-  background-color: rgb(255, 244, 226);
+.left .logo {
+  max-width: 50%;
 }
 
-.orange {
-  height: 100vh;
-  background-color: rgb(254, 209, 150);
+.left p {
+  max-width: 500px;
+  width: 80%;
+  color: white;
+  line-height: 2;
+  margin-top: 100px;
+}
+
+.right {
+  min-height: 100vh;
+  background: linear-gradient(130deg, #fff2e1 -10%,#ffe2b9 100%);
+  font-family: 'Merriweather', serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #00025C;
+}
+
+.pitch {
+  font-size: 26px;
+  max-width: 560px;
+  width: 80%;
+}
+
+a {
+  color: #C45000
+}
+
+a:hover {
+  color:#9c4000;
+}
+
+.issues {
+  margin-top: 20px;
+}
+
+.issues ol {
+  list-style-type: none;
+  padding: 0;
+  color: white;
+}
+
+.issues li {
+  text-align: center;
+}
+
+.issues a {
+  text-decoration: none;
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+.button {
+  background: linear-gradient(50deg, #420096 0%,#00025c 100%);
+  padding: 10px 60px;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  border: 1px solid #080048;
+  text-shadow: 0 0 1px #080048;
+  transition: all 250ms ease-in;
+  margin: 10px 0;
+}
+
+.button:hover, .button:active {
+  color: white;
+  box-shadow: 3px 3px #C45000;
+}
+
+.button .button-icon {
+  padding-left: 10px;
+}
+
+.curated-by {
+  text-align: center;
+}
+
+.separator {
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+.social ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social {
+  margin: 10px 0;
+}
+
+.social .button-icon {
+  position: relative;
+  top: 5px;
+  margin-right: 15px;
+}
+
+.curated-by {
+  margin: 10px 0;
+  font-size: 22px;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .left, .right {
+    min-height: 50vh;
+  }
 }

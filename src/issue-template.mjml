@@ -2,7 +2,7 @@
   <mj-head>
     <mj-style inline="inline">
       a {
-        color: #a74b66;
+        color: #c45000;
         text-decoration: underline;
       }
 
@@ -21,8 +21,8 @@
       }
 
       h2 {
-        font-size: 16px;
-        margin-top: 0;
+        font-size: 20px;
+        margin-top: 10px;
       }
 
       img {
@@ -31,7 +31,7 @@
     </mj-style>
     <mj-style>
       a {
-        color: #a74b66;
+        color: #c45000;
         text-decoration: underline;
       }
 

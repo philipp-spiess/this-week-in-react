@@ -2,7 +2,7 @@ html,
 body {
   min-height: 100%;
   margin: 0;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-size: 26px;
   line-height: 2;
 }
@@ -15,13 +15,12 @@ body {
 
 .left {
   min-height: 100vh;
-  background: linear-gradient(50deg, #420096 0%,#00025c 100%);
+  background: linear-gradient(50deg, #420096 0%, #00025c 100%);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  font-family: 'IBM Plex Sans', sans-serif;
-
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 .left .logo {
@@ -38,13 +37,13 @@ body {
 
 .right {
   min-height: 100vh;
-  background: linear-gradient(130deg, #fff2e1 -10%,#ffe2b9 100%);
-  font-family: 'Merriweather', serif;
+  background: linear-gradient(130deg, #fff2e1 -10%, #ffe2b9 100%);
+  font-family: "Merriweather", serif;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  color: #00025C;
+  color: #00025c;
 }
 
 .pitch {
@@ -54,11 +53,11 @@ body {
 }
 
 a {
-  color: #C45000
+  color: #c45000;
 }
 
 a:hover {
-  color:#9c4000;
+  color: #9c4000;
 }
 
 .issues {
@@ -82,7 +81,7 @@ a:hover {
 }
 
 .button {
-  background: linear-gradient(50deg, #420096 0%,#00025c 100%);
+  background: linear-gradient(50deg, #420096 0%, #00025c 100%);
   padding: 10px 60px;
   border-radius: 10px;
   color: white;
@@ -93,9 +92,10 @@ a:hover {
   margin: 10px 0;
 }
 
-.button:hover, .button:active {
+.button:hover,
+.button:active {
   color: white;
-  box-shadow: 3px 3px #C45000;
+  box-shadow: 3px 3px #c45000;
 }
 
 .button .button-icon {
@@ -132,7 +132,6 @@ a:hover {
   font-size: 22px;
 }
 
-
 @media only screen and (max-width: 800px) {
   .container {
     display: grid;
@@ -140,7 +139,8 @@ a:hover {
     grid-template-rows: 1fr 1fr;
   }
 
-  .left, .right {
+  .left,
+  .right {
     min-height: 50vh;
   }
 }

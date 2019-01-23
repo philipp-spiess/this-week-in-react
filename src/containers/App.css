@@ -3,7 +3,7 @@ body {
   min-height: 100%;
   margin: 0;
   font-family: "Merriweather", serif;
-  font-size: 26px;
+  font-size: 22px;
   line-height: 2;
 }
 
@@ -47,8 +47,7 @@ body {
 }
 
 .pitch {
-  font-size: 26px;
-  max-width: 560px;
+  max-width: 500px;
   width: 80%;
 }
 
@@ -107,8 +106,8 @@ a:hover {
 }
 
 .separator {
-  font-size: 22px;
   margin: 10px 0;
+  margin-bottom: 0;
 }
 
 .social ul {
@@ -129,7 +128,6 @@ a:hover {
 
 .curated-by {
   margin: 10px 0;
-  font-size: 22px;
 }
 
 @media only screen and (max-width: 800px) {

@@ -39,7 +39,7 @@ https://github.com/facebook/react/pull/14626
 
 ✌️ React now warns when passing the second callback to setState/dispatch in hooks.
 
-In class components, the second callback to `this.setState()` is run when the update is applied. When using hooks, this is not supported.
+In class components, the second callback to this.setState() is run when the update is applied. When using hooks, this is not supported.
 
 https://github.com/facebook/react/pull/14625
 

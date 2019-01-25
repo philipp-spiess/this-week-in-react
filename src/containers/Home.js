@@ -45,6 +45,11 @@ export default function Home() {
           <div className="issues">
             <ol>
               <li>
+                <a href="https://mobile.twitter.com/PhilippSpiess/status/1088850344367525888">
+                  <strong>Issue 17</strong> — 25 Jan 2019
+                </a>
+              </li>
+              <li>
                 <a href="https://twitter.com/PhilippSpiess/status/1086344059701080065">
                   <strong>Issue 16</strong> — 18 Jan 2019
                 </a>
@@ -57,11 +62,6 @@ export default function Home() {
               <li>
                 <a href="https://twitter.com/PhilippSpiess/status/1076178154803335170">
                   <strong>Issue 14</strong> — 21 Dec 2018
-                </a>
-              </li>
-              <li>
-                <a href="https://twitter.com/PhilippSpiess/status/1073641275092553728">
-                  <strong>Issue 13</strong> — 14 Dec 2018
                 </a>
               </li>
             </ol>

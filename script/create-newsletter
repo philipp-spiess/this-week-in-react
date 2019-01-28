@@ -9,7 +9,7 @@ const truncate = require("truncate");
 const path = require("path");
 const octokit = require("@octokit/rest")();
 const { URL } = require("url");
-const { default: mjml2html } = require("mjml");
+const mjml2html = require("mjml");
 
 function usage() {
   console.error('Usage: \n  node card.js 8 "9 Nov 2018"');
@@ -65,6 +65,8 @@ function done() {
   }
 
   fs.writeFileSync(`${SRC_DIR}/issues/${issue}/email.html`, createEmail(cards));
+  fs.writeFileSync(`${SRC_DIR}/issues/${issue}/index.html`, createIndex(cards));
+
   console.log("Done.");
   process.exit(0);
 }
@@ -129,7 +131,25 @@ function createCard(index, tweet, url, imageUrl) {
 }
 
 function createEmail(cards) {
-  const template = fs.readFileSync(`${SRC_DIR}/issue-template.mjml`, {
+  const template = fs.readFileSync(`${SRC_DIR}/email-template.mjml`, {
+    encoding: "UTF-8"
+  });
+
+  const cardsHtml = cards.join("\n");
+  let html = template.replace("PASTE HTML HERE", cardsHtml);
+  html = html.replace(/Issue 1 \– 21 Aug 2018/g, `Issue ${issue} – ${date}`);
+  html = html.replace(
+    "./issue.png",
+    MAILCHIMP_HEADER_IMAGES.hasOwnProperty(issue)
+      ? MAILCHIMP_HEADER_IMAGES[issue]
+      : "./issue.png"
+  );
+
+  return mjml2html(html).html;
+}
+
+function createIndex(cards) {
+  const template = fs.readFileSync(`${SRC_DIR}/index-template.mjml`, {
     encoding: "UTF-8"
   });
 

@@ -3,14 +3,13 @@ body {
   min-height: 100%;
   margin: 0;
   font-family: "Merriweather", serif;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 2;
 }
 
 .container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
+  display: flex;
+  flex-direction: column;
 }
 
 .left {
@@ -18,9 +17,10 @@ body {
   background: linear-gradient(50deg, #420096 0%, #00025c 100%);
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Merriweather", serif;
+  color: white;
+  padding: 50px 0;
 }
 
 .left .logo {
@@ -30,20 +30,17 @@ body {
 .left p {
   max-width: 500px;
   width: 80%;
-  color: white;
   line-height: 2;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .right {
   min-height: 100vh;
   background: linear-gradient(130deg, #fff2e1 -10%, #ffe2b9 100%);
-  font-family: "Merriweather", serif;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  color: #00025c;
 }
 
 .pitch {
@@ -52,11 +49,11 @@ body {
 }
 
 a {
-  color: #c45000;
+  color: white;
 }
 
 a:hover {
-  color: #9c4000;
+  color: #ffac40;
 }
 
 .issues {
@@ -80,13 +77,12 @@ a:hover {
 }
 
 .button {
-  background: linear-gradient(50deg, #420096 0%, #00025c 100%);
+  background: linear-gradient(130deg, #fff2e1 -10%, #ffe2b9 100%);
   padding: 10px 60px;
   border-radius: 10px;
-  color: white;
+  color: #00025c;
   text-decoration: none;
   border: 1px solid #080048;
-  text-shadow: 0 0 1px #080048;
   transition: all 250ms ease-in;
   margin: 10px 0;
 }
@@ -130,11 +126,16 @@ a:hover {
   margin: 10px 0;
 }
 
+.preview {
+  width: 80%;
+  max-width: 600px;
+  border: none;
+  margin: 20px 0;
+}
+
 @media only screen and (max-width: 800px) {
   .container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    flex-direction: column;
   }
 
   .left,
@@ -142,3 +143,15 @@ a:hover {
     min-height: 50vh;
   }
 }
+
+
+@media only screen and (min-width: 801px) {
+  .container {
+    flex-direction: row;
+  }
+  .left, .right{
+    width: 50vw;
+  }
+}
+
+

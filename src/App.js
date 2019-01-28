@@ -1,14 +1,12 @@
 import React from 'react'
-import { Router } from 'react-static'
-import Routes from 'react-static-routes'
-
+import { Root, Routes } from 'react-static'
 
 const App = () => (
-  <Router>
+  <Root>
     <div className="content">
       <Routes />
     </div>
-  </Router>
+  </Root>
 )
 
 export default App

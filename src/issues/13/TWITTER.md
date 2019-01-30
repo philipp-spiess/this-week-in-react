@@ -1,4 +1,4 @@
-🏗 I’m thrilled to present you the latest This Week In React ⚛️.
+🏗 I’m thrilled to present you the latest This Week in React ⚛️.
 
 🚸 Two new RFCs: Fragment Refs and Custom Host Node
 💬 Discussion: Ways to Bail out Inside Hooks

@@ -1,4 +1,4 @@
-We got a lot of exciting news This Week In React ⚛️.
+We got a lot of exciting news This Week in React ⚛️.
 
 Announcing React Hooks, React v16.6.0, Enable concurrent APIs, and more
 
@@ -45,7 +45,7 @@ https://github.com/facebook/react/pull/13865
 
 ---
 
-That was This Week In React ⚛️.
+That was This Week in React ⚛️.
 
 Have a great last day if you’re at React Conf and an even better one if you’re not.
 

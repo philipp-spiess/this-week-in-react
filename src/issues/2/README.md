@@ -64,4 +64,4 @@ https://github.com/facebook/react/issues/13713
 
 Special thanks to our first-time contributors this week: Brian Ng ([@existentialism](https://twitter.com/existentialism)), Dustin Schau ([@schaudustin](https://twitter.com/schaudustin)), Lionel ([elrumordelaluz](https://github.com/elrumordelaluz)), and Sergei Startsev ([sergei-startsev](https://github.com/sergei-startsev)).
 
-And that was This Week In React ⚛️
+And that was This Week in React ⚛️

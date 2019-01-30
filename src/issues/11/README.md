@@ -1,4 +1,4 @@
-Hey everyone! Time for another week of React insights with the eleventh issue of This Week In React ⚛️. Let’s dive right in:
+Hey everyone! Time for another week of React insights with the eleventh issue of This Week in React ⚛️. Let’s dive right in:
 
 ---
 

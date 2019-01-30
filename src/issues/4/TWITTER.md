@@ -1,4 +1,4 @@
-Curious about what happened This Week In React ⚛️?
+Curious about what happened This Week in React ⚛️?
 
 Enable Suspense, Error Boundaries, React.pure() Automatically Forwards Ref, and more!
 
@@ -42,6 +42,6 @@ https://twitter.com/sebmarkbage/status/1048574466282983424
 
 We’re all eagerly awaiting the upcoming React Conf to hear more about the future of React.
 
-If you liked this recap of what happened This Week In React ⚛️ and want to make the wait easier, feel free to subscribe (https://this-week-in-react.org) or share the tweets.
+If you liked this recap of what happened This Week in React ⚛️ and want to make the wait easier, feel free to subscribe (https://this-week-in-react.org) or share the tweets.
 
 Until next week 👋

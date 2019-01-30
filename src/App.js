@@ -2,7 +2,7 @@ import React from 'react'
 import { Root, Routes } from 'react-static'
 
 const App = () => (
-  <Root>
+  <Root disableScroller>
     <div className="content">
       <Routes />
     </div>

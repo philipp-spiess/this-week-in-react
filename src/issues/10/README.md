@@ -1,4 +1,4 @@
-Another week has passed and I’m thrilled to present you the tenth issue of This Week In React ⚛️.
+Another week has passed and I’m thrilled to present you the tenth issue of This Week in React ⚛️.
 
 ---
 

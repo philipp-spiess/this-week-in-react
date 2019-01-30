@@ -66,4 +66,4 @@ New contributors land their first PR in the [react](https://github.com/facebook/
   - Kevin Chavez ([mrkev](https://github.com/mrkev))
   - Vadym ([tv1ster](https://github.com/tv1ster))
 
-That was another This Week In React ⚛️. See you all next week.
+That was another This Week in React ⚛️. See you all next week.

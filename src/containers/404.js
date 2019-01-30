@@ -1,7 +1,12 @@
 import React from "react";
+import Layout from "./Layout";
 
 export default () => (
-  <div>
-    <h1>404 - Oh no's! We couldn't find that page 🔍</h1>
-  </div>
+  <Layout>
+    <div className="right-header">
+      <h1>
+        <strong>404</strong> – Oh no!
+      </h1>
+    </div>
+  </Layout>
 );

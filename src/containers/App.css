@@ -41,6 +41,38 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  color: #00025c;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+}
+
+.right-header {
+  width: 80%;
+  max-width: 600px;
+  border: none;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+}
+
+.right-header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.right-header .spacer {
+  flex-grow: 1;
+}
+
+.right-header a {
+  margin-left: 10px;
+  font-size: 1.2rem;
+  color: #c45000;
+  transition: color 100ms ease-out;
+}
+
+.right-header a:hover {
+  color: #a94502;
 }
 
 .pitch {
@@ -89,7 +121,7 @@ a:hover {
 
 .button:hover,
 .button:active {
-  color: white;
+  color: #00025c;
   box-shadow: 3px 3px #c45000;
 }
 
@@ -130,7 +162,7 @@ a:hover {
   width: 80%;
   max-width: 600px;
   border: none;
-  margin: 20px 0;
+  margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 800px) {
@@ -144,14 +176,12 @@ a:hover {
   }
 }
 
-
 @media only screen and (min-width: 801px) {
   .container {
     flex-direction: row;
   }
-  .left, .right{
+  .left,
+  .right {
     width: 50vw;
   }
 }
-
-

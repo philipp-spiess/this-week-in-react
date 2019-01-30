@@ -88,4 +88,4 @@ New contributors land their first PR in the [react](https://github.com/facebook/
 
 ---
 
-That was This Week In React ⚛️. You can support this newsletter by sharing the link to the website ([this-week-in-react.org](https://this-week-in-react.org)) and [Twitter](https://twitter.com/PhilippSpiess). Stay tuned for more updates on the future of React.
+That was This Week in React ⚛️. You can support this newsletter by sharing the link to the website ([this-week-in-react.org](https://this-week-in-react.org)) and [Twitter](https://twitter.com/PhilippSpiess). Stay tuned for more updates on the future of React.

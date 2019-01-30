@@ -1,21 +1,32 @@
 const glob = require("glob");
-const fs = require('fs');
+const fs = require("fs");
 
-const issues = glob.sync('src/issues/*/index.html');
+const issues = glob.sync("src/issues/*/index.html").map(parseIssue);
+issues.sort(({ issue: a }, { issue: b }) => b - a);
 
-issues.map(parseIssue).map(console.log)
+const latestIssue = issues[0].issue
 
 export default {
   siteRoot: "https://this-week-in-react.org",
   getSiteData: () => ({
-    title: "This Week In React"
+    title: "This Week in React"
   }),
   getRoutes: async () => {
     return [
       {
         path: "/",
-        component: "src/containers/Home"
+        redirect: "issues/" + latestIssue
       },
+      ...issues.map(({ issue, date, html }) => {
+        return {
+          path: "/issues/" + issue,
+          component: "src/containers/Issue",
+          async getData() {
+            return { issue, date, html, isLatest: issue === latestIssue };
+          },
+          lastModified: utcDate(date)
+        };
+      }),
       {
         path: "404",
         component: "src/containers/404"
@@ -26,7 +37,14 @@ export default {
 
 function parseIssue(path) {
   const html = fs.readFileSync(path).toString();
-  const match = /This Week In React – Issue (\d+) – (.*)/.exec(html);
+  const match = /This Week in React – Issue (\d+) – (.*)/.exec(html);
 
-  return [parseInt(match[1]), match[2]]
+  const issue = parseInt(match[1]);
+  const date = new Date(match[2]);
+
+  return { issue, date, html };
+}
+
+function utcDate(date) {
+  return date.toISOString().split('T')[0]
 }

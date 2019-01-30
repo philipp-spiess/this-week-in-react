@@ -1,4 +1,4 @@
-I’m thrilled to present the tenth issue of This Week In React ⚛️:
+I’m thrilled to present the tenth issue of This Week in React ⚛️:
 
 ✍️ RFC: Context.write
 📌 Hooks RFC Merged

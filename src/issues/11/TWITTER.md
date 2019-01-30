@@ -1,4 +1,4 @@
-⏲ Time for another week of React insights with the 11th issue of This Week In React ⚛️.
+⏲ Time for another week of React insights with the 11th issue of This Week in React ⚛️.
 
 🔥 React Fire Build Infrastructure
 🗺 16.x Roadmap

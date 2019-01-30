@@ -1,4 +1,4 @@
-It’s Friday again: Time for the second issue of This Week In React ⚛️.
+It’s Friday again: Time for the second issue of This Week in React ⚛️.
 
 💌 Starting this week, there’s also an email newsletter (it also comes with all the emojis). If you prefer that format, subscribe at this-week-in-react.org and tell your friends!
 
@@ -65,4 +65,4 @@ https://github.com/facebook/react/issues/13713
 
 🙌 Special thanks to our first-time contributors this week: Brian Ng (@existentialism), Dustin Schau (@schaudustin), Lionel (elrumordelaluz), and Sergei Startsev (sergei-startsev).
 
-And that was all for This Week In React ⚛️
+And that was all for This Week in React ⚛️

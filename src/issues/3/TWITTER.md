@@ -1,4 +1,4 @@
-Another week has passed and it’s time for another This Week In React ⚛️.
+Another week has passed and it’s time for another This Week in React ⚛️.
 
 Enable getDerivedStateFromError, Create React App 2.0, A Jest Helper for Concurrent Tests, and a lot more.
 
@@ -57,7 +57,7 @@ Joe Haddad (@timer150), and Spencer Davies (spencer1573)
 
 ---
 
-And that was This Week In React ⚛️ .
+And that was This Week in React ⚛️ .
 
 Special thanks to Apoorv Mittal (Apoorv-Mittal), Leo (@_harleo), Myles (Myles2), and Willian Rodrigues (WillianRod) who helped and contributed to this-week-in-react.org this week.
 

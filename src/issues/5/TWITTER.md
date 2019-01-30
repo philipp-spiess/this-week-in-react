@@ -1,4 +1,4 @@
-I can't believe it's already time for the fifth issue of This Week In React ⚛️.
+I can't believe it's already time for the fifth issue of This Week in React ⚛️.
 
 This week we got four new RFCs: React.pure(), React.lazy(), Static contextType, and shouldComponentRemount and a lot more.
 

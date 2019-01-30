@@ -71,4 +71,4 @@ Joe Haddad ([Timer](https://github.com/Timer)), and Spencer Davies ([spencer1573
 
 ---
 
-And that was This Week In React ⚛️ . If you have feedback regarding the format of this newsletter, please let me know (simply reply to this newsletter or reach me on [Twitter](https://twitter.com/PhilippSpiess)).
+And that was This Week in React ⚛️ . If you have feedback regarding the format of this newsletter, please let me know (simply reply to this newsletter or reach me on [Twitter](https://twitter.com/PhilippSpiess)).

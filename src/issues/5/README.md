@@ -1,4 +1,4 @@
-It's time for another This Week In React ⚛️. Next week, the official React Conf 2018 is happening and we will learn more about the future of React - all of which will of course be covered in this newsletter.
+It's time for another This Week in React ⚛️. Next week, the official React Conf 2018 is happening and we will learn more about the future of React - all of which will of course be covered in this newsletter.
 
 ---
 

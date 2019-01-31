@@ -4,7 +4,8 @@ const fs = require("fs");
 const issues = glob.sync("src/issues/*/index.html").map(parseIssue);
 issues.sort(({ issue: a }, { issue: b }) => b - a);
 
-const latestIssue = issues[0].issue
+const latestIssue = issues[0].issue;
+const firstIssue = issues[issues.length - 1].issue;
 
 export default {
   siteRoot: "https://this-week-in-react.org",
@@ -22,7 +23,13 @@ export default {
           path: "/issues/" + issue,
           component: "src/containers/Issue",
           async getData() {
-            return { issue, date, html, isLatest: issue === latestIssue };
+            return {
+              issue,
+              date,
+              html,
+              isLatest: issue === latestIssue,
+              isFirst: issue === firstIssue
+            };
           },
           lastModified: utcDate(date)
         };
@@ -46,5 +53,5 @@ function parseIssue(path) {
 }
 
 function utcDate(date) {
-  return date.toISOString().split('T')[0]
+  return date.toISOString().split("T")[0];
 }

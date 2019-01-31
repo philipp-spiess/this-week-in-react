@@ -12,7 +12,7 @@ function Issue(props) {
       </Helmet>
       <div className="right-header">
         <h1>
-          <strong>Issue {props.issue}</strong> – {formatDate(props.date)}
+          <strong>Issue {props.issue}</strong> – {formatDate(new Date(props.date))}
         </h1>
         <div className="spacer" />
 
@@ -22,9 +22,11 @@ function Issue(props) {
           </Link>
         )}
 
-        <Link to={"/issues/" + (props.issue - 1)}>
-          Issue {props.issue - 1} →
-        </Link>
+        {!props.isFirst && (
+          <Link to={"/issues/" + (props.issue - 1)}>
+            Issue {props.issue - 1} →
+          </Link>
+        )}
       </div>
       <Preview html={props.html} />
     </Layout>
@@ -50,9 +52,7 @@ class Preview extends React.Component {
   }
 }
 
-export default withRouteData(({ issue, date, html, isLatest }) => (
-  <Issue issue={issue} date={new Date(date)} html={html} isLatest={isLatest} />
-));
+export default withRouteData(props => <Issue {...props} />);
 
 const monthNames = [
   "Jan",

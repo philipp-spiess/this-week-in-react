@@ -7,6 +7,7 @@ import React from "react";
 import TelegramSVG from "../images/telegram.svg";
 import TwitterCardPNG from "../images/twitter-card.png";
 import TwitterSVG from "../images/twitter.svg";
+import SubscribeForm from './SubscribeForm';
 
 export default class Layout extends React.Component {
   componentDidMount() {
@@ -51,12 +52,8 @@ export default class Layout extends React.Component {
               Weekly coverage of interesting pull requests, discussions, and
               RFCs around React Core and React DOM.
             </p>
-            <a className="button" href="https://eepurl.com/dHV-3X">
-              Subscribe Now{" "}
-              <span className="button-icon" role="img" aria-label="Mail">
-                💌
-              </span>
-            </a>
+
+            <SubscribeForm />
 
             <div className="separator">or</div>
 

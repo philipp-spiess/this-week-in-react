@@ -27,10 +27,14 @@ body {
   max-width: 50%;
 }
 
-.left p {
-  max-width: 500px;
+.left p, .left form, .left .form-info {
+  max-width: 450px;
   width: 80%;
   line-height: 2;
+}
+
+.left p {
+
   margin-top: 50px;
 }
 
@@ -108,19 +112,42 @@ a:hover {
   color: white;
 }
 
-.button {
-  background: linear-gradient(130deg, #fff2e1 -10%, #ffe2b9 100%);
-  padding: 10px 60px;
+form {
+  text-align: center;
+  display: flex;
+}
+
+input[type="email"], button {
+  margin: 10px 0;
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+}
+
+input[type="email"] {
+  border-radius: 10px;
+  border: 1px solid #080048;
+  padding: 10px 20px;
+  flex-grow: 1;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+button {
+  background: linear-gradient(-30deg, #dea352 -60%, #f55000 110%);
   border-radius: 10px;
   color: #00025c;
   text-decoration: none;
   border: 1px solid #080048;
   transition: all 250ms ease-in;
   margin: 10px 0;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
-.button:hover,
-.button:active {
+button:hover,
+button:active {
   color: #00025c;
   box-shadow: 3px 3px #c45000;
 }

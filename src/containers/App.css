@@ -245,4 +245,10 @@ button:focus {
   .right {
     width: 50vw;
   }
+
+  .left{
+    background: linear-gradient(50deg, #420096 0%, #00025c 70%);
+    background-size: 100% 100vh;
+    background-attachment: fixed;
+  }
 }

@@ -1,6 +1,5 @@
 export function clicky() {
-  const clicky_site_ids = [];
-  clicky_site_ids.push(101142968);
+  window.clicky_site_ids = [101142968];
   const s = document.createElement("script");
   s.type = "text/javascript";
   s.async = true;

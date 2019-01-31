@@ -27,10 +27,14 @@ body {
   max-width: 50%;
 }
 
-.left p, .left form, .left .form-info {
+.left p, .left .form-wrapper {
   max-width: 450px;
   width: 80%;
   line-height: 2;
+}
+
+.form-info {
+  font-size: 0.8rem;
 }
 
 .left p {
@@ -46,38 +50,57 @@ body {
   justify-content: center;
   flex-direction: column;
   color: #00025c;
+  overflow-y: scroll;
   font-family: -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
 }
 
 .right-header {
-  width: 80%;
+  width: calc(80% - 40px);
   max-width: 600px;
   border: none;
   margin: 20px 0;
+  margin-bottom: 0;
   display: flex;
   align-items: center;
+  color: white;
+  padding: 10px 20px;
+  background: linear-gradient(50deg, #420096 -50%, #00025c 150%);
 }
 
-.right-header h1 {
+.current-issue {
   margin: 0;
+  padding: 0;
+}
+
+.current-issue  h1 {
+  margin: 0;
+  line-height: 1.5rem;
   font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.current-issue h2 {
+  margin: 10px 0;
+  font-size: 1rem;
   font-weight: normal;
+  line-height: 1rem;
 }
 
 .right-header .spacer {
   flex-grow: 1;
 }
 
-.right-header a {
-  margin-left: 10px;
-  font-size: 1.2rem;
-  color: #c45000;
-  transition: color 100ms ease-out;
+.right-header nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
-.right-header a:hover {
-  color: #a94502;
+.right-header a {
+  margin-left: 10px;
+  font-size: 1rem;
 }
+
 
 .pitch {
   max-width: 500px;
@@ -86,6 +109,7 @@ body {
 
 a {
   color: white;
+  transition: color 100ms ease-out;
 }
 
 a:hover {
@@ -124,16 +148,24 @@ input[type="email"], button {
 }
 
 input[type="email"] {
+  width: 100%;
   border-radius: 10px;
   border: 1px solid #080048;
   padding: 10px 20px;
   flex-grow: 1;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
+  transition: all 250ms ease-in;
+}
+
+input[type="email"]:hover,
+input[type="email"]:active,
+input[type="email"]:focus {
+  box-shadow: -3px 5px #c45000;
 }
 
 button {
-  background: linear-gradient(-30deg, #dea352 -60%, #f55000 110%);
+  background-color: #ffcf82;
   border-radius: 10px;
   color: #00025c;
   text-decoration: none;
@@ -144,12 +176,14 @@ button {
   padding: 10px 20px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
+  text-shadow: 0 0 5px #ffe3b0;
 }
 
 button:hover,
-button:active {
+button:active,
+button:focus {
   color: #00025c;
-  box-shadow: 3px 3px #c45000;
+  box-shadow: 3px 5px #c45000;
 }
 
 .button .button-icon {

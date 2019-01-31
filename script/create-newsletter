@@ -156,12 +156,6 @@ function createIndex(cards) {
   const cardsHtml = cards.join("\n");
   let html = template.replace("PASTE HTML HERE", cardsHtml);
   html = html.replace(/Issue 1 \– 21 Aug 2018/g, `Issue ${issue} – ${date}`);
-  html = html.replace(
-    "./issue.png",
-    MAILCHIMP_HEADER_IMAGES.hasOwnProperty(issue)
-      ? MAILCHIMP_HEADER_IMAGES[issue]
-      : "./issue.png"
-  );
 
   return mjml2html(html).html;
 }

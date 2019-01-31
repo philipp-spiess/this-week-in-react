@@ -52,12 +52,6 @@
     </mj-attributes>
   </mj-head>
   <mj-body background-color="white">
-    <mj-section padding="0">
-      <mj-column padding="0">
-        <mj-image width="700px" src="./issue.png" padding="0" />
-      </mj-column>
-    </mj-section>
-
     PASTE HTML HERE
   </mj-body>
 </mjml>

@@ -11,22 +11,24 @@ function Issue(props) {
         <title>{`This Week in React – Issue ${props.issue}`}</title>
       </Helmet>
       <div className="right-header">
-        <h1>
-          <strong>Issue {props.issue}</strong> – {formatDate(new Date(props.date))}
-        </h1>
+        <div className="current-issue">
+          <h1>Issue&nbsp;{props.issue}</h1>
+          <h2 dangerouslySetInnerHTML={{__html: formatDate(new Date(props.date))}}></h2>
+        </div>
         <div className="spacer" />
+        <nav>
+          {!props.isLatest && (
+            <Link to={"/issues/" + (props.issue + 1)}>
+              ← Issue {props.issue + 1}
+            </Link>
+          )}
 
-        {!props.isLatest && (
-          <Link to={"/issues/" + (props.issue + 1)}>
-            ← Issue {props.issue + 1}
-          </Link>
-        )}
-
-        {!props.isFirst && (
-          <Link to={"/issues/" + (props.issue - 1)}>
-            Issue {props.issue - 1} →
-          </Link>
-        )}
+          {!props.isFirst && (
+            <Link to={"/issues/" + (props.issue - 1)}>
+              Issue {props.issue - 1} →
+            </Link>
+          )}
+        </nav>
       </div>
       <Preview html={props.html} />
     </Layout>
@@ -69,7 +71,7 @@ const monthNames = [
   "Dec"
 ];
 function formatDate(date) {
-  return `${date.getDate()} ${
+  return `${date.getDate()}&nbsp;${
     monthNames[date.getMonth()]
-  } ${date.getFullYear()}`;
+  }&nbsp;${date.getFullYear()}`;
 }

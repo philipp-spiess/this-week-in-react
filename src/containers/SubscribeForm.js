@@ -20,26 +20,7 @@ export default function SubscribeForm() {
           });
 
         return (
-          <>
-            {status === "sending" && (
-              <div className="form-info">
-                Subscribing…
-              </div>
-            )}
-            {status === "error" && (
-              <div
-                className="form-info"
-                style={{ color: "#ff4c4c" }}
-                dangerouslySetInnerHTML={{ __html: message }}
-              />
-            )}
-            {status === "success" && (
-              <div
-                className="form-info"
-                style={{ color: "#b1dc36" }}
-                dangerouslySetInnerHTML={{ __html: message }}
-              />
-            )}
+          <div className="form-wrapper">
             <form onSubmit={e => e.preventDefault()}>
               <input
                 ref={emailRef}
@@ -49,7 +30,22 @@ export default function SubscribeForm() {
               />
               <button onClick={submit}>Subscribe</button>
             </form>
-          </>
+            {status === "sending" && (
+              <div className="form-info">Subscribing…</div>
+            )}
+            {status === "error" && (
+              <div
+                className="form-info"
+                dangerouslySetInnerHTML={{ __html: message }}
+              />
+            )}
+            {status === "success" && (
+              <div
+                className="form-info"
+                dangerouslySetInnerHTML={{ __html: message }}
+              />
+            )}
+          </div>
         );
       }}
     />

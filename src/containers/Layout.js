@@ -80,7 +80,7 @@ export default class Layout extends React.Component {
             <p className="curated-by">
               Curated with{" "}
               <span role="img" aria-label="love">
-                🧡
+                ❤️
               </span>{" "}
               by <a href="https://philippspiess.com">@PhilippSpiess</a>
             </p>

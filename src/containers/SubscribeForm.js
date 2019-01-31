@@ -10,7 +10,6 @@ export default function SubscribeForm() {
       url={url}
       render={props => {
         const { status, message, subscribe } = props;
-        console.log(props);
         let emailRef = React.createRef();
         const submit = () =>
           emailRef.current &&

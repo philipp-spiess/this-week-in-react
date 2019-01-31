@@ -155,7 +155,7 @@ input[type="email"] {
   flex-grow: 1;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
-  transition: all 250ms ease-in;
+  transition: box-shadow 250ms ease-in;
 }
 
 input[type="email"]:hover,
@@ -170,7 +170,7 @@ button {
   color: #00025c;
   text-decoration: none;
   border: 1px solid #080048;
-  transition: all 250ms ease-in;
+  transition: box-shadow 250ms ease-in;
   margin: 10px 0;
   cursor: pointer;
   padding: 10px 20px;

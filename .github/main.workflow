@@ -1,9 +1,15 @@
-workflow "Deploy" {
+workflow "Build and Deploy" {
   on = "push"
-  resolves = ["npm run deploy"]
+  resolves = ["Deploy"]
 }
 
-action "npm run deploy" {
-  uses = "actions/npm@3c8332795d5443adc712d30fa147db61fd520b5a"
-  runs = "npm run deploy"
+action "Build" {
+  uses = "actions/npm@master"
+  args = "install"
+}
+
+action "Deploy" {
+  needs = "Build"
+  uses = "actions/npm@master"
+  args = "run deploy"
 }

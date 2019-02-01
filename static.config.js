@@ -9,7 +9,7 @@ const firstIssue = issues[issues.length - 1].issue;
 
 export default {
   siteRoot:
-    process.env.NODE_ENV === "production"
+    process.env.NODE_ENV === "development"
       ? "http://localhost:3000"
       : "https://this-week-in-react.org",
   getSiteData: () => ({

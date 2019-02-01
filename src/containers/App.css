@@ -20,11 +20,11 @@ body {
   flex-direction: column;
   font-family: "Merriweather", serif;
   color: white;
-  padding: 50px 0;
 }
 
 .left .logo {
   max-width: 50%;
+  margin-top: 50px;
 }
 
 .left p, .left .form-wrapper {
@@ -194,6 +194,7 @@ button:focus {
 
 .curated-by {
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .separator {

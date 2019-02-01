@@ -82,7 +82,7 @@ export default class Layout extends React.Component {
               <span role="img" aria-label="love">
                 ❤️
               </span>{" "}
-              by <a href="https://philippspiess.com">@PhilippSpiess</a>
+              by <a href="https://philippspiess.com">Philipp Spiess</a>
             </p>
           </div>
 

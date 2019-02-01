@@ -33,12 +33,16 @@ body {
   line-height: 2;
 }
 
+.form-wrapper {
+  margin: 20px 0;
+}
+
 .form-info {
+  text-align: center;
   font-size: 0.8rem;
 }
 
 .left p {
-
   margin-top: 50px;
 }
 
@@ -104,6 +108,7 @@ body {
 .pitch {
   max-width: 500px;
   width: 80%;
+  text-align: justify;
 }
 
 a {
@@ -195,11 +200,11 @@ button:focus {
 .curated-by {
   text-align: center;
   margin-bottom: 50px;
+  font-size: 0.8rem;
+  margin-top: 30px !important;
 }
 
 .separator {
-  margin: 10px 0;
-  margin-bottom: 0;
 }
 
 .social ul {

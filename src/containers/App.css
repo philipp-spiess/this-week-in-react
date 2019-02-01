@@ -50,13 +50,12 @@ body {
   justify-content: center;
   flex-direction: column;
   color: #00025c;
-  overflow-y: scroll;
   font-family: -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
 }
 
 .right-header {
   width: calc(80% - 40px);
-  max-width: 600px;
+  max-width: 560px;
   border: none;
   margin: 20px 0;
   margin-bottom: 0;
@@ -64,7 +63,7 @@ body {
   align-items: center;
   color: white;
   padding: 10px 20px;
-  background: linear-gradient(50deg, #420096 -50%, #00025c 150%);
+  background: linear-gradient(6deg, #420096 -50%, #00025c 150%);
 }
 
 .current-issue {

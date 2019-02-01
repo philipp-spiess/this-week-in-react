@@ -154,13 +154,14 @@ input[type="email"] {
   flex-grow: 1;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
-  transition: box-shadow 250ms ease-in;
+  transition: box-shadow 250ms ease-in, transform 250ms ease-in;
 }
 
 input[type="email"]:hover,
 input[type="email"]:active,
 input[type="email"]:focus {
-  box-shadow: -3px 5px #c45000;
+  box-shadow: 0 24px 48px 10px rgba(35,51,64,.35);
+  transform: translateY(-2px);
 }
 
 button {
@@ -169,20 +170,22 @@ button {
   color: #00025c;
   text-decoration: none;
   border: 1px solid #080048;
-  transition: box-shadow 250ms ease-in;
   margin: 10px 0;
   cursor: pointer;
   padding: 10px 20px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
   text-shadow: 0 0 5px #ffe3b0;
+
+  transition: box-shadow 250ms ease-in, transform 250ms ease-in;
 }
 
 button:hover,
 button:active,
 button:focus {
+  box-shadow: 0 24px 48px 10px rgba(35,51,64,.35);
+  transform: translateY(-2px);
   color: #00025c;
-  box-shadow: 3px 5px #c45000;
 }
 
 .button .button-icon {

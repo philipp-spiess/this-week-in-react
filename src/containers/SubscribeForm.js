@@ -29,6 +29,9 @@ export default function SubscribeForm() {
               />
               <button onClick={submit}>Subscribe</button>
             </form>
+            <div className="form-info" style={{ textAlign: "center" }}>
+              No Spam. Unsubscribe at any time.
+            </div>
             {status === "sending" && (
               <div className="form-info">Subscribing…</div>
             )}

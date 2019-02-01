@@ -40,11 +40,16 @@ class Preview extends React.Component {
   ref = React.createRef();
   componentDidMount() {
     const frame = this.ref.current;
-
     const frameDocument = frame.contentDocument;
-    frame.onload = () => {
+
+    const update = () =>
       this.setState({ height: frameDocument.body.offsetHeight });
-    };
+
+    frame.onload = () => {
+      frame.contentWindow.onresize = () => update()
+      update()
+    }
+
     frameDocument.open();
     frameDocument.write(this.props.html);
     frameDocument.close();

@@ -1,0 +1,194 @@
+#!/usr/bin/env node
+
+const fs = require("fs");
+const Octokit = require("@octokit/rest");
+
+const CUT_OFF_TIME = "16:00";
+
+const REACT_REPOS = [
+  ["facebook", "react"],
+  ["facebook", "react-devtools"],
+  ["reactjs", "reactjs.org"],
+  ["reactjs", "az.reactjs.org"],
+  ["reactjs", "es.reactjs.org"],
+  ["reactjs", "fr.reactjs.org"],
+  ["reactjs", "id.reactjs.org"],
+  ["reactjs", "ja.reactjs.org"],
+  ["reactjs", "ko.reactjs.org"],
+  ["reactjs", "pt-BR.reactjs.org"],
+  ["reactjs", "ru.reactjs.org"],
+  ["reactjs", "vi.reactjs.org"],
+  ["reactjs", "zh-hans.reactjs.org"],
+  ["reactjs", "zh-hant.reactjs.org"],
+];
+
+const KNOWN_AUTHORS_FILE = "./src/known-authors.json"
+let knownAuthors = JSON.parse(fs.readFileSync(KNOWN_AUTHORS_FILE).toString());
+
+function usage() {
+  console.error('Usage: \n  script/first-time-contributors "8 Feb 2019"');
+  process.exit(1);
+}
+
+let date = process.argv[2];
+
+if (!date) {
+  console.error(`Invalid date passed as parameter: ${date}\n`);
+  usage();
+}
+
+date = new Date(`${date} ${CUT_OFF_TIME}`);
+let lastWeek = new Date();
+lastWeek.setTime(date.getTime() - 7 * 24 * 60 * 60 * 1000);
+
+console.log(
+  `Searching for first time commiters in React repos between ${date} and ${lastWeek}`
+);
+console.log();
+
+// We store some facts for authors along the way so we have a nice output
+let authorDB = {};
+
+(async function() {
+  let client;
+  if (process.env["AUTH_TOKEN"]) {
+    client = new Octokit({
+      auth: "token " + process.env["AUTH_TOKEN"]
+    });
+
+    const result = await client.users.getAuthenticated({});
+    console.log(`Authenticated as: ${result.data.login}`);
+    console.log("");
+  } else {
+    client = new Octokit();
+    console.log("Not authenticated. Be aware of rate limits.");
+    console.log(
+      "To authenticate, generate a personal token and set it to the AUTH_TOKEN environment variable:"
+    );
+    console.log("");
+    console.log("  https://github.com/settings/tokens");
+    console.log("");
+  }
+
+  const rateLimit = (await client.rateLimit.get()).data.resources.core;
+  const { limit, remaining } = rateLimit;
+  const reset = new Date(rateLimit.reset * 1000);
+  console.log(
+    `Rate Limit: ${remaining}/${limit} (reset at ${getTimeFromDate(reset)})`
+  );
+  console.log("");
+
+  // First, we collect a list of all potential new authors. To do this, we loop
+  // over all repositories and scan commits of the last week.
+  let potentialNewAuthors = [];
+  for (let [owner, repo] of REACT_REPOS) {
+    const allAuthors = await client.paginate(
+      "GET /repos/:owner/:repo/commits",
+      {
+        owner,
+        repo,
+        since: lastWeek.toISOString(),
+        until: date.toISOString()
+      },
+      response =>
+        response.data.map(commit => {
+          if (!commit.author || !commit.author.login) {
+            console.log(`Unidentifiable commit:`);
+            console.log(`  ${commit.commit.message.split("\n")[0]}`);
+            console.log(`  ${commit.html_url}`);
+            console.log(``);
+          } else {
+            const { login } = commit.author;
+            const { name, email } = commit.commit.author;
+
+            saveCommit(authorDB, login, name, email, commit.html_url);
+
+            return login;
+          }
+        })
+    );
+    allAuthors
+      .filter(author => !knownAuthors.includes(author))
+      .filter(Boolean)
+      .forEach(author => potentialNewAuthors.push(author));
+  }
+
+  // Get unique author names
+  potentialNewAuthors = [...new Set(potentialNewAuthors)];
+
+  // Now, we need to filter out all authors that had a commit before lastWeek in any of the repos
+  for (let potentialAuthor of potentialNewAuthors) {
+    let hasMadeCommitsBefore = false;
+    for (let [owner, repo] of REACT_REPOS) {
+      const result = await client.repos.listCommits({
+        owner,
+        repo,
+        author: potentialAuthor,
+        until: lastWeek,
+        per_page: 1
+      });
+      if (result.data.length > 0) {
+        hasMadeCommitsBefore = true;
+        break;
+      }
+    }
+
+    if (hasMadeCommitsBefore) {
+      potentialNewAuthors = potentialNewAuthors.filter(
+        author => author !== potentialAuthor
+      );
+      knownAuthors.push(potentialAuthor)
+    }
+  }
+
+  outputResult(potentialNewAuthors);
+
+  // We store all known authors so we don't need so many queries in the future
+  fs.writeFileSync(KNOWN_AUTHORS_FILE, JSON.stringify([... new Set(knownAuthors)], null, 2));
+
+})();
+
+function getTimeFromDate(date) {
+  const hours = date.getHours();
+  const minutes = "0" + date.getMinutes();
+  const seconds = "0" + date.getSeconds();
+  return hours + ":" + minutes.substr(-2) + ":" + seconds.substr(-2);
+}
+
+function outputResult(authors) {
+  console.log('First Time Contributors:')
+  authors = authors.map(login => authorDB[login]);
+  authors.sort((a, b) => {
+    const nameA = a.name.toUpperCase();
+    const nameB = b.name.toUpperCase();
+    if (nameA < nameB) {
+      return -1;
+    } else if (nameA > nameB) {
+      return 1;
+    } else {
+      return 0;
+    }
+  });
+
+  authors.forEach(({ login, name, email, commits }) => {
+    if (name === login) {
+      console.log(` - [${login}](https://github.com/${login})`);
+    } else {
+      console.log(` - ${name} ([${login}](https://github.com/${login}))`);
+    }
+    commits.map(commit => console.log(`    ${commit}`));
+  });
+}
+
+function saveCommit(db, login, name, email, commit) {
+  if (!db[login]) {
+    db[login] = {
+      login,
+      name,
+      email,
+      commits: [commit]
+    };
+  } else {
+    db[login].commits.push(commit);
+  }
+}

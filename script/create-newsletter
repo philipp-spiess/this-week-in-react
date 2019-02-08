@@ -176,11 +176,11 @@ async function urlToImage(url) {
       ogs({ url, timeout: 5000 }, function(error, ogsResults) {
         if (error) {
           reject(new Error("Error:", error, ogsResults));
-          process.exit(1);
+          return
         }
 
         let ogUrl = ogsResults.data.ogImage.url;
-        if (ogUrl[0] === "/") {
+        if (ogUrl && ogUrl[0] === "/") {
           const parsedUrl = new URL(url);
           ogUrl = parsedUrl.origin + ogUrl;
         }

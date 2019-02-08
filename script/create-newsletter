@@ -1,18 +1,18 @@
 #!/usr/bin/env node
 
-const ogs = require("open-graph-scraper");
-const fs = require("fs");
+const { URL } = require("url");
 const md = require("markdown-it")({
   linkify: true
 });
-const truncate = require("truncate");
-const path = require("path");
-const octokit = require("@octokit/rest")();
-const { URL } = require("url");
+const fs = require("fs");
 const mjml2html = require("mjml");
+const octokit = require("@octokit/rest")();
+const ogs = require("open-graph-scraper");
+const path = require("path");
+const truncate = require("truncate");
 
 function usage() {
-  console.error('Usage: \n  node card.js 8 "9 Nov 2018"');
+  console.error('Usage: \n  script/create-newsletter 19 "8 Feb 2019"');
   process.exit(1);
 }
 
@@ -21,14 +21,14 @@ const date = process.argv[3];
 
 // prettier-ignore
 const MAILCHIMP_HEADER_IMAGES = {
-  2: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/6441b0d8-bf34-4a9a-bed3-657beb2c5c9b.png",
-  3: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/7dcbb11f-a1e4-46ef-8c7e-0abfec7bda97.png",
-  4: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/1b1bde12-b7ad-46ab-acbb-df5fb7216aaf.png",
-  5: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/26c03b91-f776-4149-bbdf-58813cfe9828.png",
-  6: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/04ecb2e4-bf1b-4942-91c9-275fa7bffde7.png",
-  7: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/891dea1c-21c9-400e-a265-ec93d388fc25.png",
-  8: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/bc922b05-2122-4743-8ecb-a6be2a69ca6b.png",
-  9: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/10fb86e7-bd1e-4a39-943c-897dc9d98d24.png",
+   2: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/6441b0d8-bf34-4a9a-bed3-657beb2c5c9b.png",
+   3: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/7dcbb11f-a1e4-46ef-8c7e-0abfec7bda97.png",
+   4: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/1b1bde12-b7ad-46ab-acbb-df5fb7216aaf.png",
+   5: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/26c03b91-f776-4149-bbdf-58813cfe9828.png",
+   6: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/04ecb2e4-bf1b-4942-91c9-275fa7bffde7.png",
+   7: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/891dea1c-21c9-400e-a265-ec93d388fc25.png",
+   8: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/bc922b05-2122-4743-8ecb-a6be2a69ca6b.png",
+   9: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/10fb86e7-bd1e-4a39-943c-897dc9d98d24.png",
   10: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/87ebf885-d51a-437b-9260-df40fc269052.png",
   11: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/e6e3ea64-d309-4b41-91f8-53042e37dd33.png",
   12: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/c4112e2d-5599-4d16-a684-75d72a01478b.png",
@@ -38,6 +38,7 @@ const MAILCHIMP_HEADER_IMAGES = {
   16: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/059530ec-cd12-4b02-88eb-2775b3bc819c.png",
   17: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/ff35786f-4c77-439c-b6bc-2aec5d6bf00a.png",
   18: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/2c0d5aaa-0ea7-4d93-93ca-7e1196d04827.png",
+  19: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/d30817ff-952a-4641-9fba-e91c69c2ab11.png",
 };
 
 if (!issue) {

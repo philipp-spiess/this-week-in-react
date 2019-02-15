@@ -1,5 +1,6 @@
 #!/bin/bash
 
+./script/create-newsletter 20 "15 Feb 2019"
 ./script/create-newsletter 19 "8 Feb 2019"
 ./script/create-newsletter 18 "1 Feb 2019"
 ./script/create-newsletter 17 "25 Jan 2019"

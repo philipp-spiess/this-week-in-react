@@ -39,6 +39,7 @@ const MAILCHIMP_HEADER_IMAGES = {
   17: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/ff35786f-4c77-439c-b6bc-2aec5d6bf00a.png",
   18: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/2c0d5aaa-0ea7-4d93-93ca-7e1196d04827.png",
   19: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/d30817ff-952a-4641-9fba-e91c69c2ab11.png",
+  20: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/30bebe0a-56e7-4fc6-b391-f0dc85abb1b5.png",
 };
 
 if (!issue) {
@@ -157,7 +158,9 @@ function createIndex(cards) {
 
   const cardsHtml = cards.join("\n");
   let html = template.replace("PASTE HTML HERE", cardsHtml);
-  html = html.replace(/Issue 1 \– 21 Aug 2018/g, `Issue ${issue} – ${date}`);
+  html = html
+    .replace(/Issue 1 \– 21 Aug 2018/g, `Issue ${issue} – ${date}`)
+    .replace(/\<a /g, '<a target="_top" ');
 
   return mjml2html(html).html;
 }
@@ -176,7 +179,7 @@ async function urlToImage(url) {
       ogs({ url, timeout: 5000 }, function(error, ogsResults) {
         if (error) {
           reject(new Error("Error:", error, ogsResults));
-          return
+          return;
         }
 
         let ogUrl = ogsResults.data.ogImage.url;

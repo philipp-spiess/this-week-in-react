@@ -1,0 +1,816 @@
+Searching for first time commiters in React repos between Fri Feb 15 2019 16:00:00 GMT+0000 (Coordinated Universal Time) and Fri Feb 08 2019 16:00:00 GMT+0000 (Coordinated Universal Time)
+
+Authenticated as: philipp-spiess
+
+Rate Limit: 1916/5000 (reset at 17:05:06)
+
+Unidentifiable commit:
+  more fixes
+  https://github.com/reactjs/es.reactjs.org/commit/872aaadcc295cac2cea8c7a87d65700f8c55ca19
+
+Unidentifiable commit:
+  Improved translations
+  https://github.com/reactjs/es.reactjs.org/commit/e52a3dbc27c4e811b0c5388c8b55f29474ef97c5
+
+Unidentifiable commit:
+  Fix typos and attend suggestions in PR
+  https://github.com/reactjs/es.reactjs.org/commit/07b57ce3e4ada1e09bbb555192b650f26f0e4589
+
+Unidentifiable commit:
+  Fixed crowdin old version
+  https://github.com/reactjs/es.reactjs.org/commit/94ab5ac00e7c7a45f5bc021a3017cff5e6486a27
+
+Unidentifiable commit:
+  Update Rendering elements
+  https://github.com/reactjs/hy.reactjs.org/commit/63f9e01d17ec6c65f934700f05fa0cb12b0f9c0d
+
+Unidentifiable commit:
+  Update Rendering elements. Fix issues
+  https://github.com/reactjs/hy.reactjs.org/commit/5495486644a95d1d90f119ca3095d4da71806d7b
+
+Unidentifiable commit:
+  Update Nav bar
+  https://github.com/reactjs/hy.reactjs.org/commit/75c46c9cddb94beaf93e31b988d9b5e3a6335228
+
+Unidentifiable commit:
+  Get back Conditional rendering
+  https://github.com/reactjs/hy.reactjs.org/commit/95e25fac27c86dc616f4e4dea396a7fb527591b8
+
+Unidentifiable commit:
+  Translate Conditional Rendering Section
+  https://github.com/reactjs/hy.reactjs.org/commit/c4abafb9ba5ec6fd30d2225126749668ef795720
+
+Unidentifiable commit:
+  Change code pen link text
+  https://github.com/reactjs/hy.reactjs.org/commit/8a56ca9a7b6cc1861fe811f83bc65492a051e083
+
+Unidentifiable commit:
+  Translate Rendering Elements section
+  https://github.com/reactjs/hy.reactjs.org/commit/22ef4c683b77ec420848f414981ed6be0afee90f
+
+Unidentifiable commit:
+  Translate "style-guide.md"
+  https://github.com/reactjs/ru.reactjs.org/commit/c2d65112941b2dca633a575005bd3b825008f770
+
+Unidentifiable commit:
+  Add style-guide.md
+  https://github.com/reactjs/ru.reactjs.org/commit/fabb7a4bd11fe3f5c6a9c11c84fa4de85e453675
+
+Unidentifiable commit:
+  Тэг -> тег
+  https://github.com/reactjs/ru.reactjs.org/commit/7697e8982d4824c06dfdf2f86b7f1e3c211ee49e
+
+Unidentifiable commit:
+  Resolve translation issues in introducing-jsx.md from PR #17
+  https://github.com/reactjs/ru.reactjs.org/commit/6fa0238e18df66d5f8dc38a1a29198b03dd4d60a
+
+Unidentifiable commit:
+  Предупреждение instead of Осторожно.
+  https://github.com/reactjs/ru.reactjs.org/commit/5f261d7400b74dbf8a585fc5eb6c491cac767eb6
+
+Unidentifiable commit:
+  Update page title
+  https://github.com/reactjs/ru.reactjs.org/commit/3c9b51eabe9b5994c21b34e3a964917303f03d2c
+
+Unidentifiable commit:
+  Use "примечание" instead of "обратите внимание"
+  https://github.com/reactjs/ru.reactjs.org/commit/d4341b9ce7f3ee6b194e611578a4f13e1012dc65
+
+Unidentifiable commit:
+  Add missing "style" word
+  https://github.com/reactjs/ru.reactjs.org/commit/12562bba4792c3234444e318942b8e0dd82effe8
+
+Unidentifiable commit:
+  Translate "introducing-jsx.md" into Russian
+  https://github.com/reactjs/ru.reactjs.org/commit/af22a4a802b134cad65fcd65c1eeb2db425be19c
+
+Unidentifiable commit:
+  Better translation for Warning
+  https://github.com/reactjs/ru.reactjs.org/commit/78bf71b323116bc17740bbd63666f433b27784f7
+
+Unidentifiable commit:
+  Propose "Tip" and "Warning" translations (used in inserts).
+  https://github.com/reactjs/ru.reactjs.org/commit/63f1d1a4fb3878210b726b7f65c69e55df58e060
+
+Unidentifiable commit:
+  Translate props as пропсы
+  https://github.com/reactjs/ru.reactjs.org/commit/4c6caf761c0a0deac3558a00ef33c4c02d692cb8
+
+Unidentifiable commit:
+  Revert "Translate reuse only as повторное использование"
+  https://github.com/reactjs/ru.reactjs.org/commit/a8fdaa80c4b714df212cd655b21949276e998350
+
+Unidentifiable commit:
+  Translate reuse only as повторное использование
+  https://github.com/reactjs/ru.reactjs.org/commit/8311a5d4db09a0428f2d4c2541f95b10555a104e
+
+Unidentifiable commit:
+  Translate error as ошибка
+  https://github.com/reactjs/ru.reactjs.org/commit/80f358ef15c77526fc252075ec8c50f0f9235742
+
+Unidentifiable commit:
+  Translate bug as баг, дефект
+  https://github.com/reactjs/ru.reactjs.org/commit/b356a3bde80ad1229e7f4f82c73ff93fa99e7a81
+
+First Time Contributors:
+ - Abner Soares Alves Junior ([abnersajr](https://github.com/abnersajr))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/6bb89101abc85c5603c089e87f81f320de40714d
+ - Alessandro De Blasis ([deblasis](https://github.com/deblasis))
+    https://github.com/reactjs/it.reactjs.org/commit/ae4ccb8eef6c2d3018054721aa1e3a55fe10866d
+    https://github.com/reactjs/it.reactjs.org/commit/86ede57abe5303675e1e0ee213191f87ab631ce8
+    https://github.com/reactjs/it.reactjs.org/commit/092f8f1594a390967e33247db8730cc58aefd573
+ - Alexandre Lara ([thealexandrelara](https://github.com/thealexandrelara))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/87d6cddc2986cf8cd937e4eea2d28d1e5b57e610
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/942f3d263037d7f8651a9b1bd738b8ccf8347b01
+ - [AlLevykin](https://github.com/AlLevykin)
+    https://github.com/reactjs/ru.reactjs.org/commit/622dbcef58c0c4fe16e257bff6be8ccd5a01eb08
+    https://github.com/reactjs/ru.reactjs.org/commit/0ba16a9fce91434694057c8de3db66a5883474e3
+    https://github.com/reactjs/ru.reactjs.org/commit/31126886a344458814ada9686423351103b6af84
+    https://github.com/reactjs/ru.reactjs.org/commit/fbed237b7ba968412976f3a7f165073aacabd3b3
+    https://github.com/reactjs/ru.reactjs.org/commit/daa0b22ef54700d8f78060658b08e7c4fecedad3
+    https://github.com/reactjs/ru.reactjs.org/commit/174e4022c4b31d31cb86e64778016d8d120834a6
+    https://github.com/reactjs/ru.reactjs.org/commit/61580fa8a9a1dbcd74f1df39fee70cce531077d2
+    https://github.com/reactjs/ru.reactjs.org/commit/fe5b65c1eea396e7e4d6ac0e736e10ada922123e
+    https://github.com/reactjs/ru.reactjs.org/commit/0d5b11436eb174d5793ae4e790060da8a8048051
+    https://github.com/reactjs/ru.reactjs.org/commit/ec29777b500ec89eeace6220821fbcf166f3c361
+    https://github.com/reactjs/ru.reactjs.org/commit/35bd534d6b8a6908543ab32177eba3d6dda4cfc5
+ - Amir Shabani ([Schabaani](https://github.com/Schabaani))
+    https://github.com/reactjs/fa.reactjs.org/commit/5daa98c00b1d0c1e0408b1beef2de64b45d7fdb0
+ - Andrew Goldis ([agoldis](https://github.com/agoldis))
+    https://github.com/reactjs/ru.reactjs.org/commit/9ee26252feb731f7d2b346af6058951a4f9c1944
+    https://github.com/reactjs/ru.reactjs.org/commit/42064e295c60b5102bbcb9dc125e009deaeaa337
+    https://github.com/reactjs/ru.reactjs.org/commit/636986141ccea945cf3dd0a54b8b5890cae26c55
+    https://github.com/reactjs/ru.reactjs.org/commit/f91d03ff15822ba6b2a21462da028c371c0633e4
+    https://github.com/reactjs/ru.reactjs.org/commit/37897e1d9c023ca76c65b996a005c3f42a02e5d6
+    https://github.com/reactjs/ru.reactjs.org/commit/874bc83a61655333e36a53462cc3e6ba2ae320bb
+ - André Felipe Scalco ([andrescalco](https://github.com/andrescalco))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/e8b79aaad61deafae731808cc0c23a843a65b1a9
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/cfc1f27df510a5dcd3a93f469c79511e5faf08d8
+ - Anggra ([anggras](https://github.com/anggras))
+    https://github.com/reactjs/id.reactjs.org/commit/14cfd24bbde7aa0b7bb52274a0ae0912091beca3
+ - Anton Ahatov ([gcor](https://github.com/gcor))
+    https://github.com/reactjs/ru.reactjs.org/commit/d78c626bcc7863f44d73482fcdd93d73fb38e4a7
+    https://github.com/reactjs/ru.reactjs.org/commit/4302c0e44d7bec8e4b96f5e2657a7214a04a1ecc
+    https://github.com/reactjs/ru.reactjs.org/commit/c6da0adec50f4c5df1016e1feb5b57850f8de61b
+ - Arshad Kazmi ([arshadkazmi42](https://github.com/arshadkazmi42))
+    https://github.com/reactjs/hi.reactjs.org/commit/7bf0b1174d648a13cc0a8e95ea45efd120d09f68
+    https://github.com/reactjs/hi.reactjs.org/commit/307285edaf7422b7dd3c480ff8059cab1b3298a9
+    https://github.com/reactjs/hi.reactjs.org/commit/22b12271dd92a1a2c4ae3420aaf0f30f3f4e1dbb
+    https://github.com/reactjs/hi.reactjs.org/commit/9f5b3c84bcb08d2778bdc56e51f3501c0fcc8edd
+ - Arthur Souza ([arthur-souza](https://github.com/arthur-souza))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/065b331fabb0b5b7a9a772b825294da00a7f5660
+ - Augusto Chmieleski ([koka0012](https://github.com/koka0012))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/71b7ac13eb1d0eb3a364795a66bce64bc9eb1a8f
+ - [avevlad](https://github.com/avevlad)
+    https://github.com/reactjs/ru.reactjs.org/commit/83c3235de5c75bf161ddbf40e8dea3d1b1619acc
+    https://github.com/reactjs/ru.reactjs.org/commit/007d2a3570fdfce15eff981dd9a4df732f7452b8
+    https://github.com/reactjs/ru.reactjs.org/commit/44e3bac1a93321ff9022842ac74229b4d963da95
+    https://github.com/reactjs/ru.reactjs.org/commit/0cad4c8df24f4fa185986d5c5ce1b4def4411164
+    https://github.com/reactjs/ru.reactjs.org/commit/a5f9019cf5381ed74b75462d479d44e198b6beec
+ - Baptiste Adrien ([shinework](https://github.com/shinework))
+    https://github.com/reactjs/fr.reactjs.org/commit/26757f334cad5338ccfc2bea6ac21494f19e1223
+    https://github.com/reactjs/fr.reactjs.org/commit/4a279eb877968310b1ad99ce1aaf8d197e01ab2f
+    https://github.com/reactjs/fr.reactjs.org/commit/a69e40ddc8071558d84986a5a9cec0710500e37a
+    https://github.com/reactjs/fr.reactjs.org/commit/89af5a11427269847b689e34cb2f77e41af640db
+    https://github.com/reactjs/fr.reactjs.org/commit/61b6563701334f346d27f82549424ff25df343d6
+    https://github.com/reactjs/fr.reactjs.org/commit/b5f099a7a8790d04918a50f889fd2f9f874cb2e3
+    https://github.com/reactjs/fr.reactjs.org/commit/61895d259dfc9e66f94eaea76721eb33cc1e773b
+    https://github.com/reactjs/fr.reactjs.org/commit/25347725f7eed43de0dbe6202082a31ccb7a2dfb
+    https://github.com/reactjs/fr.reactjs.org/commit/3f10f7a0373e89f6882ece844ec4c7bf35aa0899
+ - Breno Calazans ([klzns](https://github.com/klzns))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/a12058f35e63427eed690111fe87385c391ee173
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/4901d6f30e64ab335b40681803c8aaa7732025cc
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/adf53d94e351e61280b3bdef09b5fcec3f68cc91
+ - Bruno Ukita ([ukita](https://github.com/ukita))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/ca486dd16f1437fce859fc0be66e9eb51e70413d
+ - Carlos Coves Prieto ([escorponox](https://github.com/escorponox))
+    https://github.com/reactjs/es.reactjs.org/commit/4a7d06944e7775f0ba2d6d38243dd0b17bc83fb8
+ - Cezar Augusto ([cezaraugusto](https://github.com/cezaraugusto))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/f26703ca7ae24fb32bd2a2f3f819d1150d9874e9
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/b6612197d98ba12188ac50887f71139e63cfdccb
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/243c9898570129946fee3a3f7ca27eac3110b802
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/7986c2b78b192c3008e29e34ffca8ad2e164f1dc
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/9424fa466c87d19d1f2db3308c08546ffe635957
+ - Chak Shun Yu ([Keraito](https://github.com/Keraito))
+    https://github.com/reactjs/nl.reactjs.org/commit/cba655090b3b07d550d5a32a58d9d11229e9d304
+    https://github.com/reactjs/nl.reactjs.org/commit/4decdcf8fd7b2ec4cd7d13a9fa385cfa61fea337
+    https://github.com/reactjs/nl.reactjs.org/commit/55bd224611468426d26eb0216018c6c77ec3fa98
+    https://github.com/reactjs/nl.reactjs.org/commit/4d9c3d681ddef5a83964172af2767dd43b39326e
+    https://github.com/reactjs/nl.reactjs.org/commit/485099884474ca6b39fc1d2a332bd300d4c8e4bb
+ - Chloe Lin ([chloewlin](https://github.com/chloewlin))
+    https://github.com/reactjs/zh-hant.reactjs.org/commit/8c4480b7e37ef990712c924925105eb1170aa450
+ - Chris Ben ([ChrisB9](https://github.com/ChrisB9))
+    https://github.com/reactjs/de.reactjs.org/commit/b26679248a198e1077aec1cfece6b6acee7bb1f9
+    https://github.com/reactjs/de.reactjs.org/commit/69b1789e7115df6cc4fff483b8479db72f8f443b
+    https://github.com/reactjs/de.reactjs.org/commit/555f001604a70a89faf1f69c6ad5c53018ab2db6
+    https://github.com/reactjs/de.reactjs.org/commit/eef9e0a1a9f37ef5092197bed65a1f6548ebf36d
+    https://github.com/reactjs/de.reactjs.org/commit/b80baa285029961d32e1e8a10959ec3932a3774f
+    https://github.com/reactjs/de.reactjs.org/commit/f8483a5bdb270e0556f20f2d3c9832b758a9e7db
+    https://github.com/reactjs/de.reactjs.org/commit/62251444f5386675fe2a6d86ee60a700c79b2928
+ - Christophe Porteneuve ([tdd](https://github.com/tdd))
+    https://github.com/reactjs/fr.reactjs.org/commit/e7d213917b90ecc427de79e6f6d3507c902141ea
+    https://github.com/reactjs/fr.reactjs.org/commit/69978da9fcb679f72e4416bf9bb0a1df5c428f6d
+    https://github.com/reactjs/fr.reactjs.org/commit/c59ea02ad98e5e89be5031ed40aedb5476237b3e
+    https://github.com/reactjs/fr.reactjs.org/commit/4f440f29e94df360d0b3f61d98b2ccb10fdd742e
+    https://github.com/reactjs/fr.reactjs.org/commit/dc303e4ef4fe0829e813f67c14f51395feb67edc
+    https://github.com/reactjs/fr.reactjs.org/commit/44d26c33c26b664aae70c1532736d0ff2a5f834a
+    https://github.com/reactjs/fr.reactjs.org/commit/098ea93cefe7078dbc625bfa51b49899ab3d6c06
+    https://github.com/reactjs/fr.reactjs.org/commit/db32c23f1fc53e7f6dc810771b5d6151a66a624d
+    https://github.com/reactjs/fr.reactjs.org/commit/079571157ea21e965613ebc3a813876f93c3f7f8
+    https://github.com/reactjs/fr.reactjs.org/commit/8a111c614cfcec1c813149373ddb33f9ff465f17
+    https://github.com/reactjs/fr.reactjs.org/commit/59e6ee55600cb3f9546361cd7fd70a112d82b6fc
+    https://github.com/reactjs/fr.reactjs.org/commit/e7528c28050d198bb0cead5604564905d316a339
+    https://github.com/reactjs/fr.reactjs.org/commit/4f8df00907c6a759f460aeba4e1e90d800cd77a4
+    https://github.com/reactjs/fr.reactjs.org/commit/45db3dc9274ceb5ea20509f77962c6524fc8e20f
+    https://github.com/reactjs/fr.reactjs.org/commit/c7481c94ea80fb1c1173fceb724e317eda698528
+    https://github.com/reactjs/fr.reactjs.org/commit/8e43845d8eeb38f2c88aeed2147bef15836fe726
+    https://github.com/reactjs/fr.reactjs.org/commit/a4c2691ed2a8c3d2c43b7855dcc68472fae074ee
+    https://github.com/reactjs/fr.reactjs.org/commit/2ddaff5fe2c15af7058870b64b4ca484cfeb316f
+    https://github.com/reactjs/fr.reactjs.org/commit/f0fbef8e98996c05d283327c8e46ae55821ec5c2
+    https://github.com/reactjs/fr.reactjs.org/commit/11d68a68056d4739e2e715c80d8ef385f4fd6a9d
+    https://github.com/reactjs/fr.reactjs.org/commit/c9a22477be770cc16885198e5c35c9784813c14a
+    https://github.com/reactjs/fr.reactjs.org/commit/b21bea44140a810b05c1dc47c93c09e97b0fd511
+    https://github.com/reactjs/fr.reactjs.org/commit/748217d9db71b554cd3e163a5b85a34af9503be7
+    https://github.com/reactjs/fr.reactjs.org/commit/248f71c92918cb2ec380c9d5dc8cde5221e1476a
+    https://github.com/reactjs/fr.reactjs.org/commit/a750ad1b790e8759321c0b72d1991a18debd50a9
+    https://github.com/reactjs/fr.reactjs.org/commit/20dbfd539629aa2608c3d848bad31dcf65c704bc
+    https://github.com/reactjs/fr.reactjs.org/commit/d7655a3ff7686d878b23fdacc499c502f4c07cee
+    https://github.com/reactjs/fr.reactjs.org/commit/f0b96d9bf1d55dc3a3c192b54c59f629ffadaa39
+    https://github.com/reactjs/fr.reactjs.org/commit/257e4232d834bc5b9479475f1f8008a13f5003d8
+    https://github.com/reactjs/fr.reactjs.org/commit/11305616ba8832f9653d85e56e82b6193d6af86d
+    https://github.com/reactjs/fr.reactjs.org/commit/cf28fbaf9cf1905e7a8ea1fa70db430c33cc5344
+    https://github.com/reactjs/fr.reactjs.org/commit/af1e89c6da4e1302fa47a172f3e01dc092df0b09
+    https://github.com/reactjs/fr.reactjs.org/commit/4fb8e476384f5a24eed81794eac34af13faf0263
+    https://github.com/reactjs/fr.reactjs.org/commit/915f148e44e21b91e774b06fb1fd0f9fe66c4a36
+    https://github.com/reactjs/fr.reactjs.org/commit/8b2ad8892b109fb6c0101fdf2f454312fef4479c
+    https://github.com/reactjs/fr.reactjs.org/commit/f357a0912e36ff3bd8df265fb890183c302d2f5e
+    https://github.com/reactjs/fr.reactjs.org/commit/1b4d0a763832dbf6becd217d5ecdbe1365dbc2a1
+    https://github.com/reactjs/fr.reactjs.org/commit/98556dc7eff0fff98008991468fef6319b7ad631
+    https://github.com/reactjs/fr.reactjs.org/commit/7c82ada38ad5d50576aab5aad9f24489e969ad8b
+    https://github.com/reactjs/fr.reactjs.org/commit/cb970f4396bf27cbdb8ab0efaeda5bf33dc99a46
+    https://github.com/reactjs/fr.reactjs.org/commit/5c293e919d1c990444a8e3cfd94beece03110549
+    https://github.com/reactjs/fr.reactjs.org/commit/a8c29fbc052306a80b1d82cf58c958fc7297f749
+    https://github.com/reactjs/fr.reactjs.org/commit/d4b7e6570a12fd00732c9b0118219ac01ff113aa
+    https://github.com/reactjs/fr.reactjs.org/commit/93acc646f36db81b9ddfad91298130841b693066
+    https://github.com/reactjs/fr.reactjs.org/commit/0ae85447d8365180ca2ca41d8f3548ad740f4904
+    https://github.com/reactjs/fr.reactjs.org/commit/b7159f51c6152d50706657a763423eed9affbd3d
+    https://github.com/reactjs/fr.reactjs.org/commit/dabf1de2cab7253e57475a2d929634cc132e19a1
+    https://github.com/reactjs/fr.reactjs.org/commit/ad478643e93c5609ea0aa98851c9aa2da139142b
+    https://github.com/reactjs/fr.reactjs.org/commit/0f3d0cbefcd3095dad342847865e234501becfba
+    https://github.com/reactjs/fr.reactjs.org/commit/12f76a52782cf0a6523d9686fd07eb564712398f
+    https://github.com/reactjs/fr.reactjs.org/commit/1a1d484ddf97908ed1ebf7a4e2465257e878cf2d
+    https://github.com/reactjs/fr.reactjs.org/commit/2a3152c1ec76a7ba2262c51e7f58abd2cc736dcf
+    https://github.com/reactjs/fr.reactjs.org/commit/acb25ab1733ebde90bcafdd524fa51a4641bf260
+    https://github.com/reactjs/fr.reactjs.org/commit/7513de09f1f2c999aa56df639d68bb37effd0660
+    https://github.com/reactjs/fr.reactjs.org/commit/0a8b03ac1c5ebe6548901d8085677721e666173c
+    https://github.com/reactjs/fr.reactjs.org/commit/c5179ab6e611cbd2df5125dfc9e1c373efa94ce4
+    https://github.com/reactjs/fr.reactjs.org/commit/27fff089341b5de46fea56bb90c8a5037e042176
+    https://github.com/reactjs/fr.reactjs.org/commit/a2d6227d7883e7e3a789683cb33ac1f4e99c38f7
+    https://github.com/reactjs/fr.reactjs.org/commit/3c39c9c635581bb8249fd631556f168e6285ca89
+    https://github.com/reactjs/fr.reactjs.org/commit/f0d2527ca90ae10bb21c18ec2d957845be6e4a7c
+    https://github.com/reactjs/fr.reactjs.org/commit/9b090e973e6143e5996a38143f911b4a514dabe0
+    https://github.com/reactjs/fr.reactjs.org/commit/f890c9d03f095622ebab4d14ba553980b12b6766
+    https://github.com/reactjs/fr.reactjs.org/commit/286d8ce423fdefc64cf34b9cd56d20989a40c129
+    https://github.com/reactjs/fr.reactjs.org/commit/1a4c3d9833fd155e87893d9818e3a2935ea4564f
+    https://github.com/reactjs/fr.reactjs.org/commit/9a582e53544ebcd6fd4f1095feaf832f7ddcf260
+    https://github.com/reactjs/fr.reactjs.org/commit/fea4a2f530e5315dfc10664f312d6dc4099bf228
+    https://github.com/reactjs/fr.reactjs.org/commit/9c13886244880c3f00f7a70217d9b50b058c2c63
+    https://github.com/reactjs/fr.reactjs.org/commit/dbcc7fdf3086c3c9ec9044e5d813d7c932a88d65
+    https://github.com/reactjs/fr.reactjs.org/commit/f6020a729459c8aead9eba322e13b0166a86084e
+    https://github.com/reactjs/fr.reactjs.org/commit/bceacad0d59e9666029add2b13b3b014c47c2570
+    https://github.com/reactjs/fr.reactjs.org/commit/2e39d9017862b1a41c265d5f250f11adad0ed16d
+    https://github.com/reactjs/fr.reactjs.org/commit/72c04f5f041487181d614142b118ee5f9e40ef94
+    https://github.com/reactjs/fr.reactjs.org/commit/764a84c9163b4a45fed3a5b3135305b7d62d3e9d
+    https://github.com/reactjs/fr.reactjs.org/commit/a4c088148c0398a802788a0bb9592bba49ec0a58
+    https://github.com/reactjs/fr.reactjs.org/commit/ccd2f3c54f492760106d91988ffdd91a383ee5cf
+    https://github.com/reactjs/fr.reactjs.org/commit/33655a1d65ea41bdcb9985726c0cc2b7a27c9c45
+    https://github.com/reactjs/fr.reactjs.org/commit/93ef02bba731cabbc4bf3818ff1b5f05fdf1433d
+    https://github.com/reactjs/fr.reactjs.org/commit/ef7cc77d67630526b89ed46ba20ca0b8096dc88e
+    https://github.com/reactjs/fr.reactjs.org/commit/d0e4ff345de0612dd9bbab8fc0b5b4ae7ada640e
+    https://github.com/reactjs/fr.reactjs.org/commit/35387e5684bb06a5ab05189d8f7d445d794957b6
+    https://github.com/reactjs/fr.reactjs.org/commit/c6b3fdbc005b7cdbc39a33f492442d6b07019ce8
+    https://github.com/reactjs/fr.reactjs.org/commit/0a947f16d59b8403ef48fbe47b2f8c1c1e9687d3
+    https://github.com/reactjs/fr.reactjs.org/commit/887d3fd3385969ce769ed52253dd4e7c4b988486
+    https://github.com/reactjs/fr.reactjs.org/commit/32863c650fcbb24aa0b9aa211e9ffc7335080883
+    https://github.com/reactjs/fr.reactjs.org/commit/b5e1d7fef062602cf46eb19e2a369e25605b0650
+    https://github.com/reactjs/fr.reactjs.org/commit/c92f6a490fb9c8c621aa17a3a61efa05bf44ad90
+    https://github.com/reactjs/fr.reactjs.org/commit/00c275bb27e95d355bf73242c2c3b7cabff98829
+    https://github.com/reactjs/fr.reactjs.org/commit/92a1a25de7ab078329107f1afd9cc49851c2fc92
+    https://github.com/reactjs/fr.reactjs.org/commit/97c400c52c0df7eab9f0cb3b81249f71988010aa
+    https://github.com/reactjs/fr.reactjs.org/commit/ba2deaa2a98f2416733baf8b46ee58f85df7140f
+    https://github.com/reactjs/fr.reactjs.org/commit/70f6e07e97b632e2dbd95fe7c6c9429a4cd6a091
+    https://github.com/reactjs/fr.reactjs.org/commit/929b89e89d4f85f9aa27d1eb77118e31abafe962
+    https://github.com/reactjs/fr.reactjs.org/commit/7fc8dc924f8a57f90265514e12a78e9cab6867cb
+    https://github.com/reactjs/fr.reactjs.org/commit/a5a1e2821786844362bffaeaa2b0b01060c0fc9b
+    https://github.com/reactjs/fr.reactjs.org/commit/d08ea369db8f412637313d646a1dcc6192f3bbd2
+    https://github.com/reactjs/fr.reactjs.org/commit/59c6f1f25aaaca4e16caffcfe273a567b0974b90
+    https://github.com/reactjs/fr.reactjs.org/commit/dad9b623ad174266ef90b9fc0f5be1a32f54e90b
+    https://github.com/reactjs/fr.reactjs.org/commit/41b4cb959d42a5a5989a1a336b784f0defc557b2
+    https://github.com/reactjs/fr.reactjs.org/commit/0414e8163d7636f506446947ee111a529c483bce
+ - Cristiano Gonçalves ([crisgon](https://github.com/crisgon))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/720d98f45706c01488f0a3e952ec55fc454e2eca
+ - Diego Alves ([ifdiego](https://github.com/ifdiego))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/4094e00f8bc3e5727bb104419ff2cbd2efb3e347
+ - Eduardo Moroni ([eduardomoroni](https://github.com/eduardomoroni))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/e1ce105f864e9efa78d4641d6cce1962b3e20d8b
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/32505d000aa0e28049640998ed7ad5937cd82fdf
+ - Egor Ogarkov ([Windrushfarer](https://github.com/Windrushfarer))
+    https://github.com/reactjs/ru.reactjs.org/commit/07c994218ba9dc18a56645f2fda95034c2891c43
+ - Eric Pereira ([ericp3reira](https://github.com/ericp3reira))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/ba78683508380949565e0e9b52c2706f56234be5
+ - Evaldo Santos ([evaldosantos](https://github.com/evaldosantos))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/4146e0cc2b54d55b504d164032562f37435133ff
+ - Felix Tan ([regalius](https://github.com/regalius))
+    https://github.com/reactjs/id.reactjs.org/commit/73f04d07fa058077a19a7f0b1f07315e47f4aca0
+    https://github.com/reactjs/id.reactjs.org/commit/b930ecb753f219e6a7004778b2ff38adf285c4e8
+    https://github.com/reactjs/id.reactjs.org/commit/cba29cc86ce9a3699ca90ed47b20b11f975fbfd4
+    https://github.com/reactjs/id.reactjs.org/commit/c769b0aa86d9cc7d09a6ba77e7362f2b26a76f3b
+    https://github.com/reactjs/id.reactjs.org/commit/33e8348071244dc97f4c70867cab1c5f2948dbc5
+ - Filipe Oliveira ([fmoliveira](https://github.com/fmoliveira))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/1dfe1dbefb75a8657944f04942794716d8127238
+ - Florencia Silva Olivera ([florenciasilva](https://github.com/florenciasilva))
+    https://github.com/reactjs/es.reactjs.org/commit/f729af34f122130dc281e2d73c19dc457c1230a0
+ - Francisco Joshua ([fjoshuajr](https://github.com/fjoshuajr))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/cda3dbf3a49805b2dc61808e3eaefc65731b19d5
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/23d43405fdb32e6b7bfb69d6cb115f54094771b4
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/18b0f23ec8b634b79248c0235d2260b65bfe87b9
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/4d7484f8a94a91337086727f73cec6a0d9145ae5
+    https://github.com/reactjs/pt-PT.reactjs.org/commit/b4e3730ea5ed60e88e80e329b32b6c9087c0aad9
+    https://github.com/reactjs/pt-PT.reactjs.org/commit/fc849c3f8aea3bfd056973cfe3c93db7927980de
+    https://github.com/reactjs/pt-PT.reactjs.org/commit/a490e18386fe462c7ae16c0f7e033867cbc1ace3
+ - Gabriel Crispino ([GCrispino](https://github.com/GCrispino))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/00ce9ed7b0ca6918310cf43c29571d3312145091
+ - Gabriel Tibúrcio ([tibuurcio](https://github.com/tibuurcio))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/8a1c07f1a93c1e64b1b8a87859397c5f713e0afc
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/74fca9395c7fe47bf3611a1f9ad4c7d8d22962d1
+ - George Secrieru ([gmsecrieru](https://github.com/gmsecrieru))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/06a45ccb76ee32e17168b89acec9934e78437f55
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/73e9a5bbd075f02c416c7ec0c7827da5cdbc83d3
+ - Georgi Yanev ([jumpalottahigh](https://github.com/jumpalottahigh))
+    https://github.com/reactjs/bg.reactjs.org/commit/c9c7df8387ae5635a92b598283a8b68c692e2822
+    https://github.com/reactjs/bg.reactjs.org/commit/dca192329190fd5bfd66a2264498b296d6b257c1
+ - Geslain Dahan ([GeslainKeyrus](https://github.com/GeslainKeyrus))
+    https://github.com/reactjs/fr.reactjs.org/commit/b99dbb012689a292bb1dde338f4c985c91bd93b8
+    https://github.com/reactjs/fr.reactjs.org/commit/0fc01c4f709530b263c84ea200f4fa440a7f88e1
+    https://github.com/reactjs/fr.reactjs.org/commit/d6592e263a700513a3f0de75082e7430bf63a778
+ - [giossa94](https://github.com/giossa94)
+    https://github.com/reactjs/es.reactjs.org/commit/1e816edc8a2a81e3df409933971992f8a0232a00
+ - Gleidson Daniel Silva ([GleidsonDaniel](https://github.com/GleidsonDaniel))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/d653bf4ee48d3aad99f31da4fbd1f9c8836f297a
+ - Gustavo Azevedo ([gustavoaz7](https://github.com/gustavoaz7))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/c4be73a2104af50057cf52a8ddd769e0bd99cb1e
+ - Gustavo Ribeiro ([gstvribs](https://github.com/gstvribs))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/00a0b04df01997f713e17119d691dbaf63bda2da
+ - Haegul Pyun ([hg-pyun](https://github.com/hg-pyun))
+    https://github.com/reactjs/ko.reactjs.org/commit/cb9dc3eee518b9a1ee158aba102934aefea72b38
+ - haidrant ([atsumine](https://github.com/atsumine))
+    https://github.com/reactjs/ja.reactjs.org/commit/321eb1a4081b09d5c9ca309aa67eb51537e72876
+ - Halian Vilela ([halian-vilela](https://github.com/halian-vilela))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/90ec76885628c9ad70e116f270894876b458729d
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/97aef452b4cdfc19fd1c0024ca6739dbd28d60dc
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/5a12e0ff8e0bc26ba574659920d139d2e1acc4f7
+ - Haqverdi Behbudov ([Haqverdi](https://github.com/Haqverdi))
+    https://github.com/reactjs/az.reactjs.org/commit/d5a4eefc9ce482db5a2ff88a8002057401ccb5e3
+    https://github.com/reactjs/az.reactjs.org/commit/c12ed3dcb1083cb778223a505e658b0ff8199f34
+ - Henrique Jensen ([henriquejensen](https://github.com/henriquejensen))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/cd23555409db7d290c4f9e4d283ee9070809080b
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/325762f2866d9359a62d510eb194c2d9cad9ad95
+ - Iago Bruno ([httpiago](https://github.com/httpiago))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/e4f9dbcd2ce182a565a2f03fb490ca22533a0329
+ - Igor Soloydenko ([another-guy](https://github.com/another-guy))
+    https://github.com/reactjs/ru.reactjs.org/commit/427554a06aa5a9aa20551bed8079a482fe0e8f52
+    https://github.com/reactjs/ru.reactjs.org/commit/727420959ac6e25f517abb447cbe8016a61a30fa
+    https://github.com/reactjs/ru.reactjs.org/commit/cc51904c73a85e824747cd888a9bfc726cd8a493
+    https://github.com/reactjs/ru.reactjs.org/commit/46443526a1578c49db2bed2843d00a95a24ca353
+    https://github.com/reactjs/ru.reactjs.org/commit/a5324d0bda8d9692d592bcf7e5fedbd7e12245b8
+    https://github.com/reactjs/ru.reactjs.org/commit/34a6dc1a8efa25dc86f64cfe4e7041e06163cf91
+    https://github.com/reactjs/ru.reactjs.org/commit/f5ac08358c45e3c3c5a41a4666e745f9fbc3cbfc
+    https://github.com/reactjs/ru.reactjs.org/commit/863aa2b9ce1498965be8fd756c481609d8ecd8ec
+    https://github.com/reactjs/ru.reactjs.org/commit/b3463cba333ad26ae8255e5bc6ed8de6544083f8
+    https://github.com/reactjs/ru.reactjs.org/commit/87d49497d74c6af950a651d58f44e75ccd10c835
+    https://github.com/reactjs/ru.reactjs.org/commit/0e0bfb1e9e6137acd1c7820e805fb0b034d5e637
+    https://github.com/reactjs/ru.reactjs.org/commit/d29c9b01ecfc936249a1d41d327cb68da1a39050
+    https://github.com/reactjs/ru.reactjs.org/commit/cd461b14d5c2f6b378aa8894fdd5e96904ce019b
+    https://github.com/reactjs/ru.reactjs.org/commit/9e7f585335b5b331e718acd1308d40b955735211
+    https://github.com/reactjs/ru.reactjs.org/commit/a35c8f84cc7aac698e68b0851536f1573afef18e
+    https://github.com/reactjs/ru.reactjs.org/commit/594a872bfa8200ac7a52d1e1e1c896ab22ee8ff0
+    https://github.com/reactjs/ru.reactjs.org/commit/23fd1ea729564036d9e5b903644dc829bedc36da
+    https://github.com/reactjs/ru.reactjs.org/commit/3f1b79d765d714182f99d55c2e7bb2bb5a5db9a7
+    https://github.com/reactjs/ru.reactjs.org/commit/7418c3978284510b3bfd99e2d777ee8915ff5d0e
+    https://github.com/reactjs/ru.reactjs.org/commit/d631a5ca8a8a7a56fb3b10b5bb0ca48ed80e6a1e
+    https://github.com/reactjs/ru.reactjs.org/commit/34c563775670a7f5b03bee352e10d5e08f59cc51
+    https://github.com/reactjs/ru.reactjs.org/commit/540d099130691c482cb3ab13c56050c940af63ca
+    https://github.com/reactjs/ru.reactjs.org/commit/84a360db6dce77de252866f26eb59d5716c6f4dd
+    https://github.com/reactjs/ru.reactjs.org/commit/0dcf954580bbb5b70965956397c7b629b7cf16f6
+    https://github.com/reactjs/ru.reactjs.org/commit/2d10f15413f09dea5e33c1199da328df2460cbec
+    https://github.com/reactjs/ru.reactjs.org/commit/2e78ba64ddbc1b3bd01766e6f65ef52a91f46fd7
+    https://github.com/reactjs/ru.reactjs.org/commit/339c9496974bc5119e3b008579af2174d9f9876e
+    https://github.com/reactjs/ru.reactjs.org/commit/1bdeacb9bd44a36665389280436396f688d32bd7
+    https://github.com/reactjs/ru.reactjs.org/commit/bf94c0ec1bac85c69279d653a56fa29341274126
+ - Iryna Thompson ([ithompson4](https://github.com/ithompson4))
+    https://github.com/reactjs/uk.reactjs.org/commit/6ab2e233cf4affa38db6bf25979d24ffa7b0cd63
+    https://github.com/reactjs/uk.reactjs.org/commit/efc321b703aacb435b7ec9332fbd04a6fe07ae6b
+    https://github.com/reactjs/uk.reactjs.org/commit/ed9f3329b9904252e0909f1d02e9cd54de7660a0
+    https://github.com/reactjs/uk.reactjs.org/commit/1f858b122280ef996c27fca166c7f8f870ebdf22
+ - [jakubdrozdek](https://github.com/jakubdrozdek)
+    https://github.com/reactjs/pl.reactjs.org/commit/79ed3fd20fe025cc3e9317b6a62ff0544beafe61
+    https://github.com/reactjs/pl.reactjs.org/commit/ebb5e96ea19e80c2890ec92e20066703a28cebd3
+    https://github.com/reactjs/pl.reactjs.org/commit/f64f5856f221b73505b4ce68048c2f2a575846b8
+    https://github.com/reactjs/pl.reactjs.org/commit/a091ad039c44fc246c0db66fab61cf086f7f30ac
+ - Jan Cássio ([jancassio](https://github.com/jancassio))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/639c06a202b2ed828fb424459bcbd81fe09ad87b
+ - [jbarradas](https://github.com/jbarradas)
+    https://github.com/reactjs/pt-PT.reactjs.org/commit/b5bd55ce1a9378a14176499e074ccb160d487998
+ - Jhon Mike ([jhonmike](https://github.com/jhonmike))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/afbb698e85fc7ccd760ddb0b0954967627c48ab5
+ - [jochenboesmans](https://github.com/jochenboesmans)
+    https://github.com/reactjs/nl.reactjs.org/commit/175c0f470ab2402ffe18e0bb5bea1fa90f2be9da
+    https://github.com/reactjs/nl.reactjs.org/commit/01075d1be67baeebfdbd64827802c83bfd28d8e2
+    https://github.com/reactjs/nl.reactjs.org/commit/41ae1da4435ddab3f7dcf3c9b40bb2b5cb9bdfe8
+    https://github.com/reactjs/nl.reactjs.org/commit/c9899a2622e529ca4ca8548132f56d4ce404620b
+    https://github.com/reactjs/nl.reactjs.org/commit/11b009077307a585e1e6e0f9ff6e565bb3976783
+    https://github.com/reactjs/nl.reactjs.org/commit/b47dfe5fd6e5279aae39a89657bb938269031c47
+    https://github.com/reactjs/nl.reactjs.org/commit/5def3bcbb3816f0717c483de77b88e332fc3ce93
+    https://github.com/reactjs/nl.reactjs.org/commit/6e1e56c2b6d1d4ee8c53453da7b506ed79862e93
+    https://github.com/reactjs/nl.reactjs.org/commit/610dcb54d291873bc7dde5e9b3ca0851435ada81
+    https://github.com/reactjs/nl.reactjs.org/commit/f55441cdbde5f01b6d0e75b3b45f507fd5df3eee
+ - Jose Tovar ([tmjoseantonio](https://github.com/tmjoseantonio))
+    https://github.com/reactjs/es.reactjs.org/commit/0e28af490488532b3a0e8f525463277546ab24b2
+    https://github.com/reactjs/es.reactjs.org/commit/901dac925364dd3892c13bdf1ff20d679aa18bc0
+ - Juan Pablo Valencia ([jpvg10](https://github.com/jpvg10))
+    https://github.com/reactjs/es.reactjs.org/commit/57bcddcfa15a7dd7c902430687f2932856812d23
+    https://github.com/reactjs/es.reactjs.org/commit/72c00ae80aaaaab93c4722bdf087a26e25f113fc
+ - Juanito Fatas ([JuanitoFatas](https://github.com/JuanitoFatas))
+    https://github.com/reactjs/zh-hant.reactjs.org/commit/549b398d767eac43410bb1cc9aa6b85b5c9dc27a
+    https://github.com/reactjs/zh-hant.reactjs.org/commit/5a426bcc064b24fb2ca4df1df72433a81e4159ce
+    https://github.com/reactjs/zh-hant.reactjs.org/commit/7131bb276533c45a61bf984ff4fecfe8d3e04ffc
+    https://github.com/reactjs/zh-hant.reactjs.org/commit/9dbe19aa2882937dac2a74bd6c442f46aa46ea3a
+ - Júlio Campos ([jcserracampos](https://github.com/jcserracampos))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/89157cec20450ec6cadd1b7098ebced6a92d79d4
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/2b49bcc7a1995bf9aa16d5c13afd2a05407ab604
+ - Júlio Fortunato ([juliofortunato](https://github.com/juliofortunato))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/7a3a106441c32f431a290391ec9f0f285af25e10
+ - Júlio Gomes ([JulioGsn](https://github.com/JulioGsn))
+    https://github.com/reactjs/reactjs.org/commit/6dea652a709af39e90a88be45f0f45849ab29d17
+    https://github.com/reactjs/ar.reactjs.org/commit/6dea652a709af39e90a88be45f0f45849ab29d17
+    https://github.com/reactjs/az.reactjs.org/commit/6dea652a709af39e90a88be45f0f45849ab29d17
+    https://github.com/reactjs/bg.reactjs.org/commit/6dea652a709af39e90a88be45f0f45849ab29d17
+    https://github.com/reactjs/bn.reactjs.org/commit/6dea652a709af39e90a88be45f0f45849ab29d17
+    https://github.com/reactjs/de.reactjs.org/commit/6dea652a709af39e90a88be45f0f45849ab29d17
+    https://github.com/reactjs/es.reactjs.org/commit/6dea652a709af39e90a88be45f0f45849ab29d17
+    https://github.com/reactjs/fa.reactjs.org/commit/6dea652a709af39e90a88be45f0f45849ab29d17
+    https://github.com/reactjs/fr.reactjs.org/commit/6dea652a709af39e90a88be45f0f45849ab29d17
+    https://github.com/reactjs/he.reactjs.org/commit/6dea652a709af39e90a88be45f0f45849ab29d17
+    https://github.com/reactjs/hi.reactjs.org/commit/6dea652a709af39e90a88be45f0f45849ab29d17
+    https://github.com/reactjs/hy.reactjs.org/commit/6dea652a709af39e90a88be45f0f45849ab29d17
+    https://github.com/reactjs/id.reactjs.org/commit/6dea652a709af39e90a88be45f0f45849ab29d17
+    https://github.com/reactjs/it.reactjs.org/commit/6dea652a709af39e90a88be45f0f45849ab29d17
+    https://github.com/reactjs/ja.reactjs.org/commit/6dea652a709af39e90a88be45f0f45849ab29d17
+    https://github.com/reactjs/ko.reactjs.org/commit/6dea652a709af39e90a88be45f0f45849ab29d17
+    https://github.com/reactjs/ml.reactjs.org/commit/6dea652a709af39e90a88be45f0f45849ab29d17
+    https://github.com/reactjs/ne.reactjs.org/commit/6dea652a709af39e90a88be45f0f45849ab29d17
+    https://github.com/reactjs/nl.reactjs.org/commit/6dea652a709af39e90a88be45f0f45849ab29d17
+    https://github.com/reactjs/pl.reactjs.org/commit/6dea652a709af39e90a88be45f0f45849ab29d17
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/6dea652a709af39e90a88be45f0f45849ab29d17
+    https://github.com/reactjs/pt-PT.reactjs.org/commit/6dea652a709af39e90a88be45f0f45849ab29d17
+    https://github.com/reactjs/ro.reactjs.org/commit/6dea652a709af39e90a88be45f0f45849ab29d17
+    https://github.com/reactjs/ru.reactjs.org/commit/6dea652a709af39e90a88be45f0f45849ab29d17
+    https://github.com/reactjs/si.reactjs.org/commit/6dea652a709af39e90a88be45f0f45849ab29d17
+    https://github.com/reactjs/ta.reactjs.org/commit/6dea652a709af39e90a88be45f0f45849ab29d17
+    https://github.com/reactjs/tr.reactjs.org/commit/6dea652a709af39e90a88be45f0f45849ab29d17
+    https://github.com/reactjs/uk.reactjs.org/commit/6dea652a709af39e90a88be45f0f45849ab29d17
+    https://github.com/reactjs/uz.reactjs.org/commit/6dea652a709af39e90a88be45f0f45849ab29d17
+    https://github.com/reactjs/vi.reactjs.org/commit/6dea652a709af39e90a88be45f0f45849ab29d17
+    https://github.com/reactjs/zh-hans.reactjs.org/commit/6dea652a709af39e90a88be45f0f45849ab29d17
+    https://github.com/reactjs/zh-hant.reactjs.org/commit/6dea652a709af39e90a88be45f0f45849ab29d17
+ - [karolincastano](https://github.com/karolincastano)
+    https://github.com/reactjs/es.reactjs.org/commit/23e96715bb1c792746b7ddce2c1f6eb5272c14b7
+ - Khoi-Phong Le ([phonglk](https://github.com/phonglk))
+    https://github.com/reactjs/vi.reactjs.org/commit/b2a9136e5a9be58b253711064a6c9158835cf044
+ - Khriztian Moreno ([khriztianmoreno](https://github.com/khriztianmoreno))
+    https://github.com/reactjs/es.reactjs.org/commit/64df4a38c8bee05fc140fcfa1baae70594e6506c
+ - Krasimir Tsonev ([krasimir](https://github.com/krasimir))
+    https://github.com/reactjs/bg.reactjs.org/commit/49631ccad63900aaf6bf8b18d1362f19be833d9b
+    https://github.com/reactjs/bg.reactjs.org/commit/d0d9ec04039384f1a09f262d8c43fa9f574770f0
+    https://github.com/reactjs/bg.reactjs.org/commit/5fe086a29da2ed50fb1f0e0574ee94137c4745b3
+    https://github.com/reactjs/bg.reactjs.org/commit/6eb1beee71f19f2bd43ffabe1c25a472d3b7e9cf
+    https://github.com/reactjs/bg.reactjs.org/commit/14f0df143b5d22cb6b070cf4d0d8805120face68
+    https://github.com/reactjs/bg.reactjs.org/commit/ec775155e68d71e4927b72c9bdc1faa221ad3050
+    https://github.com/reactjs/bg.reactjs.org/commit/38932800bee3e7ff25f897c64dd13c8c122057fd
+    https://github.com/reactjs/bg.reactjs.org/commit/32580d3110df919e81c90e06c3607a0e3793bc8e
+    https://github.com/reactjs/bg.reactjs.org/commit/e2abcf9e19fd1effa664ce94fd6b12e706bcf510
+    https://github.com/reactjs/bg.reactjs.org/commit/798abf6b36b0d06c91e0c63704ac0782a587cf57
+ - kuma taro ([km-tr](https://github.com/km-tr))
+    https://github.com/reactjs/ja.reactjs.org/commit/09a86b5a68e8433883e877e43ccadf950b6e7c76
+ - Kyrylo Yakymenko ([Yakimych](https://github.com/Yakimych))
+    https://github.com/reactjs/ru.reactjs.org/commit/be03210f519a7b9aeb4a1aa5b3191c174bf2b977
+    https://github.com/reactjs/ru.reactjs.org/commit/240af5186df5466ed6ea9e704bcf0b561da75cf1
+ - Lameck ([lamecksilva](https://github.com/lamecksilva))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/4a32463098874dea86adbc74c1ba092922dd0e1b
+ - Leandro Araujo ([leandrocustodio](https://github.com/leandrocustodio))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/1523349a0d8563785dfa69678f1cfde18e08236b
+ - Leonid Fedorov ([LFedorov](https://github.com/LFedorov))
+    https://github.com/reactjs/ru.reactjs.org/commit/47c08cf62fd71f3727fb6771f5e52705bf586550
+    https://github.com/reactjs/ru.reactjs.org/commit/67668d06c904e96787fdb16320a451001675397c
+    https://github.com/reactjs/ru.reactjs.org/commit/7cb9817b046bbf64c7f17bb1dd5462c9b79b67c3
+ - [lightnet328](https://github.com/lightnet328)
+    https://github.com/reactjs/ja.reactjs.org/commit/9438c079220c5ed4003b3ccbf6011854c39da1b6
+ - linhle ([ltmylinh](https://github.com/ltmylinh))
+    https://github.com/reactjs/vi.reactjs.org/commit/0db950d1eec583f622b69263fb266320a775f805
+ - Luca ([LucaBlackDragon](https://github.com/LucaBlackDragon))
+    https://github.com/reactjs/it.reactjs.org/commit/4e7963c2947dcdd2092fac30c9c193e78e469aec
+    https://github.com/reactjs/it.reactjs.org/commit/7edf4e19a2bd268464c35b4843c9dbef3b21be68
+    https://github.com/reactjs/it.reactjs.org/commit/7c679a7b046a141aae99370a0bd92e38d6b8215f
+ - Lucas de Assis Rosa ([lucasdeassis](https://github.com/lucasdeassis))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/d47a0b506cb966338787151a271ebfec276d4e47
+ - Lucas Vilela ([LucasVilela](https://github.com/LucasVilela))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/60fd4903af4abe92bb995b62867a9480a0dec2cf
+ - Luis Locon ([loconluis](https://github.com/loconluis))
+    https://github.com/reactjs/es.reactjs.org/commit/8b7047a7e1b16b9b2836ec8dfcd8214da17d4cc6
+ - Luiz Braga ([luizbraga](https://github.com/luizbraga))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/0a7ecc4ec51ec492ec0e71774ff2395f159f8ffb
+ - Luiz Felipe Gonçalves ([lffg](https://github.com/lffg))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/c964771ebab7f6ba4fd5b406d7583889ae92513c
+ - Luiz Fernando da Silva Cieslak ([luizcieslak](https://github.com/luizcieslak))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/77dedaa2a97531e28b2b101f7fd8fd5a4297790b
+ - Lázaro Alvarenga ([lazaroalvarenga](https://github.com/lazaroalvarenga))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/3eb79ddff045164bf322bb742650499943d158f4
+ - Mahmoud Ashraf ([22mahmoud](https://github.com/22mahmoud))
+    https://github.com/reactjs/ar.reactjs.org/commit/3f14dc7cf6dfaaafb7d266e18920a6a08df48659
+ - Marcelo NM ([mrcelo](https://github.com/mrcelo))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/af17c4eed45dd5f9948348451fe379a6d8dc109a
+ - Marichka (Tsiuriak) Offen ([marichka-offen](https://github.com/marichka-offen))
+    https://github.com/reactjs/ru.reactjs.org/commit/aaf64e5a11a4573c928c67763127b3b12e4e3a37
+ - Masoud Bahrami ([masoud-bahrami](https://github.com/masoud-bahrami))
+    https://github.com/reactjs/fa.reactjs.org/commit/3f3c9202a371b3a5f7c991cc68211e16b10edeb1
+    https://github.com/reactjs/fa.reactjs.org/commit/73ab5279432ee32e45afe82ee369b639e352309f
+ - Matheus Monte ([matheusmonte](https://github.com/matheusmonte))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/7b703390f0761261507e98f16e600153bee26e3d
+ - Matheus Salmi ([mathsalmi](https://github.com/mathsalmi))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/11a9d2140e20e0f722b191e8f560990baceb674f
+ - Michael Babin ([mihilbabin](https://github.com/mihilbabin))
+    https://github.com/reactjs/uk.reactjs.org/commit/0e11129bdaea99d507938ced7da195fa466541b8
+    https://github.com/reactjs/uk.reactjs.org/commit/fdf1956ea186e87a0c0a7a263c5bdfb3c8d4b8c2
+    https://github.com/reactjs/uk.reactjs.org/commit/555165f570288fc8f0764c31dfeaf6c3bcbe498a
+    https://github.com/reactjs/uk.reactjs.org/commit/82353b1ed1e3e485c47659a006cdcb9ba42f5d94
+    https://github.com/reactjs/uk.reactjs.org/commit/fc66dcbd43502fe8aec433b8352ce3781dd5f14f
+    https://github.com/reactjs/uk.reactjs.org/commit/dc8894968e818ec5bcb7d8a028400be10bd86497
+    https://github.com/reactjs/uk.reactjs.org/commit/ef4344de84a8cda7f1660a17365fde65596a57a0
+ - Michell Ocaña ([michellocana](https://github.com/michellocana))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/1c1bf7191fbb1be0c5e910fcfd40faf0dea60908
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/14ce6fe5c28b0796b125be730b595da82e4b0a3b
+ - minatko ([Heegiiny](https://github.com/Heegiiny))
+    https://github.com/reactjs/ru.reactjs.org/commit/e148fd092f3cf7576381cc7921d4ec72be859606
+    https://github.com/reactjs/ru.reactjs.org/commit/3692c0bf574e8039d1c36b15a9f79c9166bce48c
+    https://github.com/reactjs/ru.reactjs.org/commit/fcfcdd8a407160a0caacac34daf109cc89115645
+    https://github.com/reactjs/ru.reactjs.org/commit/dad4318a0556032cca0b250bb461f22239d5f57e
+    https://github.com/reactjs/ru.reactjs.org/commit/9b0dcd8549ad808319535f855059ac299bc2dba9
+    https://github.com/reactjs/ru.reactjs.org/commit/caf32e5039a6fbd8c9a6c7ea06fcf8f6e731fb88
+    https://github.com/reactjs/ru.reactjs.org/commit/5d11a79664af920ad2a2b2a12593def4ba47baab
+    https://github.com/reactjs/ru.reactjs.org/commit/c3cdc42f7b8120fc91da1bcc5ba6c905d31cb1c8
+    https://github.com/reactjs/ru.reactjs.org/commit/e3e5d1f0fd12b49656d05c6d286749dae5b967e3
+    https://github.com/reactjs/ru.reactjs.org/commit/2baab7a8c0bd925d4d852c9ce3f14becdffd17de
+    https://github.com/reactjs/ru.reactjs.org/commit/2723ec7ef14c465c28c5bccbe80b4ee20c1a2a3e
+    https://github.com/reactjs/ru.reactjs.org/commit/651897104c2b171fbca3bdbe3248ae4959e56130
+    https://github.com/reactjs/ru.reactjs.org/commit/69bca290b58c15df1c49d522f7d4ab92a1668213
+    https://github.com/reactjs/ru.reactjs.org/commit/532aaab2e961119274946bdbf7453317c14298e4
+    https://github.com/reactjs/ru.reactjs.org/commit/9bd71ae528536dc02c1882f1a4d9a14cd753cab0
+    https://github.com/reactjs/ru.reactjs.org/commit/80c9393d824be0a41e63a15685cc29d30b554838
+    https://github.com/reactjs/ru.reactjs.org/commit/c54f04afd555eaa264d4cfa87d7cb18cb29c2a4a
+    https://github.com/reactjs/ru.reactjs.org/commit/30e717c4789b1ea21fb3c03919e3ceec2285de49
+    https://github.com/reactjs/ru.reactjs.org/commit/d6ccdca1df47c7c4bb8947ef7c04f0798a35d63b
+    https://github.com/reactjs/ru.reactjs.org/commit/b4495575a5078c683dc1e6bffffc5f24e7003592
+    https://github.com/reactjs/ru.reactjs.org/commit/1800ae6c5f765e6657354a90ca20b41956ea8fcf
+ - [ModPhoenix](https://github.com/ModPhoenix)
+    https://github.com/reactjs/ru.reactjs.org/commit/dada68e51bea70aca47659966303d428bc68c299
+ - Nataly C ([cstpk](https://github.com/cstpk))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/256a8796103ca51018080e817a71334938a15d72
+ - Nurul Sundarani ([nurul3101](https://github.com/nurul3101))
+    https://github.com/reactjs/reactjs.org/commit/bbf2cb1d6ff144665b2a25744ed36b837bbac8b9
+ - Oleksii Polovyi ([ApolllonDev](https://github.com/ApolllonDev))
+    https://github.com/reactjs/uk.reactjs.org/commit/c98670a7aa543f3943198d90877ccb51dd2a6db7
+    https://github.com/reactjs/uk.reactjs.org/commit/2f1c3ebe2fcd6c9af7c16a8b61473692fceb2154
+    https://github.com/reactjs/uk.reactjs.org/commit/8c6af7c7cbbf0719141bd0ded2a62446331a64f0
+    https://github.com/reactjs/uk.reactjs.org/commit/1d8a5cb898ab6c057500b4593ce0f522ae120007
+    https://github.com/reactjs/uk.reactjs.org/commit/ddba3ee5872316cb9f85eaad0609fb9235a10b74
+    https://github.com/reactjs/uk.reactjs.org/commit/d6bbcfa53e740d2c3560deff01eb5ad0123acfd5
+    https://github.com/reactjs/uk.reactjs.org/commit/fb2fed7724925519b723cf2eeb08afc3e0499290
+    https://github.com/reactjs/uk.reactjs.org/commit/c278f8ddd33b05de32ce97254ed35653b38a037b
+    https://github.com/reactjs/uk.reactjs.org/commit/03a5cbc1581ea14a332c10a21a8c5b918a65fd83
+ - [overlookmotel](https://github.com/overlookmotel)
+    https://github.com/facebook/react/commit/ab7a67b1dc0e44bf74545ccf51a8c143b3af7402
+ - Pavinthan ([pavinthan](https://github.com/pavinthan))
+    https://github.com/reactjs/si.reactjs.org/commit/620afeeebce373c4e557fca0d256372079af37c4
+    https://github.com/reactjs/ta.reactjs.org/commit/343ac62807156518b2065d7d3669530b27495aa6
+ - Peng Jie ([neighborhood999](https://github.com/neighborhood999))
+    https://github.com/reactjs/reactjs.org/commit/4647eeacf07787ac6c4fa041bb06c3e90ea178b7
+    https://github.com/reactjs/bg.reactjs.org/commit/4647eeacf07787ac6c4fa041bb06c3e90ea178b7
+    https://github.com/reactjs/bn.reactjs.org/commit/4647eeacf07787ac6c4fa041bb06c3e90ea178b7
+    https://github.com/reactjs/it.reactjs.org/commit/4647eeacf07787ac6c4fa041bb06c3e90ea178b7
+    https://github.com/reactjs/ne.reactjs.org/commit/4647eeacf07787ac6c4fa041bb06c3e90ea178b7
+    https://github.com/reactjs/pt-PT.reactjs.org/commit/4647eeacf07787ac6c4fa041bb06c3e90ea178b7
+    https://github.com/reactjs/ro.reactjs.org/commit/4647eeacf07787ac6c4fa041bb06c3e90ea178b7
+    https://github.com/reactjs/si.reactjs.org/commit/4647eeacf07787ac6c4fa041bb06c3e90ea178b7
+    https://github.com/reactjs/tr.reactjs.org/commit/4647eeacf07787ac6c4fa041bb06c3e90ea178b7
+    https://github.com/reactjs/uk.reactjs.org/commit/4647eeacf07787ac6c4fa041bb06c3e90ea178b7
+    https://github.com/reactjs/zh-hant.reactjs.org/commit/bfc06b6e046b6f02f0a0d99b57eea03c283399d7
+    https://github.com/reactjs/zh-hant.reactjs.org/commit/51e8b32d7cd89cba5461ec42d1530b47fe5e28cc
+ - Phil ([ph1p](https://github.com/ph1p))
+    https://github.com/reactjs/de.reactjs.org/commit/52b1d31154ffabf33e3b0b2fe59d3471aeb8e639
+    https://github.com/reactjs/de.reactjs.org/commit/299ffa9b7a6bc820ffec591d69cd0dd3dcd45f35
+    https://github.com/reactjs/de.reactjs.org/commit/a857f27d17901a027dce8c13fb5a08a9f1dd12b8
+    https://github.com/reactjs/de.reactjs.org/commit/27c8065d6489185d66b79eb0e4f56891e936762d
+    https://github.com/reactjs/de.reactjs.org/commit/b42fe57c3712db19510db9ebcb5fb324aa1c82a5
+    https://github.com/reactjs/de.reactjs.org/commit/6ad4a6bb35fccfb956a29bb4acb49bbdc726c52a
+    https://github.com/reactjs/de.reactjs.org/commit/c36e788aeba7d572c64f263b461568e60f826b6f
+    https://github.com/reactjs/de.reactjs.org/commit/bcd3055641a3c9a960479af550c200c1f1d9e955
+    https://github.com/reactjs/de.reactjs.org/commit/2d0e44344e34d50622d55d4183b231beeca36f79
+    https://github.com/reactjs/de.reactjs.org/commit/3d968cbcfdddd0856d239c0dec8f2f503b86b753
+    https://github.com/reactjs/de.reactjs.org/commit/4ee08e7f49aa5fa061b461ab60f7296eb4fc86fe
+    https://github.com/reactjs/de.reactjs.org/commit/2ac6fe7b01688f15b8c104a677b423fa5676ed86
+    https://github.com/reactjs/de.reactjs.org/commit/0aa56e6405f704e3bbe6b4d84d4fba1c442f7395
+    https://github.com/reactjs/de.reactjs.org/commit/f1d1cc1ba6edf4bcba078c13ca1657da0d4c6b2b
+    https://github.com/reactjs/de.reactjs.org/commit/68744b2c108be72327f5ff0ce2c2a10c5ec3059b
+    https://github.com/reactjs/de.reactjs.org/commit/2a6162ac21143a4d4ef260024a2692bef16f8efe
+    https://github.com/reactjs/de.reactjs.org/commit/68df5201da841a3ab35470ddf802b162ae32d6a3
+    https://github.com/reactjs/de.reactjs.org/commit/bbc97d76b028d7799a6cbba8afbf98ec4cb1d09d
+    https://github.com/reactjs/de.reactjs.org/commit/cc9b09c569eef0ea8a11237ce2a453a698c65869
+    https://github.com/reactjs/de.reactjs.org/commit/368a6d16babb00f5d70864bf94edec250c7b61e0
+    https://github.com/reactjs/de.reactjs.org/commit/b4c0965d33829a1bafc03de9160b935c249cec3c
+    https://github.com/reactjs/de.reactjs.org/commit/00d37f40f4288b046765e76bfa725b42ef8c5c08
+    https://github.com/reactjs/de.reactjs.org/commit/b26eaa494e763331e4f9ef84bdbd844ae9d650d8
+    https://github.com/reactjs/de.reactjs.org/commit/c1f2d70be908145c7d5ce8dcd1d6a3cff84c3856
+    https://github.com/reactjs/de.reactjs.org/commit/107ced61fe798063e3238a924f9a376f6e39490d
+    https://github.com/reactjs/de.reactjs.org/commit/b941a40ea0bca273f80d7e3b48569585a7d2ae44
+    https://github.com/reactjs/de.reactjs.org/commit/735b6b6bedd844f5e1aaa140feb48b34a79c2e8a
+    https://github.com/reactjs/de.reactjs.org/commit/b8ebaee59325e57b060e72e5f20df5b5d90243cf
+    https://github.com/reactjs/de.reactjs.org/commit/7ecd76b16bd5ae8909909792fe06323edadd1e49
+    https://github.com/reactjs/de.reactjs.org/commit/cc452474a2a75e9a230dacf9926c10aec5ed25eb
+    https://github.com/reactjs/de.reactjs.org/commit/f040228888bf4dd4709c69ee90bcc6ddf873cdcf
+ - Phạm Dương Nhật Nam ([nampdn](https://github.com/nampdn))
+    https://github.com/reactjs/vi.reactjs.org/commit/eea60204ecf341d410e9f5632ea4f1df66f77ea2
+    https://github.com/reactjs/vi.reactjs.org/commit/89ccd572ed17a32dd83eef0286a466df837ac5c8
+ - Rafael Quintanilha ([rafaelquintanilha](https://github.com/rafaelquintanilha))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/6ef42c2892e4042a9488da21b8642c44056395f2
+ - Ramon ([Rahmon](https://github.com/Rahmon))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/9f9f40ee6a43431b07610c49c81a925810fe0a65
+ - RaVi ([rafael-vitor](https://github.com/rafael-vitor))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/1cafa29f96003c6882185f657345295517cf893b
+ - Renato Böhler ([renato-bohler](https://github.com/renato-bohler))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/1ad8a0b8993cba78af193cd949f9be6f07a0ceb9
+ - Resi Respati ([resir014](https://github.com/resir014))
+    https://github.com/reactjs/id.reactjs.org/commit/ef53970c722037b72d7697cf4a67582d73890172
+    https://github.com/reactjs/id.reactjs.org/commit/b81611c2e73434f2255707146fe095bb94928572
+    https://github.com/reactjs/id.reactjs.org/commit/8bb4b2e4cf497e7b4673f68bb2ac672a879596dc
+    https://github.com/reactjs/id.reactjs.org/commit/427c759d85094450ecae73a1b942b65486119284
+    https://github.com/reactjs/id.reactjs.org/commit/0b1fcad81e1785cea8eed5a7fc11e22f0bbdb3db
+ - Ricardo Eihara ([rhiroyuki](https://github.com/rhiroyuki))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/676f94d8066ab8a6a806a0ab4cfe39fa1d509501
+ - Rodolfo Silva ([RodolfoSilva](https://github.com/RodolfoSilva))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/41b66dd737e7b4eef121c1beff9f5c659c655297
+ - Rodrigo Ribeiro ([rodrigopr](https://github.com/rodrigopr))
+    https://github.com/facebook/react/commit/6d4038f0a638d82e9e528f02cc5a86afb410cf11
+ - Romain Linsolas ([linsolas](https://github.com/linsolas))
+    https://github.com/reactjs/fr.reactjs.org/commit/814fe6561b088e2dc540051a1525e81eb7454504
+    https://github.com/reactjs/fr.reactjs.org/commit/3bb094fea72fa397a28bffc0c919e7447efcd832
+    https://github.com/reactjs/fr.reactjs.org/commit/077043f0ffb11c8bb16746ea713e4c1fe6f5a4b3
+    https://github.com/reactjs/fr.reactjs.org/commit/a2407c94fe743b7c91be1281828baee3c3d1737c
+    https://github.com/reactjs/fr.reactjs.org/commit/fc1d0d651b68bb933ea2cb4604734b7dd0af29c3
+ - Ron Derksen ([ronderksen](https://github.com/ronderksen))
+    https://github.com/reactjs/nl.reactjs.org/commit/d2181091f3f3b48d956c806c21f183ce1b73d28b
+    https://github.com/reactjs/nl.reactjs.org/commit/374d47cc8c1f5ee3ca834e3bd553a58000004731
+    https://github.com/reactjs/nl.reactjs.org/commit/c512caee90be34a05bab93ecdf379f548ad06820
+    https://github.com/reactjs/nl.reactjs.org/commit/80c3a2805e44bccf9365497beb00e768f60f07dc
+    https://github.com/reactjs/nl.reactjs.org/commit/1fff712be2ecc7bd2fc2e10cf7d9f5f51f4f2c4f
+    https://github.com/reactjs/nl.reactjs.org/commit/2395ab2844f4b6535b01e125d985a0f9c4e57d85
+    https://github.com/reactjs/nl.reactjs.org/commit/aa6b3e800d2da54bd3ad476212cb4bf85f1827d7
+    https://github.com/reactjs/nl.reactjs.org/commit/e42287615d9844d58916120386fc6a5c8ae422ca
+    https://github.com/reactjs/nl.reactjs.org/commit/c4cbb6450f9992c08fb9250d2dff362419320ad0
+    https://github.com/reactjs/nl.reactjs.org/commit/45a13988d1c5ffb0fc4ad8cc6ea3e654098b4dbb
+ - Saransh Kataria ([saranshkataria](https://github.com/saranshkataria))
+    https://github.com/reactjs/reactjs.org/commit/99e97c33ae1a12d65c872361250f3ac92b043f38
+    https://github.com/reactjs/reactjs.org/commit/87f5b7ba905c9fa6b3e0b046d85511550ceca4aa
+    https://github.com/reactjs/reactjs.org/commit/d12ff4dd93b077c21e237e654d845f938de8e5ac
+    https://github.com/reactjs/reactjs.org/commit/e7c6e99ee70f99c68454030f6c25027c44f5b97c
+    https://github.com/reactjs/hi.reactjs.org/commit/cadd45fc977baf6e7debe089e82e488c386cb2bd
+    https://github.com/reactjs/hi.reactjs.org/commit/51c8b2a3e8276913dd9d39db19bf9a55b7894a09
+    https://github.com/reactjs/hi.reactjs.org/commit/b487228d552879ce8295294a4aad768885b59e85
+    https://github.com/reactjs/hi.reactjs.org/commit/36254db6a79cfe2dfc3fa6c125655ea17f80e852
+    https://github.com/reactjs/hi.reactjs.org/commit/4d18a9e1ef7c14dcf6367f8aa88adf32e4b79f3a
+    https://github.com/reactjs/hi.reactjs.org/commit/e6e0fe64148ad2063b3e2cce09477300571a04c3
+    https://github.com/reactjs/hi.reactjs.org/commit/7406e65fb714274a098cee04bfbb40ba650e4c5d
+    https://github.com/reactjs/hi.reactjs.org/commit/5e1fc976e220dd021cad5dadc95c09b8eae9b912
+    https://github.com/reactjs/hi.reactjs.org/commit/1d14a186cab0d31a44a35f2ef927f27e29221cee
+    https://github.com/reactjs/hi.reactjs.org/commit/ff0a0415f12ec94721fe771068f29119249ce601
+ - [satotake](https://github.com/satotake)
+    https://github.com/reactjs/ja.reactjs.org/commit/92a0e266f5f06f1b8ed232de734b0f7d12f4e22d
+    https://github.com/reactjs/ja.reactjs.org/commit/5c0f759a7f44014e5a600776c1f9fed121bf3c50
+ - Shahul Hameed ([shahulhameed00](https://github.com/shahulhameed00))
+    https://github.com/reactjs/ml.reactjs.org/commit/2f07ef02be287187ea240b51e6065811f4dcc12b
+    https://github.com/reactjs/ml.reactjs.org/commit/72d746cc55127cba79cd34195f1d8f60b773fd4f
+    https://github.com/reactjs/ml.reactjs.org/commit/8785281d714b6ec681806a904708ffeb27e9ca0a
+ - Sheralijon ([turdiyev](https://github.com/turdiyev))
+    https://github.com/reactjs/uz.reactjs.org/commit/a5ac2a0833062c9c3a3deb8e0ba3aead8cf26ad5
+    https://github.com/reactjs/uz.reactjs.org/commit/175587e4b5ee69b55eca226f5ffb6c3b256b2473
+    https://github.com/reactjs/uz.reactjs.org/commit/55e8a6d4e6a8b60b7d6bdcc546b86b0be0c78abf
+    https://github.com/reactjs/uz.reactjs.org/commit/62c17d5c5166ca787cff5612d178a5c38b468048
+    https://github.com/reactjs/uz.reactjs.org/commit/deeaff23fc63054dafe088edba6a9151c95973ba
+    https://github.com/reactjs/uz.reactjs.org/commit/2206ec352db64ba48ecf6aede3f45fcdcc6733b1
+    https://github.com/reactjs/uz.reactjs.org/commit/083ddd6127332fe1902efd9ed9a7dd677aff7263
+    https://github.com/reactjs/uz.reactjs.org/commit/2c92adf90ac8c43898fb5308052b8f2bec792e74
+    https://github.com/reactjs/uz.reactjs.org/commit/7a8ac0f6e2449b9eaa5226a7e5e87a546ddcae36
+    https://github.com/reactjs/uz.reactjs.org/commit/485acbae494f669ffe874bed3866fa3255e0f048
+    https://github.com/reactjs/uz.reactjs.org/commit/d0317f9b5be5ac71a19d19be727221a830c652b4
+    https://github.com/reactjs/uz.reactjs.org/commit/e78b23d06a50b292d4d79669169b50d51e7dea92
+    https://github.com/reactjs/uz.reactjs.org/commit/96f548acc44a85bfcd2bb923d942cc0e39012773
+ - sigfried ([sigfriedCub1990](https://github.com/sigfriedCub1990))
+    https://github.com/reactjs/es.reactjs.org/commit/227b5790a38b764d457522be01c38e2273c29368
+ - Soroush Torkzadeh ([sorousht](https://github.com/sorousht))
+    https://github.com/reactjs/fa.reactjs.org/commit/4f5e55f4f23c1d5f8a92b89f245326b4955a93ca
+    https://github.com/reactjs/fa.reactjs.org/commit/6838cde74ce3244448b6637135a57b6fb991c875
+    https://github.com/reactjs/fa.reactjs.org/commit/f8a9c04b63b77b09c9cbd1caacd4f87994997321
+    https://github.com/reactjs/fa.reactjs.org/commit/af28db58135a1bea4a528f3679515b2015801649
+    https://github.com/reactjs/fa.reactjs.org/commit/de1eeab9e96d08f92f8922d004574d9ace4104cd
+    https://github.com/reactjs/fa.reactjs.org/commit/d0775dcd90835282301f2ff70986b8a4383cd150
+    https://github.com/reactjs/fa.reactjs.org/commit/4050dec6617153d92a54881b0ee733ae8d0ca562
+    https://github.com/reactjs/fa.reactjs.org/commit/680414e4d97d63a5e39d5f53bef6bf66ed39f9d1
+    https://github.com/reactjs/fa.reactjs.org/commit/538404bafd33093301ae42052e6b1c2657ad0a3d
+    https://github.com/reactjs/fa.reactjs.org/commit/072dd238873c7c3206ee25c021a6d1fbc9492fc2
+    https://github.com/reactjs/fa.reactjs.org/commit/ff37aaecc78fba4819120371780ddca87ca7ecba
+ - Suren Atoyan ([SurenAt93](https://github.com/SurenAt93))
+    https://github.com/reactjs/hy.reactjs.org/commit/5b836e03f93fe07007d213ba8788ce6843f4056d
+    https://github.com/reactjs/hy.reactjs.org/commit/12f13f33e818023b0fc2f1dcf9dfce6a626c0bfb
+    https://github.com/reactjs/hy.reactjs.org/commit/0ec34dc6df3152e4554e2072a1bae66c244dfe58
+    https://github.com/reactjs/hy.reactjs.org/commit/c15541bc2b5208d5142b6831e098d12c72d70cd2
+    https://github.com/reactjs/hy.reactjs.org/commit/dd32a5fad4032a6483911f2189d326b46f939774
+ - Syugo Saito ([syug](https://github.com/syug))
+    https://github.com/reactjs/ja.reactjs.org/commit/d97c5932a99dcc2aa95c4ac1a57b72f06a939ef7
+ - Tauan Tathiell ([Lukyhenson](https://github.com/Lukyhenson))
+    https://github.com/reactjs/reactjs.org/commit/d9f15c2279b57562960417376ef52cdbed6cb4e8
+ - Taynan Cid ([taynancid](https://github.com/taynancid))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/ad36d27906aac6d27094d885e5bf49a2234accb6
+ - Telmo Goncalves ([telmogoncalves](https://github.com/telmogoncalves))
+    https://github.com/reactjs/pt-PT.reactjs.org/commit/a09789a8692d87ee542023973b8284c016e5be93
+    https://github.com/reactjs/pt-PT.reactjs.org/commit/067b84251126f28ff42fad59aef2a2f7bc827d48
+    https://github.com/reactjs/pt-PT.reactjs.org/commit/9ac759b65e520fe217a0af0e975e325fa213b48f
+ - Thadeu Esteves Jr ([thadeu](https://github.com/thadeu))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/bb0c149afcaba92c1b15d6a0ce15515f007ac6c1
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/ce6c5b4ed350ba47462715e4e4cd5bcfe827b5ca
+ - [thib92](https://github.com/thib92)
+    https://github.com/reactjs/fr.reactjs.org/commit/f39439248c9f245753f858d101cb0844dd195528
+    https://github.com/reactjs/fr.reactjs.org/commit/984801c95f174fed45169210ae5e10cf2fc39729
+    https://github.com/reactjs/fr.reactjs.org/commit/bd354eabd30257887ffd9b1291eb6e2373d133dc
+    https://github.com/reactjs/fr.reactjs.org/commit/aa1ecb5d6156418f96833b2cca3688dcc9cfee12
+ - Thibault Lenclos ([tlenclos](https://github.com/tlenclos))
+    https://github.com/reactjs/fr.reactjs.org/commit/b82d50e93890c119927738ff7cfd8550a0f95c90
+    https://github.com/reactjs/fr.reactjs.org/commit/0711118363e1d0973db14e1da433ea5c2dd3e158
+ - Thulio Philipe ([thulioph](https://github.com/thulioph))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/6a047e2db54e3608518aa2cf43eba25e46b73722
+ - Tiago Hermano ([tiagohermano](https://github.com/tiagohermano))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/3dbb42cea33815ed3527093f3eb34d0ec1e995d7
+ - [tigrankeshishyan](https://github.com/tigrankeshishyan)
+    https://github.com/reactjs/hy.reactjs.org/commit/f9f7c9d15911fa1206c14a9f99d713de26af9f98
+ - Vadym Nemchenko ([westanvv](https://github.com/westanvv))
+    https://github.com/reactjs/uk.reactjs.org/commit/e91db82c403128ecdca322e06de2796af05f291d
+    https://github.com/reactjs/uk.reactjs.org/commit/daff77ab9c7db1d5fbb97fda5ff997870511f16a
+    https://github.com/reactjs/uk.reactjs.org/commit/d0e1425ebaa962deb42b7b11522aeef3ecaa4ba9
+    https://github.com/reactjs/uk.reactjs.org/commit/d07c0c640977b63ba24ff28482899d0a1d03a85b
+    https://github.com/reactjs/uk.reactjs.org/commit/c9e23b3b329da5ff676d234ac2017a97c2105508
+    https://github.com/reactjs/uk.reactjs.org/commit/ab7e94d40cd0c647caae086c6609404adc1a98a3
+ - Vasiliy Vanchuk ([vvscode](https://github.com/vvscode))
+    https://github.com/reactjs/ru.reactjs.org/commit/19626dbf3347171c64bcab897c3461cec1d4211b
+    https://github.com/reactjs/ru.reactjs.org/commit/796e9f9ea915edc6b1afb3377671f35a097d4b50
+    https://github.com/reactjs/ru.reactjs.org/commit/3014555fd0d70456bd6c1257664fc8e7338ba80a
+    https://github.com/reactjs/ru.reactjs.org/commit/425aa946cae2c1a7dcf2d85af6b9da52a3b47370
+    https://github.com/reactjs/ru.reactjs.org/commit/2f98a5e17ed7dd4dafbdee196a669ca1cc4427b3
+    https://github.com/reactjs/ru.reactjs.org/commit/cdf9af0f3b4bff9a7d6a08dc0fec32ca92a70810
+    https://github.com/reactjs/ru.reactjs.org/commit/2afd87b4d84a4febca2ec3efed5eb8d147879c9d
+    https://github.com/reactjs/ru.reactjs.org/commit/ec207b1f09fa373d9b6194764715ab12da8ff884
+    https://github.com/reactjs/ru.reactjs.org/commit/d6dda3a3567a56b054c62c583153d83ac0178c9f
+    https://github.com/reactjs/ru.reactjs.org/commit/b0151bf8a9491b83cae4d4ef5217c2553c3e85ee
+    https://github.com/reactjs/ru.reactjs.org/commit/d494564155ea0daa9a59aabed86173399104294d
+ - Victor Ferraz ([victorfsf](https://github.com/victorfsf))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/ba2c63f0073cda979898dc846ce36734167095fd
+ - Vincent Lin ([bugtender](https://github.com/bugtender))
+    https://github.com/reactjs/zh-hant.reactjs.org/commit/08ce01f814fb6a9f9fd59f04936b91b073114b03
+ - Volodymyr Klymenko ([klymenkoo](https://github.com/klymenkoo))
+    https://github.com/reactjs/uk.reactjs.org/commit/82703a9e2763dc9fbdf39e87e3cdb05030c6efe5
+    https://github.com/reactjs/uk.reactjs.org/commit/7038276079f4e45a4d1faec126509c3c9c50b05e
+    https://github.com/reactjs/uk.reactjs.org/commit/18d482a7071d2a110ec22ef47a0bf94442b77468
+    https://github.com/reactjs/uk.reactjs.org/commit/424496e8a2e4f8792a748998b73696f667f7a4c8
+    https://github.com/reactjs/uk.reactjs.org/commit/cc7a122f97e6fbc480a239a870024afc135e3e14
+    https://github.com/reactjs/uk.reactjs.org/commit/91a4d9371de4eb6c23881a4a0e5a57a7aa522b6e
+    https://github.com/reactjs/uk.reactjs.org/commit/2697e27cf838dea1a6a525d0da7bc42d01355297
+    https://github.com/reactjs/uk.reactjs.org/commit/277d91a0825ab7610c41c28c811e380e8d578a36
+    https://github.com/reactjs/uk.reactjs.org/commit/9616014d2364d0a12107a99aa4f20c97ddf3603b
+    https://github.com/reactjs/uk.reactjs.org/commit/b2845fe7f9c8dfff70c2be06e786516e9e0280d7
+ - Weslley Nascimento Rocha ([WeslleyNasRocha](https://github.com/WeslleyNasRocha))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/4a8ded76f44368a15586cc25a3a981ff63833740
+ - Wooram Jun ([chatoo2412](https://github.com/chatoo2412))
+    https://github.com/reactjs/ko.reactjs.org/commit/c42b253c486897ba9a277f408493526a40e5fdfc
+ - Yusuke, Nakanishi ([superyusuke](https://github.com/superyusuke))
+    https://github.com/reactjs/ja.reactjs.org/commit/cba4ff107a51ef75417f42f80f4ad0f8b2ee1132
+ - [zhuoli99](https://github.com/zhuoli99)
+    https://github.com/facebook/react/commit/c11015ff4f610ac2924d1fc6d569a17657a404fd
+ - Ítalo Tabatinga ([italotabatinga](https://github.com/italotabatinga))
+    https://github.com/reactjs/pt-BR.reactjs.org/commit/a40e202d47b9486114df8f90692be5b867a5457a

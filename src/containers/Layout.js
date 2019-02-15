@@ -32,6 +32,7 @@ export default class Layout extends React.Component {
             content="Weekly coverage of interesting pull requests, discussions, and RFCs around React Core and React DOM."
           />
           <meta name="twitter:image" content={TwitterCardPNG} />
+          <meta name="og:image" content={TwitterCardPNG} />
           <link rel="icon" type="image/png" href={favicon} />
           <link
             href="https://fonts.googleapis.com/css?family=Merriweather"

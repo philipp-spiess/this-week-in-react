@@ -7854,6 +7854,11 @@ promise-inflight@^1.0.1:
   resolved "https://registry.yarnpkg.com/promise-inflight/-/promise-inflight-1.0.1.tgz#98472870bf228132fcbdd868129bad12c3c029e3"
   integrity sha1-mEcocL8igTL8vdhoEputEsPAKeM=
 
+promise-parallel-throttle@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/promise-parallel-throttle/-/promise-parallel-throttle-3.3.0.tgz#8fc4a0131a0b9c12470bd27c0732bc4c4ffd68a0"
+  integrity sha512-tThe11SfFXlGMhuO2D+Nba6L8FJFM17w2zwlMV1kqaLfuT2E8NMtMF1WhJBZaSpWz6V76pP/bGAj8BXTAMOncw==
+
 promise@^7.1.1:
   version "7.3.1"
   resolved "https://registry.yarnpkg.com/promise/-/promise-7.3.1.tgz#064b72602b18f90f29192b8b1bc418ffd1ebd3bf"

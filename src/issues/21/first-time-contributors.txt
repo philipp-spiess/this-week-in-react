@@ -1,0 +1,127 @@
+🔎 Searching for first time commiters in React repos between:
+
+    Fri Feb 22 2019 16:00:00 GMT+0000 (Coordinated Universal Time)
+    Fri Feb 15 2019 16:00:00 GMT+0000 (Coordinated Universal Time)
+
+🙂 Authenticated as: philipp-spiess
+ℹ️ Rate Limit: 4999/5000 (reset at 16:11:10)
+
+Potential New Authors: 61
+
+👉 matt-thomson
+👉 JoshuaScript
+👉 davidmsvetlecic
+👉 varszakaryan
+👉 joemaddalone
+👉 juanjalvarez
+👉 nutboltu
+👉 azizaismayilova
+👉 asantarissy
+👉 gurjotsingh4398
+👉 franckboudraa
+👉 lbelavoir
+👉 lssmn
+👉 martinock
+👉 vferdiansyah
+👉 galnir
+👉 galtalmor
+👉 bromy
+👉 8th713
+👉 thayashi
+👉 locol23
+👉 37108
+👉 gnujoow
+👉 nootanghimire
+👉 marcinostrouch
+👉 cvqprs
+👉 bartlomiejzuber
+👉 iamarek
+👉 TeoTN
+👉 ratheeps
+👉 majus28
+👉 gnuns
+👉 negreirosleo
+👉 moiseshilario
+👉 gabrielbs
+👉 victorsilent
+👉 steniowagner
+👉 gustavobini
+👉 ricardoerl
+👉 KevinGomezDev
+👉 Zitle-Nancy
+👉 alejandrogarciasalas
+👉 jesgarciamartinez
+👉 enesTufekci
+👉 ozcanzaferayan
+👉 helloanil
+👉 umidbekkarimov
+👉 zhaozhiming
+👉 caiyongmin
+👉 BetaMee
+👉 Ryanhui
+👉 liashchynskyi
+👉 vtereshyn
+👉 shvedovskiy
+👉 marichka-offen
+👉 Hisagr
+👉 LFedorov
+👉 agoldis
+👉 ivankayzer
+👉 dpatrikeev
+👉 RinatRezyapov
+First Time Contributors:
+ - [8th713](https://github.com/8th713)
+ - Ahmad Santarissy ([asantarissy](https://github.com/asantarissy))
+ - Alejandro García Salas ([alejandrogarciasalas](https://github.com/alejandrogarciasalas))
+ - Alessio Minichiello ([lssmn](https://github.com/lssmn))
+ - Anıl Akarsu ([helloanil](https://github.com/helloanil))
+ - [azizaismayilova](https://github.com/azizaismayilova)
+ - Bartłomiej Żuber ([bartlomiejzuber](https://github.com/bartlomiejzuber))
+ - Ben ([bromy](https://github.com/bromy))
+ - Daniil Patrikeev ([dpatrikeev](https://github.com/dpatrikeev))
+ - David Svetlecic ([davidmsvetlecic](https://github.com/davidmsvetlecic))
+ - Enes Tüfekçi ([enesTufekci](https://github.com/enesTufekci))
+ - Farhad Yasir ([nutboltu](https://github.com/nutboltu))
+ - Franck Boudraa ([franckboudraa](https://github.com/franckboudraa))
+ - Gabriel ([gabrielbs](https://github.com/gabrielbs))
+ - Gabriel Nunes ([gnuns](https://github.com/gnuns))
+ - Gal Talmor ([galtalmor](https://github.com/galtalmor))
+ - [gurjotsingh4398](https://github.com/gurjotsingh4398)
+ - Gustavo Bini ([gustavobini](https://github.com/gustavobini))
+ - [iamarek](https://github.com/iamarek)
+ - Ivan Kayzer ([ivankayzer](https://github.com/ivankayzer))
+ - Joe Maddalone ([joemaddalone](https://github.com/joemaddalone))
+ - Josh R ([JoshuaScript](https://github.com/JoshuaScript))
+ - João Victor ([victorsilent](https://github.com/victorsilent))
+ - Juan J. Alvarez ([juanjalvarez](https://github.com/juanjalvarez))
+ - Kevin Gomez ([KevinGomezDev](https://github.com/KevinGomezDev))
+ - KIM, WOOJUNG ([gnujoow](https://github.com/gnujoow))
+ - Laura ([lbelavoir](https://github.com/lbelavoir))
+ - Leonardo Negreiros de Oliveira ([negreirosleo](https://github.com/negreirosleo))
+ - [liashchynskyi](https://github.com/liashchynskyi)
+ - [majus28](https://github.com/majus28)
+ - Marcin Ostrouch ([marcinostrouch](https://github.com/marcinostrouch))
+ - Martino Christanto Khuangga ([martinock](https://github.com/martinock))
+ - Matt Thomson ([matt-thomson](https://github.com/matt-thomson))
+ - Moisés Hilario Rodrigues ([moiseshilario](https://github.com/moiseshilario))
+ - Nancy Zitle Juárez ([Zitle-Nancy](https://github.com/Zitle-Nancy))
+ - Nir ([galnir](https://github.com/galnir))
+ - Nootan Ghimire ([nootanghimire](https://github.com/nootanghimire))
+ - Oleg Shvedov ([shvedovskiy](https://github.com/shvedovskiy))
+ - Piotr Staniów ([TeoTN](https://github.com/TeoTN))
+ - Piotr Szymanski ([cvqprs](https://github.com/cvqprs))
+ - [RinatRezyapov](https://github.com/RinatRezyapov)
+ - RyanHui ([Ryanhui](https://github.com/Ryanhui))
+ - Serge Kuts ([Hisagr](https://github.com/Hisagr))
+ - Stenio Wagner ([steniowagner](https://github.com/steniowagner))
+ - Toshiyuki Hayashi ([thayashi](https://github.com/thayashi))
+ - Umidbek Karimov ([umidbekkarimov](https://github.com/umidbekkarimov))
+ - Varser Zakaryan ([varszakaryan](https://github.com/varszakaryan))
+ - Veri Ferdiansyah ([vferdiansyah](https://github.com/vferdiansyah))
+ - Vladyslav Tereshyn ([vtereshyn](https://github.com/vtereshyn))
+ - Yongmin Cai ([caiyongmin](https://github.com/caiyongmin))
+ - Yoshitaka Terazawa ([locol23](https://github.com/locol23))
+ - [zhaozhiming](https://github.com/zhaozhiming)
+ - Özcan Zafer AYAN ([ozcanzaferayan](https://github.com/ozcanzaferayan))
+ - 橡树上 ([BetaMee](https://github.com/BetaMee))
+ - 湊 ([37108](https://github.com/37108))

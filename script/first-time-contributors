@@ -16,7 +16,7 @@ const REACT_REPOS = [
   ["reactjs", "bg.reactjs.org"],
   ["reactjs", "bn.reactjs.org"],
   ["reactjs", "de.reactjs.org"],
-  ["reactjs", "el.reactjs.org"], // Greek
+  ["reactjs", "el.reactjs.org"],
   ["reactjs", "es.reactjs.org"],
   ["reactjs", "fa.reactjs.org"],
   ["reactjs", "fr.reactjs.org"],
@@ -29,7 +29,6 @@ const REACT_REPOS = [
   ["reactjs", "ko.reactjs.org"],
   ["reactjs", "ml.reactjs.org"],
   ["reactjs", "ne.reactjs.org"],
-  ["reactjs", "ne.reactjs.org"], // Nepali
   ["reactjs", "nl.reactjs.org"],
   ["reactjs", "pl.reactjs.org"],
   ["reactjs", "pt-BR.reactjs.org"],

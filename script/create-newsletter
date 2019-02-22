@@ -2,7 +2,8 @@
 
 const { URL } = require("url");
 const md = require("markdown-it")({
-  linkify: true
+  linkify: true,
+  html: true,
 });
 const fs = require("fs");
 const mjml2html = require("mjml");
@@ -40,6 +41,7 @@ const MAILCHIMP_HEADER_IMAGES = {
   18: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/2c0d5aaa-0ea7-4d93-93ca-7e1196d04827.png",
   19: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/d30817ff-952a-4641-9fba-e91c69c2ab11.png",
   20: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/30bebe0a-56e7-4fc6-b391-f0dc85abb1b5.png",
+  21: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/a2843cc8-6db6-4ca8-8270-0c11202f062c.png",
 };
 
 if (!issue) {

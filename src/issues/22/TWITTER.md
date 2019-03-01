@@ -58,7 +58,9 @@ https://github.com/facebook/react/pull/14906
 
 ---
 
-⏳ To avoid unnecessary checks to shouldYield, Scheduler callbacks now receive a didTimeout argument.
+⏳ The Scheduler callbacks now receive a didTimeout argument.
+
+This should help in avoiding unnecessary checks to shouldYield.
 
 https://github.com/facebook/react/pull/14931
 
@@ -71,7 +73,6 @@ Check out the PR for an example of when this is useful.
 https://github.com/facebook/react/pull/14967
 
 ---
-
 
 ⚓️ This PR improves messaging for when you try to pass literals with the exhaustive-deps ESLint rule.
 

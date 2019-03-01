@@ -1,4 +1,4 @@
-It’s Friday again and you know what that means: Time for This Week in React ⚛️.
+It’s Friday and you all know what that means: Time for This Week in React ⚛️.
 
 ---
 
@@ -7,6 +7,14 @@ It’s Friday again and you know what that means: Time for This Week in React �
 A new blog post explains the React documentation internationalization effort and mentions the first three live websites: [Spanish](https://es.reactjs.org/), [Japanese](https://ja.reactjs.org/), and [Brazilian Portuguese](https://pt-br.reactjs.org/).
 
 https://reactjs.org/blog/2019/02/23/is-react-translated-yet.html
+
+---
+
+## 💼 RFC: Focus Management API
+
+Devon Govett ([devongovett](https://github.com/devongovett)) worked on an RFC for a new API to improve focus handling in React. Feedback welcome!
+
+https://github.com/reactjs/rfcs/pull/109
 
 ---
 
@@ -87,11 +95,11 @@ https://github.com/facebook/react/pull/14959
 
 ---
 
-## 👏 55 First-Time Contributors
+## 👏 50 First-Time Contributors
 
 New contributors land their first PR in the [react](https://github.com/facebook/react), [devtools](https://github.com/facebook/react-devtools), or [documentation](https://github.com/reactjs/reactjs.org) repositories every week.
 
-https://gist.github.com/philipp-spiess/cf49fa6dac04dd4ee4146cf25b7b1a80
+https://gist.github.com/philipp-spiess/1ece12ad598377bf934d9acdf6a90854
 
 ---
 

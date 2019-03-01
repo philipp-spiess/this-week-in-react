@@ -1,8 +1,8 @@
-💉️ It’s Friday again which means it’s time for another dose of React news.
+⚛️ It’s Friday and you all know what that means: Time for This Week in React.
 
-📌 eslint-plugin-react-hooks/exhaustive-deps
-🤹‍♀️ act() Examples
-🗺 RFC: createElement Changes
+🌏 Is React Translated Yet? ¡Sí! Sim! はい！
+💼 RFC: Focus Management API
+⏱ Mock Build of Scheduler
 👀 and more!
 
 👉💌 Read the thread below and subscribe at this-week-in-react.org. 👇
@@ -18,6 +18,14 @@ A new blog post explains the React documentation internationalization effort and
 👉 https://pt-br.reactjs.org/
 
 https://reactjs.org/blog/2019/02/23/is-react-translated-yet.html
+
+---
+
+💼 Devon Govett (@devongovett) worked on an RFC for a new API to improve focus handling in React.
+
+Feedback welcome!
+
+https://github.com/reactjs/rfcs/pull/109
 
 ---
 
@@ -98,12 +106,13 @@ https://github.com/facebook/react/pull/14959
 
 Thank you to all these amazing people that help to jump-start our internationalization effort and push React forward every week. You are incredible. 💕
 
-https://git.io/fhFHj
+https://git.io/fhA4q
 
 ---
 
-With that we’re wrapping up another phenomenal week.
+And with that we’re wrapping up another week.
 
-See you all next week!
+
+I wish you all a wonderful start into the weekend.
 
 👋

@@ -20,13 +20,17 @@ const REACT_REPOS = [
   ["reactjs", "es.reactjs.org"],
   ["reactjs", "fa.reactjs.org"],
   ["reactjs", "fr.reactjs.org"],
+  ["reactjs", "gu.reactjs.org"],
   ["reactjs", "he.reactjs.org"],
   ["reactjs", "hi.reactjs.org"],
   ["reactjs", "hy.reactjs.org"],
   ["reactjs", "id.reactjs.org"],
   ["reactjs", "it.reactjs.org"],
   ["reactjs", "ja.reactjs.org"],
+  ["reactjs", "km.reactjs.org"],
   ["reactjs", "ko.reactjs.org"],
+  ["reactjs", "ku.reactjs.org"],
+  ["reactjs", "lt.reactjs.org"],
   ["reactjs", "ml.reactjs.org"],
   ["reactjs", "ne.reactjs.org"],
   ["reactjs", "nl.reactjs.org"],
@@ -37,12 +41,14 @@ const REACT_REPOS = [
   ["reactjs", "ru.reactjs.org"],
   ["reactjs", "si.reactjs.org"],
   ["reactjs", "ta.reactjs.org"],
+  ["reactjs", "te.reactjs.org"],
   ["reactjs", "tr.reactjs.org"],
   ["reactjs", "uk.reactjs.org"],
+  ["reactjs", "ur.reactjs.org"],
   ["reactjs", "uz.reactjs.org"],
   ["reactjs", "vi.reactjs.org"],
   ["reactjs", "zh-hans.reactjs.org"],
-  ["reactjs", "zh-hant.reactjs.org"]
+  ["reactjs", "zh-hant.reactjs.org"],
 ];
 
 const KNOWN_AUTHORS_FILE = "./src/known-authors.json";

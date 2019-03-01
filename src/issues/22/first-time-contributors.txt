@@ -1,0 +1,150 @@
+🔎 Searching for first time commiters in React repos between:
+
+    Fri Mar 01 2019 16:00:00 GMT+0000 (Coordinated Universal Time)
+    Fri Feb 22 2019 16:00:00 GMT+0000 (Coordinated Universal Time)
+
+🙂 Authenticated as: philipp-spiess
+ℹ️ Rate Limit: 4999/5000 (reset at 16:47:03)
+
+Potential New Authors: 89
+
+👉 aem
+👉 M0nica
+👉 ManonMet
+👉 pkayokay
+👉 markspolakovs
+👉 jennschiffer
+👉 gatzjames
+👉 john-d-pelingo
+👉 pavkout
+👉 pvinis
+👉 nutboltu
+👉 thtg88
+👉 JohannesKlauss
+👉 codejet
+👉 jahe
+👉 miku86
+👉 asantarissy
+👉 aladin002dz
+👉 ahmedelgabri
+👉 sazzadsazib
+👉 lunmay
+👉 mishelashala
+👉 jonathanpalma
+👉 caal-15
+👉 itayyehezkel
+👉 galtalmor
+👉 erezrokah
+👉 galnir
+👉 dormd
+👉 bentlusty
+👉 lengsovandara
+👉 Bunlong
+👉 zahrajoulaei
+👉 uxitten
+👉 Mhmdrza
+👉 numb86
+👉 oimo23
+👉 akameco
+👉 takanorip
+👉 satotake
+👉 notherno
+👉 lssmn
+👉 ronderksen
+👉 ENvironmentSet
+👉 taggon
+👉 simsim0709
+👉 cadenzah
+👉 chatoo2412
+👉 gnujoow
+👉 cvqprs
+👉 marcinostrouch
+👉 isuruAb
+👉 WeslleyNasRocha
+👉 vhfmag
+👉 boniattirodrigo
+👉 gnuns
+👉 ApolllonDev
+👉 Kurzdor
+👉 vtereshyn
+👉 Kiwka
+👉 liashchynskyi
+👉 alioguzhan
+👉 helloanil
+👉 ozcanzaferayan
+👉 Poseid10ur
+👉 emreyalvac
+👉 Ryanhui
+👉 zhaozhiming
+👉 MrPluto
+👉 postor
+👉 chenjie3323
+👉 yuqingc
+👉 seognil
+👉 charlyx
+👉 mikaoelitiana
+👉 thib92
+👉 rricard
+👉 tesler
+👉 mzhukov1973
+👉 astralpunch
+👉 ModPhoenix
+👉 ntishkevich
+👉 echobrain
+👉 Azat74
+👉 AlLevykin
+👉 Hisagr
+👉 dmtrKovalenko
+👉 shonoru
+👉 RenatRysaev
+First Time Contributors:
+ - Adam Markon ([aem](https://github.com/aem))
+ - Ahmed El Gabri ([ahmedelgabri](https://github.com/ahmedelgabri))
+ - [akameco](https://github.com/akameco)
+ - Ali Oğuzhan Yıldız ([alioguzhan](https://github.com/alioguzhan))
+ - Anton Vinogradov ([tesler](https://github.com/tesler))
+ - Azat Ayupov ([Azat74](https://github.com/Azat74))
+ - Behnam Mohammadi (بهنام محمدی) ([uxitten](https://github.com/uxitten))
+ - [bentlusty](https://github.com/bentlusty)
+ - [Bunlong](https://github.com/Bunlong)
+ - Dmitriy Kovalenko ([dmtrKovalenko](https://github.com/dmtrKovalenko))
+ - Dor Moshe ([dormd](https://github.com/dormd))
+ - [echobrain](https://github.com/echobrain)
+ - Emre YALVAÇ ([emreyalvac](https://github.com/emreyalvac))
+ - [erezrokah](https://github.com/erezrokah)
+ - Ilkwon Sim ([simsim0709](https://github.com/simsim0709))
+ - [isuruAb](https://github.com/isuruAb)
+ - Itay Yehezkel ([itayyehezkel](https://github.com/itayyehezkel))
+ - Jaewon Seo ([ENvironmentSet](https://github.com/ENvironmentSet))
+ - Jannik Hell ([jahe](https://github.com/jahe))
+ - Jimmy Chen ([chenjie3323](https://github.com/chenjie3323))
+ - Johannes Klauss ([JohannesKlauss](https://github.com/JohannesKlauss))
+ - Jonathan Palma ([jonathanpalma](https://github.com/jonathanpalma))
+ - junjun ([postor](https://github.com/postor))
+ - Leng Sovandara ([lengsovandara](https://github.com/lengsovandara))
+ - [lunmay](https://github.com/lunmay)
+ - [ManonMet](https://github.com/ManonMet)
+ - Marco ([thtg88](https://github.com/thtg88))
+ - Maxim ([mzhukov1973](https://github.com/mzhukov1973))
+ - Mhmdrz_a ([Mhmdrza](https://github.com/Mhmdrza))
+ - Michell Ayala ([mishelashala](https://github.com/mishelashala))
+ - [miku86](https://github.com/miku86)
+ - [oimo23](https://github.com/oimo23)
+ - Olena Sovyn ([Kiwka](https://github.com/Kiwka))
+ - Oliver Schmidt ([codejet](https://github.com/codejet))
+ - Onur Kapçık ([Poseid10ur](https://github.com/Poseid10ur))
+ - Paul Kim ([pkayokay](https://github.com/pkayokay))
+ - Pavlo Ekshmidt ([Kurzdor](https://github.com/Kurzdor))
+ - Pavlos Koutoglou ([pavkout](https://github.com/pavkout))
+ - Pavlos Vinieratos ([pvinis](https://github.com/pvinis))
+ - pluto ([MrPluto](https://github.com/MrPluto))
+ - Renat Rysaev ([RenatRysaev](https://github.com/RenatRysaev))
+ - Rodrigo Boniatti ([boniattirodrigo](https://github.com/boniattirodrigo))
+ - santa claus ([jennschiffer](https://github.com/jennschiffer))
+ - Sazzad Sazib ([sazzadsazib](https://github.com/sazzadsazib))
+ - seognil LC ([seognil](https://github.com/seognil))
+ - Takaaki KITANO ([notherno](https://github.com/notherno))
+ - [takanorip](https://github.com/takanorip)
+ - Victor Magalhães ([vhfmag](https://github.com/vhfmag))
+ - Yuqing Chen ([yuqingc](https://github.com/yuqingc))
+ - Zahra ([zahrajoulaei](https://github.com/zahrajoulaei))

@@ -4,57 +4,10 @@
     Fri Mar 01 2019 16:00:00 GMT+0000 (Coordinated Universal Time)
 
 🙂 Authenticated as: philipp-spiess
-ℹ️ Rate Limit: 4999/5000 (reset at 18:24:38)
+ℹ️ Rate Limit: 3010/5000 (reset at 18:24:38)
 
 Potential New Authors: 47
 
-👉 msand
-👉 arvindeva
-👉 RaedsLab
-👉 iRayan7
-👉 frangaliana
-👉 yashguptaz
-👉 TitusEfferian
-👉 Lukereonal
-👉 damienxy
-👉 fnoah
-👉 Manugal
-👉 sJJdGG
-👉 matoruru
-👉 hand-dot
-👉 MDJuniooor
-👉 BKJang
-👉 hiddenest
-👉 hyunalee419
-👉 AlexKoala
-👉 purelledhand
-👉 noahluftyang
-👉 HeroMohammed
-👉 layik
-👉 broosk1993
-👉 Goran216
-👉 arekmaz
-👉 forresst
-👉 TheTonnio
-👉 victorpavlov
-👉 lucianomlima
-👉 vinicius98s
-👉 lhcgoncalves
-👉 welll
-👉 thefrontendwizard
-👉 gutofoletto
-👉 zhangxd6
-👉 ChloeLiang
-👉 baxtergu
-👉 zcfan
-👉 dear-lizhihua
-👉 haimengzhang
-👉 Koopos
-👉 musewick
-👉 DopustimVladimir
-👉 AntonSerous
-👉 acilsd
-👉 akhudiakov97
 First Time Contributors:
  - [acilsd](https://github.com/acilsd)
  - [akhudiakov97](https://github.com/akhudiakov97)

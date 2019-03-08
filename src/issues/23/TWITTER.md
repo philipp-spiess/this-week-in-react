@@ -17,8 +17,6 @@ https://twitter.com/dan_abramov/status/1103744582074990594
 
 ---
 
-##  New DevTools Architecture Overview
-
 🐞 Brian updated the new DevTools Architecture Overview with the goal of minimizing bridge traffic and avoid serialization overhead.
 
 https://github.com/bvaughn/react-devtools-experimental/blob/master/OVERVIEW.md

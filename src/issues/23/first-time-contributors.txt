@@ -1,0 +1,140 @@
+🔎 Searching for first time commiters in React repos between:
+
+    Fri Mar 08 2019 16:00:00 GMT+0000 (Coordinated Universal Time)
+    Fri Mar 01 2019 16:00:00 GMT+0000 (Coordinated Universal Time)
+
+🙂 Authenticated as: philipp-spiess
+ℹ️ Rate Limit: 4999/5000 (reset at 17:26:05)
+
+Potential New Authors: 82
+
+👉 iRayan7
+👉 ahmedfarag36
+👉 arvindeva
+👉 RaedsLab
+👉 msand
+👉 mishelashala
+👉 frangaliana
+👉 maudel
+👉 shakib609
+👉 pavkout
+👉 damienxy
+👉 fnoah
+👉 JohannesKlauss
+👉 codejet
+👉 TitusEfferian
+👉 Lukereonal
+👉 yashguptaz
+👉 andrey-andreev
+👉 Manugal
+👉 sJJdGG
+👉 masoud-bahrami
+👉 itayyehezkel
+👉 HeroMohammed
+👉 layik
+👉 broosk1993
+👉 Goran216
+👉 simsim0709
+👉 MDJuniooor
+👉 BKJang
+👉 hiddenest
+👉 hyunalee419
+👉 hg-pyun
+👉 AlexKoala
+👉 Godsenal
+👉 purelledhand
+👉 noahluftyang
+👉 arekmaz
+👉 g12i
+👉 uehaj
+👉 matoruru
+👉 hand-dot
+👉 pachabhaiya
+👉 Kurzdor
+👉 TheTonnio
+👉 victorpavlov
+👉 Nab69
+👉 RobinCsl
+👉 LaureRC
+👉 forresst
+👉 lbelavoir
+👉 damusnet
+👉 alioguzhan
+👉 aykutkardas
+👉 mahmutkaya
+👉 Poseid10ur
+👉 ntban15
+👉 jhonmike
+👉 lucianomlima
+👉 httpiago
+👉 vinicius98s
+👉 crisgon
+👉 lhcgoncalves
+👉 welll
+👉 thefrontendwizard
+👉 gutofoletto
+👉 ivan-ha
+👉 zhangxd6
+👉 ChloeLiang
+👉 baxtergu
+👉 zcfan
+👉 dear-lizhihua
+👉 haimengzhang
+👉 Koopos
+👉 RenatRysaev
+👉 musewick
+👉 DmitryMarkov
+👉 mikhail-hatsilau
+👉 DopustimVladimir
+👉 AntonSerous
+👉 Heegiiny
+👉 acilsd
+👉 akhudiakov97
+First Time Contributors:
+ - [acilsd](https://github.com/acilsd)
+ - [akhudiakov97](https://github.com/akhudiakov97)
+ - Alan Zhang ([zcfan](https://github.com/zcfan))
+ - [AlexKoala](https://github.com/AlexKoala)
+ - Anton Babenko ([TheTonnio](https://github.com/TheTonnio))
+ - Anton Serous ([AntonSerous](https://github.com/AntonSerous))
+ - Arek Mazurkiewicz ([arekmaz](https://github.com/arekmaz))
+ - Arvindeva Wibisono ([arvindeva](https://github.com/arvindeva))
+ - Broosk Hamarash ([broosk1993](https://github.com/broosk1993))
+ - Chanhee Lee ([hiddenest](https://github.com/hiddenest))
+ - Emanuele Gallo ([Manugal](https://github.com/Manugal))
+ - Euihyun_Yang ([noahluftyang](https://github.com/noahluftyang))
+ - Forresst ([forresst](https://github.com/forresst))
+ - Fran Galiana ([frangaliana](https://github.com/frangaliana))
+ - Goran Jawdat ([Goran216](https://github.com/Goran216))
+ - Guto Foletto ([gutofoletto](https://github.com/gutofoletto))
+ - HandDot ([hand-dot](https://github.com/hand-dot))
+ - Hero Mohammed ([HeroMohammed](https://github.com/HeroMohammed))
+ - Hyuna Lee ([hyunalee419](https://github.com/hyunalee419))
+ - Juliano Rafael ([thefrontendwizard](https://github.com/thefrontendwizard))
+ - [Koopos](https://github.com/Koopos)
+ - Layik Hama ([layik](https://github.com/layik))
+ - Liang Xin, Chloe ([ChloeLiang](https://github.com/ChloeLiang))
+ - lizhihua ([dear-lizhihua](https://github.com/dear-lizhihua))
+ - Luciano Lima ([lucianomlima](https://github.com/lucianomlima))
+ - Luiz Gonçalves ([lhcgoncalves](https://github.com/lhcgoncalves))
+ - Luke Reonaldo ([Lukereonal](https://github.com/Lukereonal))
+ - Maga Alkhasov ([musewick](https://github.com/musewick))
+ - matcha_mango ([haimengzhang](https://github.com/haimengzhang))
+ - [matoruru](https://github.com/matoruru)
+ - Meike Pollakowski ([damienxy](https://github.com/damienxy))
+ - Mikael Sand ([msand](https://github.com/msand))
+ - Noah Fleischmann ([fnoah](https://github.com/fnoah))
+ - PaulJ ([BKJang](https://github.com/BKJang))
+ - Raed CHAMMAM ([RaedsLab](https://github.com/RaedsLab))
+ - Rayan Aldafas ([iRayan7](https://github.com/iRayan7))
+ - Shengnan ([baxtergu](https://github.com/baxtergu))
+ - [sJJdGG](https://github.com/sJJdGG)
+ - SoHye Choi ([purelledhand](https://github.com/purelledhand))
+ - Titus Efferian ([TitusEfferian](https://github.com/TitusEfferian))
+ - Uco ([MDJuniooor](https://github.com/MDJuniooor))
+ - Victor Pavlov ([victorpavlov](https://github.com/victorpavlov))
+ - Vinicius Sales ([vinicius98s](https://github.com/vinicius98s))
+ - Vladimir ([DopustimVladimir](https://github.com/DopustimVladimir))
+ - Wellington Soares ([welll](https://github.com/welll))
+ - Xiangdong Zhang ([zhangxd6](https://github.com/zhangxd6))
+ - Yash ([yashguptaz](https://github.com/yashguptaz))

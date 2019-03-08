@@ -4,76 +4,45 @@
     Fri Mar 01 2019 16:00:00 GMT+0000 (Coordinated Universal Time)
 
 🙂 Authenticated as: philipp-spiess
-ℹ️ Rate Limit: 4999/5000 (reset at 17:26:05)
+ℹ️ Rate Limit: 4999/5000 (reset at 18:24:38)
 
-Potential New Authors: 82
+Potential New Authors: 47
 
-👉 iRayan7
-👉 ahmedfarag36
+👉 msand
 👉 arvindeva
 👉 RaedsLab
-👉 msand
-👉 mishelashala
+👉 iRayan7
 👉 frangaliana
-👉 maudel
-👉 shakib609
-👉 pavkout
-👉 damienxy
-👉 fnoah
-👉 JohannesKlauss
-👉 codejet
+👉 yashguptaz
 👉 TitusEfferian
 👉 Lukereonal
-👉 yashguptaz
-👉 andrey-andreev
+👉 damienxy
+👉 fnoah
 👉 Manugal
 👉 sJJdGG
-👉 masoud-bahrami
-👉 itayyehezkel
-👉 HeroMohammed
-👉 layik
-👉 broosk1993
-👉 Goran216
-👉 simsim0709
+👉 matoruru
+👉 hand-dot
 👉 MDJuniooor
 👉 BKJang
 👉 hiddenest
 👉 hyunalee419
-👉 hg-pyun
 👉 AlexKoala
-👉 Godsenal
 👉 purelledhand
 👉 noahluftyang
+👉 HeroMohammed
+👉 layik
+👉 broosk1993
+👉 Goran216
 👉 arekmaz
-👉 g12i
-👉 uehaj
-👉 matoruru
-👉 hand-dot
-👉 pachabhaiya
-👉 Kurzdor
+👉 forresst
 👉 TheTonnio
 👉 victorpavlov
-👉 Nab69
-👉 RobinCsl
-👉 LaureRC
-👉 forresst
-👉 lbelavoir
-👉 damusnet
-👉 alioguzhan
-👉 aykutkardas
-👉 mahmutkaya
-👉 Poseid10ur
-👉 ntban15
-👉 jhonmike
 👉 lucianomlima
-👉 httpiago
 👉 vinicius98s
-👉 crisgon
 👉 lhcgoncalves
 👉 welll
 👉 thefrontendwizard
 👉 gutofoletto
-👉 ivan-ha
 👉 zhangxd6
 👉 ChloeLiang
 👉 baxtergu
@@ -81,13 +50,9 @@ Potential New Authors: 82
 👉 dear-lizhihua
 👉 haimengzhang
 👉 Koopos
-👉 RenatRysaev
 👉 musewick
-👉 DmitryMarkov
-👉 mikhail-hatsilau
 👉 DopustimVladimir
 👉 AntonSerous
-👉 Heegiiny
 👉 acilsd
 👉 akhudiakov97
 First Time Contributors:

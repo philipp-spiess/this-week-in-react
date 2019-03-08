@@ -171,7 +171,7 @@ let authorDB = {};
   // any of the repos
   await Throttle.all(
     potentialNewAuthors.map(potentialAuthor => async () => {
-      console.log(`👉 ${potentialAuthor}`);
+      // console.log(`👉 ${potentialAuthor}`);
 
       let hasMadeCommitsBefore = false;
 

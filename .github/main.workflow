@@ -3,13 +3,22 @@ workflow "Build and Deploy" {
   resolves = ["Deploy"]
 }
 
-action "Build" {
+action "Install" {
   uses = "nuxt/actions-yarn@master"
   args = "install"
 }
 
-action "Deploy" {
-  needs = "Build"
+action "Build" {
+  needs = "Install"
   uses = "nuxt/actions-yarn@master"
-  args = "deploy"
+  args = "build"
+}
+
+action "Deploy to GitHub Pages" {
+  needs = "Build"
+  uses = "maxheld83/ghpages@v0.2.1"
+  env = {
+    BUILD_DIR = "dist/"
+  }
+  secrets = ["GH_PAT"]
 }

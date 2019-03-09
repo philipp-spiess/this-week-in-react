@@ -4,12 +4,12 @@ workflow "Build and Deploy" {
 }
 
 action "Build" {
-  uses = "actions/npm@master"
+  uses = "nuxt/actions-yarn@master"
   args = "install"
 }
 
 action "Deploy" {
   needs = "Build"
-  uses = "actions/npm@master"
-  args = "run deploy"
+  uses = "nuxt/actions-yarn@master"
+  args = "deploy"
 }

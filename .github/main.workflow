@@ -1,6 +1,6 @@
 workflow "Build and Deploy" {
   on = "push"
-  resolves = ["Deploy to GitHub Pages"]
+  resolves = ["Deploy"]
 }
 
 action "Install" {
@@ -14,8 +14,14 @@ action "Build" {
   args = "build"
 }
 
-action "Deploy to GitHub Pages" {
-  needs = "Build"
+action "Filter" {
+  uses = "actions/bin/filter@master"
+  needs = ["Build"]
+  args = "branch master"
+}
+
+action "Deploy" {
+  needs = "Filter"
   uses = "maxheld83/ghpages@v0.2.1"
   env = {
     BUILD_DIR = "dist/"

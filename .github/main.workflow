@@ -1,6 +1,6 @@
 workflow "Build and Deploy" {
   on = "push"
-  resolves = ["Deploy"]
+  resolves = ["Deploy to GitHub Pages"]
 }
 
 action "Install" {

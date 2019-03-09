@@ -2,12 +2,13 @@ import "./App.css";
 import { clicky } from "../util/clicky.js";
 import { Helmet } from "react-helmet";
 import favicon from "../images/favicon.png";
-import LogoPNG from "../images/logo.png";
+import LogoPng from "../images/logo.png";
+import LogoWithBgJpeg from "../images/logo-with-bg.jpg";
 import React from "react";
-import TelegramSVG from "../images/telegram.svg";
-import TwitterCardPNG from "../images/twitter-card.png";
-import TwitterSVG from "../images/twitter.svg";
-import SubscribeForm from './SubscribeForm';
+import TelegramSvg from "../images/telegram.svg";
+import TwitterCardPng from "../images/twitter-card.png";
+import TwitterSvg from "../images/twitter.svg";
+import SubscribeForm from "./SubscribeForm";
 
 export default class Layout extends React.Component {
   componentDidMount() {
@@ -31,8 +32,8 @@ export default class Layout extends React.Component {
             name="twitter:description"
             content="Weekly coverage of interesting pull requests, discussions, and RFCs around React Core and React DOM."
           />
-          <meta name="twitter:image" content={TwitterCardPNG} />
-          <meta name="og:image" content={TwitterCardPNG} />
+          <meta name="twitter:image" content={TwitterCardPng} />
+          <meta name="og:image" content={TwitterCardPng} />
           <link rel="icon" type="image/png" href={favicon} />
           <link
             href="https://fonts.googleapis.com/css?family=Merriweather"
@@ -42,8 +43,9 @@ export default class Layout extends React.Component {
 
         <div className="container">
           <div className="left">
+            <img src={LogoWithBgJpeg} hidden style={{ display: "none" }} lazyload />
             <img
-              src={LogoPNG}
+              src={LogoPng}
               width={180}
               className="logo"
               alt="This Week in React"
@@ -63,7 +65,7 @@ export default class Layout extends React.Component {
                 <li>
                   <a href="https://twitter.com/PhilippSpiess">
                     <span className="button-icon">
-                      <img src={TwitterSVG} width="30px" alt="Twitter" />
+                      <img src={TwitterSvg} width="30px" alt="Twitter" />
                     </span>
                     Follow on Twitter
                   </a>
@@ -71,7 +73,7 @@ export default class Layout extends React.Component {
                 <li>
                   <a href="https://t.me/this_week_in_react">
                     <span className="button-icon">
-                      <img src={TelegramSVG} width="30px" alt="Telegram" />
+                      <img src={TelegramSvg} width="30px" alt="Telegram" />
                     </span>
                     Read on Telegram
                   </a>

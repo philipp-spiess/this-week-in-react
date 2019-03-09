@@ -27,7 +27,8 @@ body {
   margin-top: 50px;
 }
 
-.left p, .left .form-wrapper {
+.left p,
+.left .form-wrapper {
   max-width: 450px;
   width: 80%;
   line-height: 2;
@@ -58,8 +59,6 @@ body {
 }
 
 .right-header {
-  width: calc(80% - 40px);
-  max-width: 560px;
   border: none;
   margin: 20px 0;
   margin-bottom: 0;
@@ -67,7 +66,7 @@ body {
   align-items: center;
   color: white;
   padding: 10px 20px;
-  background: linear-gradient(6deg, #420096 -50%, #00025c 150%);
+  background: linear-gradient(6deg, #420096 -0%, #00025c 150%);
 }
 
 .current-issue {
@@ -75,7 +74,7 @@ body {
   padding: 0;
 }
 
-.current-issue  h1 {
+.current-issue h1 {
   margin: 0;
   line-height: 1.5rem;
   font-size: 1.5rem;
@@ -104,11 +103,10 @@ body {
   font-size: 1rem;
 }
 
-
 .pitch {
   max-width: 500px;
   width: 80%;
-  text-align: justify;
+  text-align: left;
 }
 
 a {
@@ -145,7 +143,8 @@ form {
   display: flex;
 }
 
-input[type="email"], button {
+input[type="email"],
+button {
   margin: 10px 0;
   font-family: "Merriweather", serif;
   font-size: 18px;
@@ -153,7 +152,7 @@ input[type="email"], button {
 
 input[type="email"] {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 3px;
   border: 1px solid #080048;
   padding: 10px 20px;
   flex-grow: 1;
@@ -165,13 +164,13 @@ input[type="email"] {
 input[type="email"]:hover,
 input[type="email"]:active,
 input[type="email"]:focus {
-  box-shadow: 0 24px 48px 10px rgba(35,51,64,.35);
+  box-shadow: 0 24px 48px 10px rgba(35, 51, 64, 0.35);
   transform: translateY(-2px);
 }
 
 button {
   background-color: #ffcf82;
-  border-radius: 10px;
+  border-radius: 3px;
   color: #00025c;
   text-decoration: none;
   border: 1px solid #080048;
@@ -188,7 +187,7 @@ button {
 button:hover,
 button:active,
 button:focus {
-  box-shadow: 0 24px 48px 10px rgba(35,51,64,.35);
+  box-shadow: 0 24px 48px 10px rgba(35, 51, 64, 0.35);
   transform: translateY(-2px);
   color: #00025c;
 }
@@ -224,11 +223,16 @@ button:focus {
   margin-right: 15px;
 }
 
+.preview,
+.right-header {
+  width: calc(100% - 40px); max-width: 600px;
+  box-sizing: border-box;
+}
+
 .preview {
-  width: 80%;
-  max-width: 600px;
   border: none;
   margin-bottom: 20px;
+  box-shadow: 0 24px 48px 10px rgba(35, 51, 64, 0.15);
 }
 
 @media only screen and (max-width: 800px) {
@@ -240,19 +244,30 @@ button:focus {
   .right {
     min-height: 50vh;
   }
+
+  .preview,
+  .right-header {
+    width: 100%;
+    max-width: 500px;
+  }
 }
 
 @media only screen and (min-width: 801px) {
   .container {
     flex-direction: row;
   }
-  .left,
-  .right {
-    width: 50vw;
+
+  .left {
+    width: 40vw;
+    max-width: 600px;
   }
 
-  .left{
-    background: linear-gradient(50deg, #420096 0%, #00025c 70%);
+  .right {
+    flex-grow: 1;
+  }
+
+  .left {
+    background: linear-gradient(50deg, #4e0096, #00025c 80%);
     background-size: 100% 100vh;
     background-attachment: fixed;
   }

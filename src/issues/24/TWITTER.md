@@ -45,7 +45,6 @@ Five new React documentation websites went live:
 
 ---
 
-
 🌏 (2/2) React Docs Localizations Update
 
 These websites are now complete:
@@ -64,7 +63,6 @@ https://github.com/reactjs/ka.reactjs.org
 https://github.com/facebook/react/pull/15029
 
 ---
-
 
 ⚓️ To address some frequently asked questions about the dependencies array used for some hooks, this PR adds new content to the documentation.
 

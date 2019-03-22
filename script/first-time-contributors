@@ -29,6 +29,7 @@ const REACT_REPOS = [
   ["reactjs", "ja.reactjs.org"],
   ["reactjs", "ka.reactjs.org"],
   ["reactjs", "km.reactjs.org"],
+  ["reactjs", "kn.reactjs.org"],
   ["reactjs", "ko.reactjs.org"],
   ["reactjs", "ku.reactjs.org"],
   ["reactjs", "lt.reactjs.org"],
@@ -51,7 +52,7 @@ const REACT_REPOS = [
   ["reactjs", "uz.reactjs.org"],
   ["reactjs", "vi.reactjs.org"],
   ["reactjs", "zh-hans.reactjs.org"],
-  ["reactjs", "zh-hant.reactjs.org"],
+  ["reactjs", "zh-hant.reactjs.org"]
 ];
 
 const KNOWN_AUTHORS_FILE = "./src/known-authors.json";
@@ -182,7 +183,7 @@ let authorDB = {};
       //
       // Thus, we create a sorted list of repos that prioritizes the repos that
       // were contributed to.
-        const sortedRectRepos = REACT_REPOS.sort(function compare(
+      const sortedRectRepos = REACT_REPOS.sort(function compare(
         [authorA, repoA],
         _
       ) {

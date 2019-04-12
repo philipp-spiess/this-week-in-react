@@ -48,6 +48,7 @@ const MAILCHIMP_HEADER_IMAGES = {
   25: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/250bf2b0-b582-48cd-b976-56fcca12d2db.png",
   26: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/b186c3e1-e48e-409b-9bc9-46a2804dfea3.png",
   27: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/76c9af24-872a-47cd-8842-66236dd73f3e.png",
+  28: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/4add0e50-7671-400b-af95-dba29175f532.png",
 };
 
 if (!issue) {
@@ -115,12 +116,7 @@ function createCard(index, tweet, url, imageUrl) {
       <table border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%; margin-top: 10px;" width="100%">
         <tbody>
           <tr>
-            <td width="30px" valign="middle">
-              <a href="${url}">
-                <img src="${imageUrl}" width="30" style="border-radius:30px;margin:0;" />
-              </a>
-            </td>
-            <td style="line-height:1.3; padding-left: 10px;">
+            <td height="30px" valign="middle" style="line-height:1.3;">
               <a href="${url}">${url}</a>
             </td>
           </tr>

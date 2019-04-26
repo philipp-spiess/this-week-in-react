@@ -1,0 +1,956 @@
+
+    <!doctype html>
+    <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+      <head>
+        <title>
+          This Week in React – Issue 29 – 26 Apr 2019
+        </title>
+        <!--[if !mso]><!-- -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--<![endif]-->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style type="text/css">
+          #outlook a { padding:0; }
+          .ReadMsgBody { width:100%; }
+          .ExternalClass { width:100%; }
+          .ExternalClass * { line-height:100%; }
+          body { margin:0;padding:0;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%; }
+          table, td { border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt; }
+          img { border:0;height:auto;line-height:100%; outline:none;text-decoration:none;-ms-interpolation-mode:bicubic; }
+          p { display:block;margin:13px 0; }
+        </style>
+        <!--[if !mso]><!-->
+        <style type="text/css">
+          @media only screen and (max-width:480px) {
+            @-ms-viewport { width:320px; }
+            @viewport { width:320px; }
+          }
+        </style>
+        <!--<![endif]-->
+        <!--[if mso]>
+        <xml>
+        <o:OfficeDocumentSettings>
+          <o:AllowPNG/>
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+        </xml>
+        <![endif]-->
+        <!--[if lte mso 11]>
+        <style type="text/css">
+          .outlook-group-fix { width:100% !important; }
+        </style>
+        <![endif]-->
+        
+      <!--[if !mso]><!-->
+        <link href="https://fonts.googleapis.com/css?family=Droid+Sans:300,400,500,700" rel="stylesheet" type="text/css">
+        <style type="text/css">
+          @import url(https://fonts.googleapis.com/css?family=Droid+Sans:300,400,500,700);
+        </style>
+      <!--<![endif]-->
+
+    
+        
+    <style type="text/css">
+      @media only screen and (min-width:480px) {
+        .mj-column-per-100 { width:100% !important; max-width: 100%; }
+      }
+    </style>
+    
+  
+        <style type="text/css">
+        
+        
+        </style>
+        <style type="text/css">a {
+        color: #c45000;
+        text-decoration: underline;
+      }
+
+      @media screen and (max-width: 480px) {
+        .small-padding-mobile>table>tbody>tr>td {
+          padding: 10px 10px !important;
+        }
+        u ~ div {
+          min-width: 100vw;
+        }
+      }</style>
+        
+      </head>
+      <body style="background-color:white;">
+        
+        
+      <div style="background-color:white;">
+        
+      
+      <!--[if mso | IE]>
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+    
+      
+      <div style="background:white;background-color:white;Margin:0px auto;max-width:600px;">
+        
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:white;background-color:white;width:100%;">
+          <tbody>
+            <tr>
+              <td style="direction:ltr;font-size:0px;padding:10px 0;text-align:center;vertical-align:top;">
+                <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                
+        <tr>
+      
+            <td
+               class="small-padding-mobile-outlook" style="vertical-align:top;width:600px;"
+            >
+          <![endif]-->
+            
+      <div class="mj-column-per-100 outlook-group-fix small-padding-mobile" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+        
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+        
+            <tr>
+              <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                
+      <div style="font-family:-apple-system,BlinkMacSystemFont,Helvetica,sans-serif;font-size:15px;line-height:150%;text-align:left;color:#5b5b5b;">
+        <p style="margin: 0;">Hello beautiful people! After a quick break, we’re back with the latest updates from This Week in React ⚛️.</p>
+      </div>
+    
+              </td>
+            </tr>
+          
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]>
+            </td>
+          
+        </tr>
+      
+                  </table>
+                <![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+    
+      
+      <div style="background:white;background-color:white;Margin:0px auto;max-width:600px;">
+        
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:white;background-color:white;width:100%;">
+          <tbody>
+            <tr>
+              <td style="direction:ltr;font-size:0px;padding:10px 0;padding-top:0;text-align:center;vertical-align:top;">
+                <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                
+        <tr>
+      
+            <td
+               class="small-padding-mobile-outlook" style="vertical-align:top;width:600px;"
+            >
+          <![endif]-->
+            
+      <div class="mj-column-per-100 outlook-group-fix small-padding-mobile" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+        
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+        
+            <tr>
+              <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                
+      <div style="font-family:-apple-system,BlinkMacSystemFont,Helvetica,sans-serif;font-size:15px;line-height:150%;text-align:left;color:#5b5b5b;">
+        <h2 style="font-size: 20px; margin-top: 10px;">🙌 Nicolas Joins the React Core Team</h2>
+<p style="margin: 0;">Nicolas Gallagher (<a target="_top" href="https://github.com/necolas" style="color: #c45000; text-decoration: underline;">necolas</a>) has joined the React Core team. He’s the author of <a target="_top" href="https://github.com/necolas/react-native-web" style="color: #c45000; text-decoration: underline;">React Native for Web</a> and has worked at Twitter in the past. He is now working on the experimental event API that brings high level interactions to the Web.</p>
+
+          <table border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%; margin-top: 10px;" width="100%">
+        <tbody>
+          <tr>
+            <td height="30px" valign="middle" style="line-height:1.3;">
+              <a target="_top" href="https://twitter.com/necolas/status/1120399551880413185" style="color: #c45000; text-decoration: underline;">https://twitter.com/necolas/status/1120399551880413185</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+    
+              </td>
+            </tr>
+          
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]>
+            </td>
+          
+        </tr>
+      
+                  </table>
+                <![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+    
+      
+      <div style="background:white;background-color:white;Margin:0px auto;max-width:600px;">
+        
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:white;background-color:white;width:100%;">
+          <tbody>
+            <tr>
+              <td style="direction:ltr;font-size:0px;padding:10px 0;padding-top:0;text-align:center;vertical-align:top;">
+                <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                
+        <tr>
+      
+            <td
+               class="small-padding-mobile-outlook" style="vertical-align:top;width:600px;"
+            >
+          <![endif]-->
+            
+      <div class="mj-column-per-100 outlook-group-fix small-padding-mobile" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+        
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+        
+            <tr>
+              <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                
+      <div style="font-family:-apple-system,BlinkMacSystemFont,Helvetica,sans-serif;font-size:15px;line-height:150%;text-align:left;color:#5b5b5b;">
+        <h2 style="font-size: 20px; margin-top: 10px;">🥅 React Flare: Add <code style="font-size: 13px; background: #ececec; padding: 2px 5px; color: #5b5b5b; text-shadow: 0 1px rgba(255, 255, 255, .5); border-radius: 4px; font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Mono', 'Droid Sans Mono', 'Source Code Pro', monospace;">FocusScope</code></h2>
+<p style="margin: 0;"><code style="font-size: 13px; background: #ececec; padding: 2px 5px; color: #5b5b5b; text-shadow: 0 1px rgba(255, 255, 255, .5); border-radius: 4px; font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Mono', 'Droid Sans Mono', 'Source Code Pro', monospace;">FocusScope</code> was added to the Experimental Event API. It allows trapping focus inside the scope of the event component so that pressing tab at the last element will jump to the first element inside the scope.</p>
+
+          <table border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%; margin-top: 10px;" width="100%">
+        <tbody>
+          <tr>
+            <td height="30px" valign="middle" style="line-height:1.3;">
+              <a target="_top" href="https://github.com/facebook/react/pull/15487" style="color: #c45000; text-decoration: underline;">https://github.com/facebook/react/pull/15487</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+    
+              </td>
+            </tr>
+          
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]>
+            </td>
+          
+        </tr>
+      
+                  </table>
+                <![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+    
+      
+      <div style="background:white;background-color:white;Margin:0px auto;max-width:600px;">
+        
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:white;background-color:white;width:100%;">
+          <tbody>
+            <tr>
+              <td style="direction:ltr;font-size:0px;padding:10px 0;padding-top:0;text-align:center;vertical-align:top;">
+                <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                
+        <tr>
+      
+            <td
+               class="small-padding-mobile-outlook" style="vertical-align:top;width:600px;"
+            >
+          <![endif]-->
+            
+      <div class="mj-column-per-100 outlook-group-fix small-padding-mobile" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+        
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+        
+            <tr>
+              <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                
+      <div style="font-family:-apple-system,BlinkMacSystemFont,Helvetica,sans-serif;font-size:15px;line-height:150%;text-align:left;color:#5b5b5b;">
+        <h2 style="font-size: 20px; margin-top: 10px;">🌎 React Docs Localizations Updates</h2>
+<p style="margin: 0;">Two new localization repositories were added:</p>
+<ul>
+<li>Mongolian: <a target="_top" href="https://github.com/reactjs/mn.reactjs.org" style="color: #c45000; text-decoration: underline;">reactjs/mn.reactjs.org</a></li>
+<li>Catalan: <a target="_top" href="https://github.com/reactjs/ca.reactjs.org" style="color: #c45000; text-decoration: underline;">reactjs/ca.reactjs.org</a></li>
+</ul>
+<p style="margin: 0;">The Greek documentation websites went online:</p>
+<ul>
+<li><a target="_top" href="https://el.reactjs.org/" style="color: #c45000; text-decoration: underline;">el.reactjs.org</a></li>
+</ul>
+<p style="margin: 0;">And the Ukrainian localization is complete:</p>
+
+          <table border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%; margin-top: 10px;" width="100%">
+        <tbody>
+          <tr>
+            <td height="30px" valign="middle" style="line-height:1.3;">
+              <a target="_top" href="https://uk.reactjs.org/" style="color: #c45000; text-decoration: underline;">https://uk.reactjs.org/</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+    
+              </td>
+            </tr>
+          
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]>
+            </td>
+          
+        </tr>
+      
+                  </table>
+                <![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+    
+      
+      <div style="background:white;background-color:white;Margin:0px auto;max-width:600px;">
+        
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:white;background-color:white;width:100%;">
+          <tbody>
+            <tr>
+              <td style="direction:ltr;font-size:0px;padding:10px 0;padding-top:0;text-align:center;vertical-align:top;">
+                <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                
+        <tr>
+      
+            <td
+               class="small-padding-mobile-outlook" style="vertical-align:top;width:600px;"
+            >
+          <![endif]-->
+            
+      <div class="mj-column-per-100 outlook-group-fix small-padding-mobile" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+        
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+        
+            <tr>
+              <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                
+      <div style="font-family:-apple-system,BlinkMacSystemFont,Helvetica,sans-serif;font-size:15px;line-height:150%;text-align:left;color:#5b5b5b;">
+        <h2 style="font-size: 20px; margin-top: 10px;">🔥 Experimental React Flare Updates</h2>
+<p style="margin: 0;">Besides the <code style="font-size: 13px; background: #ececec; padding: 2px 5px; color: #5b5b5b; text-shadow: 0 1px rgba(255, 255, 255, .5); border-radius: 4px; font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Mono', 'Droid Sans Mono', 'Source Code Pro', monospace;">FocusScope</code> addition, there were numerous other updates to the Experimental Event API. The core APIs are now <a target="_top" href="https://github.com/facebook/react/pull/15505" style="color: #c45000; text-decoration: underline;">better documented</a>, the <a target="_top" href="https://github.com/facebook/react/pull/15462" style="color: #c45000; text-decoration: underline;">propagation system was reworked</a>, event components now have a <a target="_top" href="https://github.com/facebook/react/pull/15480" style="color: #c45000; text-decoration: underline;">mount phase</a>, and more.</p>
+
+          <table border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%; margin-top: 10px;" width="100%">
+        <tbody>
+          <tr>
+            <td height="30px" valign="middle" style="line-height:1.3;">
+              <a target="_top" href="https://github.com/facebook/react/issues/15257" style="color: #c45000; text-decoration: underline;">https://github.com/facebook/react/issues/15257</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+    
+              </td>
+            </tr>
+          
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]>
+            </td>
+          
+        </tr>
+      
+                  </table>
+                <![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+    
+      
+      <div style="background:white;background-color:white;Margin:0px auto;max-width:600px;">
+        
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:white;background-color:white;width:100%;">
+          <tbody>
+            <tr>
+              <td style="direction:ltr;font-size:0px;padding:10px 0;padding-top:0;text-align:center;vertical-align:top;">
+                <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                
+        <tr>
+      
+            <td
+               class="small-padding-mobile-outlook" style="vertical-align:top;width:600px;"
+            >
+          <![endif]-->
+            
+      <div class="mj-column-per-100 outlook-group-fix small-padding-mobile" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+        
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+        
+            <tr>
+              <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                
+      <div style="font-family:-apple-system,BlinkMacSystemFont,Helvetica,sans-serif;font-size:15px;line-height:150%;text-align:left;color:#5b5b5b;">
+        <h2 style="font-size: 20px; margin-top: 10px;">🐞 Experimental DevTools Updates</h2>
+<p style="margin: 0;">Continuing the work on the new DevTools, the last two week bring <a target="_top" href="https://github.com/bvaughn/react-devtools-experimental/pull/215" style="color: #c45000; text-decoration: underline;">restoring of selections between reloads</a>, <a target="_top" href="https://twitter.com/brian_d_vaughn/status/1119997560066756613" style="color: #c45000; text-decoration: underline;">multiple UI changes</a>, new <a target="_top" href="https://github.com/bvaughn/react-devtools-experimental/pull/205" style="color: #c45000; text-decoration: underline;">tooltips</a>, and more.</p>
+
+          <table border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%; margin-top: 10px;" width="100%">
+        <tbody>
+          <tr>
+            <td height="30px" valign="middle" style="line-height:1.3;">
+              <a target="_top" href="https://github.com/bvaughn/react-devtools-experimental" style="color: #c45000; text-decoration: underline;">https://github.com/bvaughn/react-devtools-experimental</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+    
+              </td>
+            </tr>
+          
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]>
+            </td>
+          
+        </tr>
+      
+                  </table>
+                <![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+    
+      
+      <div style="background:white;background-color:white;Margin:0px auto;max-width:600px;">
+        
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:white;background-color:white;width:100%;">
+          <tbody>
+            <tr>
+              <td style="direction:ltr;font-size:0px;padding:10px 0;padding-top:0;text-align:center;vertical-align:top;">
+                <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                
+        <tr>
+      
+            <td
+               class="small-padding-mobile-outlook" style="vertical-align:top;width:600px;"
+            >
+          <![endif]-->
+            
+      <div class="mj-column-per-100 outlook-group-fix small-padding-mobile" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+        
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+        
+            <tr>
+              <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                
+      <div style="font-family:-apple-system,BlinkMacSystemFont,Helvetica,sans-serif;font-size:15px;line-height:150%;text-align:left;color:#5b5b5b;">
+        <h2 style="font-size: 20px; margin-top: 10px;">📹 Add <code style="font-size: 13px; background: #ececec; padding: 2px 5px; color: #5b5b5b; text-shadow: 0 1px rgba(255, 255, 255, .5); border-radius: 4px; font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Mono', 'Droid Sans Mono', 'Source Code Pro', monospace;">disablePictureInPicture</code> Attribute Support</h2>
+<p style="margin: 0;">React now properly sets the <code style="font-size: 13px; background: #ececec; padding: 2px 5px; color: #5b5b5b; text-shadow: 0 1px rgba(255, 255, 255, .5); border-radius: 4px; font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Mono', 'Droid Sans Mono', 'Source Code Pro', monospace;">disablePictureInPicture</code> attribute for <code style="font-size: 13px; background: #ececec; padding: 2px 5px; color: #5b5b5b; text-shadow: 0 1px rgba(255, 255, 255, .5); border-radius: 4px; font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Mono', 'Droid Sans Mono', 'Source Code Pro', monospace;">&lt;video&gt;</code> elements thanks to a contribution from Radu-Sebastian Amarie (<a target="_top" href="https://github.com/eek" style="color: #c45000; text-decoration: underline;">eek</a>).</p>
+
+          <table border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%; margin-top: 10px;" width="100%">
+        <tbody>
+          <tr>
+            <td height="30px" valign="middle" style="line-height:1.3;">
+              <a target="_top" href="https://github.com/facebook/react/pull/15334" style="color: #c45000; text-decoration: underline;">https://github.com/facebook/react/pull/15334</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+    
+              </td>
+            </tr>
+          
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]>
+            </td>
+          
+        </tr>
+      
+                  </table>
+                <![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+    
+      
+      <div style="background:white;background-color:white;Margin:0px auto;max-width:600px;">
+        
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:white;background-color:white;width:100%;">
+          <tbody>
+            <tr>
+              <td style="direction:ltr;font-size:0px;padding:10px 0;padding-top:0;text-align:center;vertical-align:top;">
+                <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                
+        <tr>
+      
+            <td
+               class="small-padding-mobile-outlook" style="vertical-align:top;width:600px;"
+            >
+          <![endif]-->
+            
+      <div class="mj-column-per-100 outlook-group-fix small-padding-mobile" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+        
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+        
+            <tr>
+              <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                
+      <div style="font-family:-apple-system,BlinkMacSystemFont,Helvetica,sans-serif;font-size:15px;line-height:150%;text-align:left;color:#5b5b5b;">
+        <h2 style="font-size: 20px; margin-top: 10px;">🖼 React Native: View Inside Text</h2>
+<p style="margin: 0;">After being supported in both iOS and Android, React Core now also supports nesting Views inside Text. Thank you, Adam Comella (<a target="_top" href="https://github.com/rigdern" style="color: #c45000; text-decoration: underline;">rigdern</a>).</p>
+
+          <table border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%; margin-top: 10px;" width="100%">
+        <tbody>
+          <tr>
+            <td height="30px" valign="middle" style="line-height:1.3;">
+              <a target="_top" href="https://github.com/facebook/react/pull/15464" style="color: #c45000; text-decoration: underline;">https://github.com/facebook/react/pull/15464</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+    
+              </td>
+            </tr>
+          
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]>
+            </td>
+          
+        </tr>
+      
+                  </table>
+                <![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+    
+      
+      <div style="background:white;background-color:white;Margin:0px auto;max-width:600px;">
+        
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:white;background-color:white;width:100%;">
+          <tbody>
+            <tr>
+              <td style="direction:ltr;font-size:0px;padding:10px 0;padding-top:0;text-align:center;vertical-align:top;">
+                <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                
+        <tr>
+      
+            <td
+               class="small-padding-mobile-outlook" style="vertical-align:top;width:600px;"
+            >
+          <![endif]-->
+            
+      <div class="mj-column-per-100 outlook-group-fix small-padding-mobile" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+        
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+        
+            <tr>
+              <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                
+      <div style="font-family:-apple-system,BlinkMacSystemFont,Helvetica,sans-serif;font-size:15px;line-height:150%;text-align:left;color:#5b5b5b;">
+        <h2 style="font-size: 20px; margin-top: 10px;">🏗 Stop Tracking Bundle Sizes in Repo</h2>
+<p style="margin: 0;">A snapshot of the latest bundle sizes will not automatically be stored during the CI run. This makes sure that sizebot compares against the correct sizes.</p>
+
+          <table border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%; margin-top: 10px;" width="100%">
+        <tbody>
+          <tr>
+            <td height="30px" valign="middle" style="line-height:1.3;">
+              <a target="_top" href="https://github.com/facebook/react/pull/15404" style="color: #c45000; text-decoration: underline;">https://github.com/facebook/react/pull/15404</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+    
+              </td>
+            </tr>
+          
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]>
+            </td>
+          
+        </tr>
+      
+                  </table>
+                <![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+    
+      
+      <div style="background:white;background-color:white;Margin:0px auto;max-width:600px;">
+        
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:white;background-color:white;width:100%;">
+          <tbody>
+            <tr>
+              <td style="direction:ltr;font-size:0px;padding:10px 0;padding-top:0;text-align:center;vertical-align:top;">
+                <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                
+        <tr>
+      
+            <td
+               class="small-padding-mobile-outlook" style="vertical-align:top;width:600px;"
+            >
+          <![endif]-->
+            
+      <div class="mj-column-per-100 outlook-group-fix small-padding-mobile" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+        
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+        
+            <tr>
+              <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                
+      <div style="font-family:-apple-system,BlinkMacSystemFont,Helvetica,sans-serif;font-size:15px;line-height:150%;text-align:left;color:#5b5b5b;">
+        <h2 style="font-size: 20px; margin-top: 10px;">⏳ Measure Callback Timeout Relative to Current Time</h2>
+<p style="margin: 0;">This PR fixes an issue with the new ReactFiberScheduler by measuring the callback timeout relative to the current time.</p>
+
+          <table border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%; margin-top: 10px;" width="100%">
+        <tbody>
+          <tr>
+            <td height="30px" valign="middle" style="line-height:1.3;">
+              <a target="_top" href="https://github.com/facebook/react/pull/15479" style="color: #c45000; text-decoration: underline;">https://github.com/facebook/react/pull/15479</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+    
+              </td>
+            </tr>
+          
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]>
+            </td>
+          
+        </tr>
+      
+                  </table>
+                <![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+    
+      
+      <div style="background:white;background-color:white;Margin:0px auto;max-width:600px;">
+        
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:white;background-color:white;width:100%;">
+          <tbody>
+            <tr>
+              <td style="direction:ltr;font-size:0px;padding:10px 0;padding-top:0;text-align:center;vertical-align:top;">
+                <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                
+        <tr>
+      
+            <td
+               class="small-padding-mobile-outlook" style="vertical-align:top;width:600px;"
+            >
+          <![endif]-->
+            
+      <div class="mj-column-per-100 outlook-group-fix small-padding-mobile" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+        
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+        
+            <tr>
+              <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                
+      <div style="font-family:-apple-system,BlinkMacSystemFont,Helvetica,sans-serif;font-size:15px;line-height:150%;text-align:left;color:#5b5b5b;">
+        <h2 style="font-size: 20px; margin-top: 10px;">👏 47 First-Time Contributors</h2>
+<p style="margin: 0;">New contributors land their first PR in the <a target="_top" href="https://github.com/facebook/react" style="color: #c45000; text-decoration: underline;">react</a>, <a target="_top" href="https://github.com/facebook/react-devtools" style="color: #c45000; text-decoration: underline;">devtools</a>, or <a target="_top" href="https://github.com/reactjs/reactjs.org" style="color: #c45000; text-decoration: underline;">documentation</a> repositories every week.</p>
+
+          <table border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%; margin-top: 10px;" width="100%">
+        <tbody>
+          <tr>
+            <td height="30px" valign="middle" style="line-height:1.3;">
+              <a target="_top" href="https://gist.github.com/philipp-spiess/ad2040ea218a4d63d75c9542adde20bd" style="color: #c45000; text-decoration: underline;">https://gist.github.com/philipp-spiess/ad2040ea218a4d63d75c9542adde20bd</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+    
+              </td>
+            </tr>
+          
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]>
+            </td>
+          
+        </tr>
+      
+                  </table>
+                <![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      
+      <table
+         align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
+      >
+        <tr>
+          <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+      <![endif]-->
+    
+      
+      <div style="background:white;background-color:white;Margin:0px auto;max-width:600px;">
+        
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:white;background-color:white;width:100%;">
+          <tbody>
+            <tr>
+              <td style="direction:ltr;font-size:0px;padding:10px 0;padding-top:0;text-align:center;vertical-align:top;">
+                <!--[if mso | IE]>
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                
+        <tr>
+      
+            <td
+               class="small-padding-mobile-outlook" style="vertical-align:top;width:600px;"
+            >
+          <![endif]-->
+            
+      <div class="mj-column-per-100 outlook-group-fix small-padding-mobile" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+        
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+        
+            <tr>
+              <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                
+      <div style="font-family:-apple-system,BlinkMacSystemFont,Helvetica,sans-serif;font-size:15px;line-height:150%;text-align:left;color:#5b5b5b;">
+        <p style="margin: 0;">Thank you all for following. If you like this newsletter, make sure to share it. See you next week!</p>
+      </div>
+    
+              </td>
+            </tr>
+          
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]>
+            </td>
+          
+        </tr>
+      
+                  </table>
+                <![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      <![endif]-->
+    
+    
+      </div>
+    
+      </body>
+    </html>
+  

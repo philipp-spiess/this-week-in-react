@@ -24,6 +24,7 @@ const REACT_REPOS = [
   ["reactjs", "gu.reactjs.org"],
   ["reactjs", "he.reactjs.org"],
   ["reactjs", "hi.reactjs.org"],
+  ["reactjs", "hu.reactjs.org"],
   ["reactjs", "hy.reactjs.org"],
   ["reactjs", "id.reactjs.org"],
   ["reactjs", "it.reactjs.org"],

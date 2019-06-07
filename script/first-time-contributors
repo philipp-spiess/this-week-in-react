@@ -75,7 +75,7 @@ if (!date) {
 
 date = new Date(`${date} ${CUT_OFF_TIME}`);
 let lastWeek = new Date();
-lastWeek.setTime(date.getTime() - 7 * 24 * 60 * 60 * 1000);
+lastWeek.setTime(date.getTime() - 14 * 24 * 60 * 60 * 1000);
 
 console.log(
   `🔎 Searching for first time commiters in React repos between:

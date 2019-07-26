@@ -28,6 +28,10 @@
       img {
         max-width: 100%;
       }
+
+      ul {
+        margin: 0;
+      }
     </mj-style>
     <mj-style>
       a {

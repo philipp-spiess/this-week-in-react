@@ -215,17 +215,19 @@ let authorDB = {};
           author => author !== potentialAuthor
         );
         knownAuthors.push(potentialAuthor);
+        // We store all known authors so we don't need so many queries in the future
+        fs.writeFileSync(
+          KNOWN_AUTHORS_FILE,
+          JSON.stringify([...new Set(knownAuthors)], null, 2)
+        );
+      } else {
+        console.log(potentialAuthor);
       }
+      console.log();
+      outputResult(potentialNewAuthors);
+      console.log();
     }),
-    { maxInProgress: 5 }
-  );
-
-  outputResult(potentialNewAuthors);
-
-  // We store all known authors so we don't need so many queries in the future
-  fs.writeFileSync(
-    KNOWN_AUTHORS_FILE,
-    JSON.stringify([...new Set(knownAuthors)], null, 2)
+    { maxInProgress: 3 }
   );
 })();
 

@@ -28,20 +28,24 @@
       img {
         max-width: 100%;
       }
+
+      ul {
+        margin: 0;
+      }
     </mj-style>
     <mj-style>
       a {
-        color: #c45000;
-        text-decoration: underline;
+      color: #c45000;
+      text-decoration: underline;
       }
 
       @media screen and (max-width: 480px) {
-        .small-padding-mobile>table>tbody>tr>td {
-          padding: 10px 10px !important;
-        }
-        u ~ div {
-          min-width: 100vw;
-        }
+      .small-padding-mobile>table>tbody>tr>td {
+      padding: 10px 10px !important;
+      }
+      u ~ div {
+      min-width: 100vw;
+      }
       }
     </mj-style>
     <mj-title>This Week in React – Issue 1 – 21 Aug 2018</mj-title>

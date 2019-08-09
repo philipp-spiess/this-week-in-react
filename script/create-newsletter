@@ -59,6 +59,7 @@ const MAILCHIMP_HEADER_IMAGES = {
   36: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/f5098be4-e790-4237-87de-7990a9e5d066.png",
   37: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/5c2e3629-6292-4c6b-940b-310c05b10006.png",
   38: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/d1225425-0cba-45a1-b52e-6ad0c40c0a11.png",
+  39: "https://gallery.mailchimp.com/155aa5558694a008de40fe987/images/bb82dd19-5b3a-4bd3-bab1-b3f93fb49918.png",
 };
 
 if (!issue) {
@@ -157,9 +158,7 @@ function createEmail(cards) {
   html = html.replace(/Issue 1 \– 21 Aug 2018/g, `Issue ${issue} – ${date}`);
   html = html.replace(
     "./issue.png",
-    MAILCHIMP_HEADER_IMAGES.hasOwnProperty(issue)
-      ? MAILCHIMP_HEADER_IMAGES[issue]
-      : "./issue.png"
+    MAILCHIMP_HEADER_IMAGES.hasOwnProperty(issue) ? MAILCHIMP_HEADER_IMAGES[issue] : "./issue.png"
   );
 
   return mjml2html(html).html;
@@ -172,9 +171,7 @@ function createIndex(cards) {
 
   const cardsHtml = cards.join("\n");
   let html = template.replace("PASTE HTML HERE", cardsHtml);
-  html = html
-    .replace(/Issue 1 \– 21 Aug 2018/g, `Issue ${issue} – ${date}`)
-    .replace(/\<a /g, '<a target="_top" ');
+  html = html.replace(/Issue 1 \– 21 Aug 2018/g, `Issue ${issue} – ${date}`).replace(/\<a /g, '<a target="_top" ');
 
   return mjml2html(html).html;
 }

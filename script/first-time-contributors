@@ -75,7 +75,7 @@ if (!date) {
 
 date = new Date(`${date} ${CUT_OFF_TIME}`);
 let lastWeek = new Date();
-lastWeek.setTime(date.getTime() - 14 * 24 * 60 * 60 * 1000);
+lastWeek.setTime(date.getTime() - 28 * 24 * 60 * 60 * 1000);
 
 console.log(
   `🔎 Searching for first time commiters in React repos between:
@@ -162,7 +162,7 @@ let authorDB = {};
         throw error;
       }
     }),
-    { maxInProgress: 10 }
+    { maxInProgress: 1 }
   );
 
   // Get unique author names
@@ -223,12 +223,12 @@ let authorDB = {};
       } else {
         console.log(potentialAuthor);
       }
-      console.log();
-      outputResult(potentialNewAuthors);
-      console.log();
     }),
-    { maxInProgress: 3 }
+    { maxInProgress: 1 }
   );
+  console.log();
+  outputResult(potentialNewAuthors);
+  console.log();
 })();
 
 function getTimeFromDate(date) {

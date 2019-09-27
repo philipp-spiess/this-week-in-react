@@ -76,7 +76,7 @@ https://github.com/facebook/react/pull/16578
 
 ---
 
-## 👏 69 First-Time Contributors
+## 👏 45 First-Time Contributors
 
 New contributors land their first PR in the [react](https://github.com/facebook/react) or [documentation](https://github.com/reactjs/reactjs.org) repository every week.
 

@@ -13,7 +13,11 @@ function Issue(props) {
       <div className="right-header">
         <div className="current-issue">
           <h1>Issue&nbsp;{props.issue}</h1>
-          <h2 dangerouslySetInnerHTML={{__html: formatDate(new Date(props.date))}}></h2>
+          <h2
+            dangerouslySetInnerHTML={{
+              __html: formatDate(new Date(props.date))
+            }}
+          />
         </div>
         <div className="spacer" />
         <nav>
@@ -43,12 +47,12 @@ class Preview extends React.Component {
     const frameDocument = frame.contentDocument;
 
     const update = () =>
-      this.setState({ height: frameDocument.body.offsetHeight });
+      this.setState({ height: frameDocument.body.offsetHeight + 30 });
 
     frame.onload = () => {
-      frame.contentWindow.onresize = () => update()
-      update()
-    }
+      frame.contentWindow.onresize = () => update();
+      update();
+    };
 
     frameDocument.open();
     frameDocument.write(this.props.html);

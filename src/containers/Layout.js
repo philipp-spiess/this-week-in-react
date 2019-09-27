@@ -30,7 +30,7 @@ export default class Layout extends React.Component {
           <meta name="twitter:title" content="This Week in React ⚛️" />
           <meta
             name="twitter:description"
-            content="Weekly coverage of interesting pull requests, discussions, and RFCs around React Core and React DOM."
+            content="Regular coverage of interesting pull requests, discussions, and RFCs around React Core and React DOM."
           />
           <meta name="twitter:image" content={TwitterCardPng} />
           <meta name="og:image" content={TwitterCardPng} />
@@ -43,7 +43,12 @@ export default class Layout extends React.Component {
 
         <div className="container">
           <div className="left">
-            <img src={LogoWithBgJpeg} hidden style={{ display: "none" }} lazyload />
+            <img
+              src={LogoWithBgJpeg}
+              hidden
+              style={{ display: "none" }}
+              lazyload
+            />
             <img
               src={LogoPng}
               width={180}
@@ -52,7 +57,7 @@ export default class Layout extends React.Component {
             />
 
             <p className="pitch">
-              Weekly coverage of interesting pull requests, discussions, and
+              Regular coverage of interesting pull requests, discussions, and
               RFCs around React Core and React DOM.
             </p>
 

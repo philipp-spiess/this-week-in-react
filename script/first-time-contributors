@@ -85,6 +85,10 @@ console.log(
 );
 console.log();
 
+// Sometimes the script crashes. We can put in the previously logged usernames
+// in here to make it faster the next time.
+const knownNewAuthorsFromPreviousScriptRun = [];
+
 // We store some facts for authors along the way so we have a nice output
 let authorDB = {};
 
@@ -177,6 +181,12 @@ let authorDB = {};
   await Throttle.all(
     potentialNewAuthors.map(potentialAuthor => async () => {
       // console.log(`👉 ${potentialAuthor}`);
+
+      // We can skip if we already know this is a new author.
+      if (knownNewAuthorsFromPreviousScriptRun.includes(potentialAuthor)) {
+        console.log(potentialAuthor);
+        return;
+      }
 
       let hasMadeCommitsBefore = false;
 

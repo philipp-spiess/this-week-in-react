@@ -3,7 +3,7 @@
 
 // Plugins
 const plugins = [{
-  location: "/github/workspace",
+  location: "/Users/philipp/dev/this-week-in-react",
   plugins: [],
   hooks: {}
 }]

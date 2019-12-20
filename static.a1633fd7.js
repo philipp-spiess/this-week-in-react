@@ -1894,23 +1894,23 @@ module.exports = require("@reach/router");
 
 "use strict";
 
-// EXTERNAL MODULE: /Users/philipp/dev/this-week-in-react/src/containers/App.css
+// EXTERNAL MODULE: /Users/philippspiess/dev/this-week-in-react/src/containers/App.css
 var App = __webpack_require__(53);
 
-// CONCATENATED MODULE: /Users/philipp/dev/this-week-in-react/src/util/clicky.js
+// CONCATENATED MODULE: /Users/philippspiess/dev/this-week-in-react/src/util/clicky.js
 function clicky(){window.clicky_site_ids=[101142968];var s=document.createElement("script");s.type="text/javascript";s.async=true;s.src="//static.getclicky.com/js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(s);}
 // EXTERNAL MODULE: external "react-helmet"
 var external_react_helmet_ = __webpack_require__(9);
 
-// EXTERNAL MODULE: /Users/philipp/dev/this-week-in-react/src/images/favicon.png
+// EXTERNAL MODULE: /Users/philippspiess/dev/this-week-in-react/src/images/favicon.png
 var favicon = __webpack_require__(31);
 var favicon_default = /*#__PURE__*/__webpack_require__.n(favicon);
 
-// EXTERNAL MODULE: /Users/philipp/dev/this-week-in-react/src/images/logo.png
+// EXTERNAL MODULE: /Users/philippspiess/dev/this-week-in-react/src/images/logo.png
 var logo = __webpack_require__(32);
 var logo_default = /*#__PURE__*/__webpack_require__.n(logo);
 
-// EXTERNAL MODULE: /Users/philipp/dev/this-week-in-react/src/images/logo-with-bg.jpg
+// EXTERNAL MODULE: /Users/philippspiess/dev/this-week-in-react/src/images/logo-with-bg.jpg
 var logo_with_bg = __webpack_require__(33);
 var logo_with_bg_default = /*#__PURE__*/__webpack_require__.n(logo_with_bg);
 
@@ -1918,15 +1918,15 @@ var logo_with_bg_default = /*#__PURE__*/__webpack_require__.n(logo_with_bg);
 var external_react_ = __webpack_require__(0);
 var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
 
-// EXTERNAL MODULE: /Users/philipp/dev/this-week-in-react/src/images/telegram.svg
+// EXTERNAL MODULE: /Users/philippspiess/dev/this-week-in-react/src/images/telegram.svg
 var telegram = __webpack_require__(34);
 var telegram_default = /*#__PURE__*/__webpack_require__.n(telegram);
 
-// EXTERNAL MODULE: /Users/philipp/dev/this-week-in-react/src/images/twitter-card.png
+// EXTERNAL MODULE: /Users/philippspiess/dev/this-week-in-react/src/images/twitter-card.png
 var twitter_card = __webpack_require__(19);
 var twitter_card_default = /*#__PURE__*/__webpack_require__.n(twitter_card);
 
-// EXTERNAL MODULE: /Users/philipp/dev/this-week-in-react/src/images/twitter.svg
+// EXTERNAL MODULE: /Users/philippspiess/dev/this-week-in-react/src/images/twitter.svg
 var twitter = __webpack_require__(35);
 var twitter_default = /*#__PURE__*/__webpack_require__.n(twitter);
 
@@ -1934,9 +1934,9 @@ var twitter_default = /*#__PURE__*/__webpack_require__.n(twitter);
 var external_react_mailchimp_subscribe_ = __webpack_require__(36);
 var external_react_mailchimp_subscribe_default = /*#__PURE__*/__webpack_require__.n(external_react_mailchimp_subscribe_);
 
-// CONCATENATED MODULE: /Users/philipp/dev/this-week-in-react/src/containers/SubscribeForm.js
+// CONCATENATED MODULE: /Users/philippspiess/dev/this-week-in-react/src/containers/SubscribeForm.js
 var url="https://this-week-in-react.us19.list-manage.com/subscribe/post?u=155aa5558694a008de40fe987&amp;id=9921ef9d30";function SubscribeForm(){return external_react_default.a.createElement(external_react_mailchimp_subscribe_default.a,{url:url,render:function render(props){var status=props.status,message=props.message,subscribe=props.subscribe;var emailRef=external_react_default.a.createRef();var submit=function submit(){return emailRef.current&&emailRef.current.checkValidity()&&subscribe({EMAIL:emailRef.current.value});};return external_react_default.a.createElement("div",{className:"form-wrapper"},status==="sending"&&external_react_default.a.createElement("div",{className:"form-info"},"Subscribing\u2026"),status==="error"&&external_react_default.a.createElement("div",{className:"form-info",dangerouslySetInnerHTML:{__html:message.replace('0 - ','')}}),status==="success"&&external_react_default.a.createElement("div",{className:"form-info",dangerouslySetInnerHTML:{__html:message}}),external_react_default.a.createElement("form",{onSubmit:function onSubmit(e){return e.preventDefault();}},external_react_default.a.createElement("input",{ref:emailRef,type:"email",placeholder:"Your email",required:true}),external_react_default.a.createElement("button",{onClick:submit},"Subscribe")),external_react_default.a.createElement("div",{className:"form-info"},"No Spam. Unsubscribe at any time."));}});}
-// CONCATENATED MODULE: /Users/philipp/dev/this-week-in-react/src/containers/Layout.js
+// CONCATENATED MODULE: /Users/philippspiess/dev/this-week-in-react/src/containers/Layout.js
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Layout_Layout; });
 function _typeof(obj){if(typeof Symbol==="function"&&typeof Symbol.iterator==="symbol"){_typeof=function _typeof(obj){return typeof obj;};}else{_typeof=function _typeof(obj){return obj&&typeof Symbol==="function"&&obj.constructor===Symbol&&obj!==Symbol.prototype?"symbol":typeof obj;};}return _typeof(obj);}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}function _createClass(Constructor,protoProps,staticProps){if(protoProps)_defineProperties(Constructor.prototype,protoProps);if(staticProps)_defineProperties(Constructor,staticProps);return Constructor;}function _possibleConstructorReturn(self,call){if(call&&(_typeof(call)==="object"||typeof call==="function")){return call;}return _assertThisInitialized(self);}function _assertThisInitialized(self){if(self===void 0){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return self;}function _getPrototypeOf(o){_getPrototypeOf=Object.setPrototypeOf?Object.getPrototypeOf:function _getPrototypeOf(o){return o.__proto__||Object.getPrototypeOf(o);};return _getPrototypeOf(o);}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function");}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,writable:true,configurable:true}});if(superClass)_setPrototypeOf(subClass,superClass);}function _setPrototypeOf(o,p){_setPrototypeOf=Object.setPrototypeOf||function _setPrototypeOf(o,p){o.__proto__=p;return o;};return _setPrototypeOf(o,p);}var Layout_Layout=/*#__PURE__*/function(_React$Component){_inherits(Layout,_React$Component);function Layout(){_classCallCheck(this,Layout);return _possibleConstructorReturn(this,_getPrototypeOf(Layout).apply(this,arguments));}_createClass(Layout,[{key:"componentDidMount",value:function componentDidMount(){clicky();}},{key:"render",value:function render(){return external_react_default.a.createElement("div",null,external_react_default.a.createElement(external_react_helmet_["Helmet"],null,external_react_default.a.createElement("title",null,"This Week in React"),external_react_default.a.createElement("meta",{charset:"UTF-8"}),external_react_default.a.createElement("meta",{name:"viewport",content:"width=device-width, initial-scale=1.0"}),external_react_default.a.createElement("meta",{name:"twitter:card",content:"summary_large_image"}),external_react_default.a.createElement("meta",{name:"twitter:site",content:"@PhilippSpiess"}),external_react_default.a.createElement("meta",{name:"twitter:title",content:"This Week in React \u269B\uFE0F"}),external_react_default.a.createElement("meta",{name:"twitter:description",content:"Regular coverage of interesting pull requests, discussions, and RFCs around React Core and React DOM."}),external_react_default.a.createElement("meta",{name:"twitter:image",content:twitter_card_default.a}),external_react_default.a.createElement("meta",{name:"og:image",content:twitter_card_default.a}),external_react_default.a.createElement("link",{rel:"icon",type:"image/png",href:favicon_default.a}),external_react_default.a.createElement("link",{href:"https://fonts.googleapis.com/css?family=Merriweather",rel:"stylesheet"})),external_react_default.a.createElement("div",{className:"container"},external_react_default.a.createElement("div",{className:"left"},external_react_default.a.createElement("img",{src:logo_with_bg_default.a,hidden:true,style:{display:"none"},lazyload:true}),external_react_default.a.createElement("img",{src:logo_default.a,width:180,className:"logo",alt:"This Week in React"}),external_react_default.a.createElement("p",{className:"pitch"},"Regular coverage of interesting pull requests, discussions, and RFCs around React Core and React DOM."),external_react_default.a.createElement(SubscribeForm,null),external_react_default.a.createElement("div",{className:"separator"},"or"),external_react_default.a.createElement("div",{className:"social"},external_react_default.a.createElement("ul",null,external_react_default.a.createElement("li",null,external_react_default.a.createElement("a",{href:"https://twitter.com/PhilippSpiess"},external_react_default.a.createElement("span",{className:"button-icon"},external_react_default.a.createElement("img",{src:twitter_default.a,width:"30px",alt:"Twitter"})),"Follow on Twitter")),external_react_default.a.createElement("li",null,external_react_default.a.createElement("a",{href:"https://t.me/this_week_in_react"},external_react_default.a.createElement("span",{className:"button-icon"},external_react_default.a.createElement("img",{src:telegram_default.a,width:"30px",alt:"Telegram"})),"Read on Telegram")))),external_react_default.a.createElement("p",{className:"curated-by"},"Curated with"," ",external_react_default.a.createElement("span",{role:"img","aria-label":"love"},"\u2764\uFE0F")," ","by ",external_react_default.a.createElement("a",{href:"https://philippspiess.com"},"Philipp Spiess"))),external_react_default.a.createElement("div",{className:"right"},this.props.children)));}}]);return Layout;}(external_react_default.a.Component);
 
@@ -2666,7 +2666,7 @@ module.exports = __webpack_require__.p + "static/twitter-card.b8a791b8.png";
 __webpack_require__.r(__webpack_exports__);
 // Imports
 // Plugins
-var plugins=[{location:"/Users/philipp/dev/this-week-in-react",plugins:[],hooks:{}}];// Export em!
+var plugins=[{location:"/Users/philippspiess/dev/this-week-in-react",plugins:[],hooks:{}}];// Export em!
 /* harmony default export */ __webpack_exports__["default"] = (plugins);
 
 /***/ }),
@@ -2753,9 +2753,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var path__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(path__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(12);
 /* harmony import */ var babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _Users_philipp_dev_this_week_in_react_node_modules_react_static_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(15);
-/* harmony import */ var _Users_philipp_dev_this_week_in_react_node_modules_react_static_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Users_philipp_dev_this_week_in_react_node_modules_react_static_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_2__);
-Object(_Users_philipp_dev_this_week_in_react_node_modules_react_static_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_2__["setHasBabelPlugin"])();var universalOptions={loading:function loading(){return null;},error:function error(props){console.error(props.error);return React.createElement("div",null,"An error occurred loading this page's template. More information is available in the console.");}};var t_0=_Users_philipp_dev_this_week_in_react_node_modules_react_static_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_2___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({id:"../src/containers/404",load:function load(){return Promise.all([Promise.resolve(/* import() | src-containers-404 */).then(__webpack_require__.bind(null, 29))]).then(function(proms){return proms[0];});},path:function path(){return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname,'../src/containers/404');},resolve:function resolve(){return /*require.resolve*/(29);},chunkName:function chunkName(){return"src-containers-404";}}),universalOptions);var t_1=_Users_philipp_dev_this_week_in_react_node_modules_react_static_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_2___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({id:"../src/containers/Issue",load:function load(){return Promise.all([Promise.resolve(/* import() | src-containers-Issue */).then(__webpack_require__.bind(null, 30))]).then(function(proms){return proms[0];});},path:function path(){return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname,'../src/containers/Issue');},resolve:function resolve(){return /*require.resolve*/(30);},chunkName:function chunkName(){return"src-containers-Issue";}}),universalOptions);// Template Map
+/* harmony import */ var _Users_philippspiess_dev_this_week_in_react_node_modules_react_static_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(15);
+/* harmony import */ var _Users_philippspiess_dev_this_week_in_react_node_modules_react_static_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Users_philippspiess_dev_this_week_in_react_node_modules_react_static_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_2__);
+Object(_Users_philippspiess_dev_this_week_in_react_node_modules_react_static_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_2__["setHasBabelPlugin"])();var universalOptions={loading:function loading(){return null;},error:function error(props){console.error(props.error);return React.createElement("div",null,"An error occurred loading this page's template. More information is available in the console.");}};var t_0=_Users_philippspiess_dev_this_week_in_react_node_modules_react_static_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_2___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({id:"../src/containers/404",load:function load(){return Promise.all([Promise.resolve(/* import() | src-containers-404 */).then(__webpack_require__.bind(null, 29))]).then(function(proms){return proms[0];});},path:function path(){return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname,'../src/containers/404');},resolve:function resolve(){return /*require.resolve*/(29);},chunkName:function chunkName(){return"src-containers-404";}}),universalOptions);var t_1=_Users_philippspiess_dev_this_week_in_react_node_modules_react_static_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_2___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({id:"../src/containers/Issue",load:function load(){return Promise.all([Promise.resolve(/* import() | src-containers-Issue */).then(__webpack_require__.bind(null, 30))]).then(function(proms){return proms[0];});},path:function path(){return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname,'../src/containers/Issue');},resolve:function resolve(){return /*require.resolve*/(30);},chunkName:function chunkName(){return"src-containers-Issue";}}),universalOptions);// Template Map
 /* harmony default export */ __webpack_exports__["default"] = ({'../src/containers/404':t_0,'../src/containers/Issue':t_1});var notFoundTemplate="../src/containers/404";
 /* WEBPACK VAR INJECTION */}.call(this, "/"))
 
@@ -3533,7 +3533,7 @@ var _require = __webpack_require__(4),
 registerPlugins(plugins);
 
 if (typeof document !== 'undefined' && module && module.hot) {
-  module.hot.accept("/Users/philipp/dev/this-week-in-react/dist/react-static-browser-plugins.js", function () {
+  module.hot.accept("/Users/philippspiess/dev/this-week-in-react/dist/react-static-browser-plugins.js", function () {
     registerPlugins(__webpack_require__(20).default);
   });
 }
@@ -3586,7 +3586,7 @@ var _require2 = __webpack_require__(4),
 registerTemplates(templates, notFoundTemplate);
 
 if (typeof document !== 'undefined' && module && module.hot) {
-  module.hot.accept("/Users/philipp/dev/this-week-in-react/dist/react-static-templates.js", function () {
+  module.hot.accept("/Users/philippspiess/dev/this-week-in-react/dist/react-static-templates.js", function () {
     var _require3 = __webpack_require__(23),
         templates = _require3.default,
         notFoundTemplate = _require3.notFoundTemplate;
@@ -6088,9 +6088,9 @@ var external_react_dom_default = /*#__PURE__*/__webpack_require__.n(external_rea
 // EXTERNAL MODULE: ../lib/index.js
 var lib = __webpack_require__(10);
 
-// CONCATENATED MODULE: /Users/philipp/dev/this-week-in-react/src/App.js
+// CONCATENATED MODULE: /Users/philippspiess/dev/this-week-in-react/src/App.js
 var App_App=function App(){return external_react_default.a.createElement(lib["Root"],{disableScroller:true},external_react_default.a.createElement("div",{className:"content"},external_react_default.a.createElement(lib["Routes"],null)));};/* harmony default export */ var src_App = (App_App);
-// CONCATENATED MODULE: /Users/philipp/dev/this-week-in-react/src/index.js
+// CONCATENATED MODULE: /Users/philippspiess/dev/this-week-in-react/src/index.js
 // Your top level component
 // Export your top level component as JSX (for static rendering)
 /* harmony default export */ var src = __webpack_exports__["default"] = (src_App);// Render your app
@@ -6100,4 +6100,4 @@ src_render(src_App);}
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.febce1d5.js.map
+//# sourceMappingURL=static.a1633fd7.js.map

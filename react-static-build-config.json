@@ -1,5 +1,5 @@
 {
-  "entry": "/Users/philipp/dev/this-week-in-react/src/index.js",
+  "entry": "/Users/philippspiess/dev/this-week-in-react/src/index.js",
   "prefetchRate": 5,
   "maxThreads": null,
   "disableRoutePrefixing": false,
@@ -14,25 +14,25 @@
   "preloadPollInterval": 300,
   "siteRoot": "https://this-week-in-react.org",
   "paths": {
-    "ROOT": "/Users/philipp/dev/this-week-in-react",
-    "LOCAL_NODE_MODULES": "/Users/philipp/dev/this-week-in-react/node_modules/react-static/node_modules",
-    "SRC": "/Users/philipp/dev/this-week-in-react/src",
-    "PAGES": "/Users/philipp/dev/this-week-in-react/src/pages",
-    "DIST": "/Users/philipp/dev/this-week-in-react/dist",
-    "ASSETS": "/Users/philipp/dev/this-week-in-react/dist",
-    "PLUGINS": "/Users/philipp/dev/this-week-in-react/plugins",
-    "TEMP": "/Users/philipp/dev/this-week-in-react/tmp",
-    "PUBLIC": "/Users/philipp/dev/this-week-in-react/public",
-    "NODE_MODULES": "/Users/philipp/dev/this-week-in-react/node_modules",
-    "EXCLUDE_MODULES": "/Users/philipp/dev/this-week-in-react/node_modules",
-    "PACKAGE": "/Users/philipp/dev/this-week-in-react/package.json",
-    "HTML_TEMPLATE": "/Users/philipp/dev/this-week-in-react/dist/index.html",
-    "STATIC_DATA": "/Users/philipp/dev/this-week-in-react/dist/staticData"
+    "ROOT": "/Users/philippspiess/dev/this-week-in-react",
+    "LOCAL_NODE_MODULES": "/Users/philippspiess/dev/this-week-in-react/node_modules/react-static/node_modules",
+    "SRC": "/Users/philippspiess/dev/this-week-in-react/src",
+    "PAGES": "/Users/philippspiess/dev/this-week-in-react/src/pages",
+    "DIST": "/Users/philippspiess/dev/this-week-in-react/dist",
+    "ASSETS": "/Users/philippspiess/dev/this-week-in-react/dist",
+    "PLUGINS": "/Users/philippspiess/dev/this-week-in-react/plugins",
+    "TEMP": "/Users/philippspiess/dev/this-week-in-react/tmp",
+    "PUBLIC": "/Users/philippspiess/dev/this-week-in-react/public",
+    "NODE_MODULES": "/Users/philippspiess/dev/this-week-in-react/node_modules",
+    "EXCLUDE_MODULES": "/Users/philippspiess/dev/this-week-in-react/node_modules",
+    "PACKAGE": "/Users/philippspiess/dev/this-week-in-react/package.json",
+    "HTML_TEMPLATE": "/Users/philippspiess/dev/this-week-in-react/dist/index.html",
+    "STATIC_DATA": "/Users/philippspiess/dev/this-week-in-react/dist/staticData"
   },
   "plugins": [
     {
-      "location": "/Users/philipp/dev/this-week-in-react",
-      "nodeLocation": "/Users/philipp/dev/this-week-in-react/node.api.js",
+      "location": "/Users/philippspiess/dev/this-week-in-react",
+      "nodeLocation": "/Users/philippspiess/dev/this-week-in-react/node.api.js",
       "options": {},
       "hooks": {}
     }
@@ -46,10 +46,19 @@
   "routes": [
     {
       "path": "/",
-      "redirect": "issues/42",
+      "redirect": "issues/43",
       "originalPath": "/",
       "hasGetProps": false,
       "fromConfig": true
+    },
+    {
+      "path": "issues/43",
+      "component": "src/containers/Issue",
+      "lastModified": "2019-12-20",
+      "originalPath": "issues/43",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Issue"
     },
     {
       "path": "issues/42",
@@ -198,7 +207,7 @@
     {
       "path": "issues/26",
       "component": "src/containers/Issue",
-      "lastModified": "2019-03-28",
+      "lastModified": "2019-03-29",
       "originalPath": "issues/26",
       "hasGetProps": true,
       "fromConfig": true,
@@ -207,7 +216,7 @@
     {
       "path": "issues/25",
       "component": "src/containers/Issue",
-      "lastModified": "2019-03-21",
+      "lastModified": "2019-03-22",
       "originalPath": "issues/25",
       "hasGetProps": true,
       "fromConfig": true,
@@ -216,7 +225,7 @@
     {
       "path": "issues/24",
       "component": "src/containers/Issue",
-      "lastModified": "2019-03-14",
+      "lastModified": "2019-03-15",
       "originalPath": "issues/24",
       "hasGetProps": true,
       "fromConfig": true,
@@ -225,7 +234,7 @@
     {
       "path": "issues/23",
       "component": "src/containers/Issue",
-      "lastModified": "2019-03-07",
+      "lastModified": "2019-03-08",
       "originalPath": "issues/23",
       "hasGetProps": true,
       "fromConfig": true,
@@ -234,7 +243,7 @@
     {
       "path": "issues/22",
       "component": "src/containers/Issue",
-      "lastModified": "2019-02-28",
+      "lastModified": "2019-03-01",
       "originalPath": "issues/22",
       "hasGetProps": true,
       "fromConfig": true,
@@ -243,7 +252,7 @@
     {
       "path": "issues/21",
       "component": "src/containers/Issue",
-      "lastModified": "2019-02-21",
+      "lastModified": "2019-02-22",
       "originalPath": "issues/21",
       "hasGetProps": true,
       "fromConfig": true,
@@ -252,7 +261,7 @@
     {
       "path": "issues/20",
       "component": "src/containers/Issue",
-      "lastModified": "2019-02-14",
+      "lastModified": "2019-02-15",
       "originalPath": "issues/20",
       "hasGetProps": true,
       "fromConfig": true,
@@ -261,7 +270,7 @@
     {
       "path": "issues/19",
       "component": "src/containers/Issue",
-      "lastModified": "2019-02-07",
+      "lastModified": "2019-02-08",
       "originalPath": "issues/19",
       "hasGetProps": true,
       "fromConfig": true,
@@ -270,7 +279,7 @@
     {
       "path": "issues/18",
       "component": "src/containers/Issue",
-      "lastModified": "2019-01-31",
+      "lastModified": "2019-02-01",
       "originalPath": "issues/18",
       "hasGetProps": true,
       "fromConfig": true,
@@ -279,7 +288,7 @@
     {
       "path": "issues/17",
       "component": "src/containers/Issue",
-      "lastModified": "2019-01-24",
+      "lastModified": "2019-01-25",
       "originalPath": "issues/17",
       "hasGetProps": true,
       "fromConfig": true,
@@ -288,7 +297,7 @@
     {
       "path": "issues/16",
       "component": "src/containers/Issue",
-      "lastModified": "2019-01-17",
+      "lastModified": "2019-01-18",
       "originalPath": "issues/16",
       "hasGetProps": true,
       "fromConfig": true,
@@ -297,7 +306,7 @@
     {
       "path": "issues/15",
       "component": "src/containers/Issue",
-      "lastModified": "2019-01-10",
+      "lastModified": "2019-01-11",
       "originalPath": "issues/15",
       "hasGetProps": true,
       "fromConfig": true,
@@ -306,7 +315,7 @@
     {
       "path": "issues/14",
       "component": "src/containers/Issue",
-      "lastModified": "2018-12-20",
+      "lastModified": "2018-12-21",
       "originalPath": "issues/14",
       "hasGetProps": true,
       "fromConfig": true,
@@ -315,7 +324,7 @@
     {
       "path": "issues/13",
       "component": "src/containers/Issue",
-      "lastModified": "2018-12-13",
+      "lastModified": "2018-12-14",
       "originalPath": "issues/13",
       "hasGetProps": true,
       "fromConfig": true,
@@ -324,7 +333,7 @@
     {
       "path": "issues/12",
       "component": "src/containers/Issue",
-      "lastModified": "2018-12-06",
+      "lastModified": "2018-12-07",
       "originalPath": "issues/12",
       "hasGetProps": true,
       "fromConfig": true,
@@ -333,7 +342,7 @@
     {
       "path": "issues/11",
       "component": "src/containers/Issue",
-      "lastModified": "2018-11-29",
+      "lastModified": "2018-11-30",
       "originalPath": "issues/11",
       "hasGetProps": true,
       "fromConfig": true,
@@ -342,7 +351,7 @@
     {
       "path": "issues/10",
       "component": "src/containers/Issue",
-      "lastModified": "2018-11-22",
+      "lastModified": "2018-11-23",
       "originalPath": "issues/10",
       "hasGetProps": true,
       "fromConfig": true,
@@ -351,7 +360,7 @@
     {
       "path": "issues/9",
       "component": "src/containers/Issue",
-      "lastModified": "2018-11-15",
+      "lastModified": "2018-11-16",
       "originalPath": "issues/9",
       "hasGetProps": true,
       "fromConfig": true,
@@ -360,7 +369,7 @@
     {
       "path": "issues/8",
       "component": "src/containers/Issue",
-      "lastModified": "2018-11-08",
+      "lastModified": "2018-11-09",
       "originalPath": "issues/8",
       "hasGetProps": true,
       "fromConfig": true,
@@ -369,7 +378,7 @@
     {
       "path": "issues/7",
       "component": "src/containers/Issue",
-      "lastModified": "2018-11-01",
+      "lastModified": "2018-11-02",
       "originalPath": "issues/7",
       "hasGetProps": true,
       "fromConfig": true,

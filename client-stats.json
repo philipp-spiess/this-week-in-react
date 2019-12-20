@@ -7,8 +7,8 @@
   ],
   "version": "4.29.0",
   "hash": "061ea567fbea3ada71b6",
-  "time": 7375,
-  "builtAt": 1576853859319,
+  "time": 2654,
+  "builtAt": 1576854077554,
   "publicPath": "/",
   "outputPath": "/Users/philippspiess/dev/this-week-in-react/dist",
   "assetsByChunkName": {
@@ -2773,9 +2773,9 @@
           "chunks": [
             6
           ],
-          "issuer": "/Users/philippspiess/dev/this-week-in-react/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/philippspiess/dev/this-week-in-react/node_modules/react-static/lib/bootstrapPlugins.js",
-          "issuerId": 47,
-          "issuerName": "../lib/bootstrapPlugins.js",
+          "issuer": "/Users/philippspiess/dev/this-week-in-react/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/philippspiess/dev/this-week-in-react/node_modules/react-static/lib/bootstrapApp.js",
+          "issuerId": 81,
+          "issuerName": "../lib/bootstrapApp.js",
           "issuerPath": [
             {
               "id": 46,
@@ -2783,9 +2783,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 47,
-              "identifier": "/Users/philippspiess/dev/this-week-in-react/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/philippspiess/dev/this-week-in-react/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 81,
+              "identifier": "/Users/philippspiess/dev/this-week-in-react/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/philippspiess/dev/this-week-in-react/node_modules/react-static/lib/bootstrapApp.js",
+              "name": "../lib/bootstrapApp.js"
             }
           ],
           "failed": false,
@@ -4757,9 +4757,9 @@
           "chunks": [
             6
           ],
-          "issuer": "/Users/philippspiess/dev/this-week-in-react/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/philippspiess/dev/this-week-in-react/node_modules/react-static/lib/bootstrapTemplates.js",
-          "issuerId": 74,
-          "issuerName": "../lib/bootstrapTemplates.js",
+          "issuer": "/Users/philippspiess/dev/this-week-in-react/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/philippspiess/dev/this-week-in-react/node_modules/react-static/lib/bootstrapApp.js",
+          "issuerId": 81,
+          "issuerName": "../lib/bootstrapApp.js",
           "issuerPath": [
             {
               "id": 46,
@@ -4767,9 +4767,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 74,
-              "identifier": "/Users/philippspiess/dev/this-week-in-react/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/philippspiess/dev/this-week-in-react/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 81,
+              "identifier": "/Users/philippspiess/dev/this-week-in-react/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/philippspiess/dev/this-week-in-react/node_modules/react-static/lib/bootstrapApp.js",
+              "name": "../lib/bootstrapApp.js"
             }
           ],
           "failed": false,
@@ -6873,9 +6873,9 @@
           "chunks": [
             6
           ],
-          "issuer": "/Users/philippspiess/dev/this-week-in-react/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/philippspiess/dev/this-week-in-react/node_modules/react-static/lib/browser/components/RouteData.js",
-          "issuerId": 94,
-          "issuerName": "../lib/browser/components/RouteData.js",
+          "issuer": "/Users/philippspiess/dev/this-week-in-react/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/philippspiess/dev/this-week-in-react/node_modules/react-static/lib/browser/components/Routes.js",
+          "issuerId": 39,
+          "issuerName": "../lib/browser/components/Routes.js",
           "issuerPath": [
             {
               "id": 46,
@@ -6903,9 +6903,9 @@
               "name": "../lib/index.js"
             },
             {
-              "id": 94,
-              "identifier": "/Users/philippspiess/dev/this-week-in-react/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/philippspiess/dev/this-week-in-react/node_modules/react-static/lib/browser/components/RouteData.js",
-              "name": "../lib/browser/components/RouteData.js"
+              "id": 39,
+              "identifier": "/Users/philippspiess/dev/this-week-in-react/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/philippspiess/dev/this-week-in-react/node_modules/react-static/lib/browser/components/Routes.js",
+              "name": "../lib/browser/components/Routes.js"
             }
           ],
           "failed": false,
@@ -9032,9 +9032,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 47,
-              "identifier": "/Users/philippspiess/dev/this-week-in-react/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/philippspiess/dev/this-week-in-react/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 81,
+              "identifier": "/Users/philippspiess/dev/this-week-in-react/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/philippspiess/dev/this-week-in-react/node_modules/react-static/lib/bootstrapApp.js",
+              "name": "../lib/bootstrapApp.js"
             },
             {
               "id": 0,
@@ -12917,9 +12917,9 @@
       "chunks": [
         6
       ],
-      "issuer": "/Users/philippspiess/dev/this-week-in-react/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/philippspiess/dev/this-week-in-react/node_modules/react-static/lib/bootstrapPlugins.js",
-      "issuerId": 47,
-      "issuerName": "../lib/bootstrapPlugins.js",
+      "issuer": "/Users/philippspiess/dev/this-week-in-react/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/philippspiess/dev/this-week-in-react/node_modules/react-static/lib/bootstrapApp.js",
+      "issuerId": 81,
+      "issuerName": "../lib/bootstrapApp.js",
       "issuerPath": [
         {
           "id": 46,
@@ -12927,9 +12927,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 47,
-          "identifier": "/Users/philippspiess/dev/this-week-in-react/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/philippspiess/dev/this-week-in-react/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 81,
+          "identifier": "/Users/philippspiess/dev/this-week-in-react/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/philippspiess/dev/this-week-in-react/node_modules/react-static/lib/bootstrapApp.js",
+          "name": "../lib/bootstrapApp.js"
         }
       ],
       "failed": false,
@@ -14901,9 +14901,9 @@
       "chunks": [
         6
       ],
-      "issuer": "/Users/philippspiess/dev/this-week-in-react/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/philippspiess/dev/this-week-in-react/node_modules/react-static/lib/bootstrapTemplates.js",
-      "issuerId": 74,
-      "issuerName": "../lib/bootstrapTemplates.js",
+      "issuer": "/Users/philippspiess/dev/this-week-in-react/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/philippspiess/dev/this-week-in-react/node_modules/react-static/lib/bootstrapApp.js",
+      "issuerId": 81,
+      "issuerName": "../lib/bootstrapApp.js",
       "issuerPath": [
         {
           "id": 46,
@@ -14911,9 +14911,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 74,
-          "identifier": "/Users/philippspiess/dev/this-week-in-react/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/philippspiess/dev/this-week-in-react/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 81,
+          "identifier": "/Users/philippspiess/dev/this-week-in-react/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/philippspiess/dev/this-week-in-react/node_modules/react-static/lib/bootstrapApp.js",
+          "name": "../lib/bootstrapApp.js"
         }
       ],
       "failed": false,
@@ -17017,9 +17017,9 @@
       "chunks": [
         6
       ],
-      "issuer": "/Users/philippspiess/dev/this-week-in-react/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/philippspiess/dev/this-week-in-react/node_modules/react-static/lib/browser/components/RouteData.js",
-      "issuerId": 94,
-      "issuerName": "../lib/browser/components/RouteData.js",
+      "issuer": "/Users/philippspiess/dev/this-week-in-react/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/philippspiess/dev/this-week-in-react/node_modules/react-static/lib/browser/components/Routes.js",
+      "issuerId": 39,
+      "issuerName": "../lib/browser/components/Routes.js",
       "issuerPath": [
         {
           "id": 46,
@@ -17047,9 +17047,9 @@
           "name": "../lib/index.js"
         },
         {
-          "id": 94,
-          "identifier": "/Users/philippspiess/dev/this-week-in-react/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/philippspiess/dev/this-week-in-react/node_modules/react-static/lib/browser/components/RouteData.js",
-          "name": "../lib/browser/components/RouteData.js"
+          "id": 39,
+          "identifier": "/Users/philippspiess/dev/this-week-in-react/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/philippspiess/dev/this-week-in-react/node_modules/react-static/lib/browser/components/Routes.js",
+          "name": "../lib/browser/components/Routes.js"
         }
       ],
       "failed": false,
@@ -19476,9 +19476,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 47,
-          "identifier": "/Users/philippspiess/dev/this-week-in-react/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/philippspiess/dev/this-week-in-react/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 81,
+          "identifier": "/Users/philippspiess/dev/this-week-in-react/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/philippspiess/dev/this-week-in-react/node_modules/react-static/lib/bootstrapApp.js",
+          "name": "../lib/bootstrapApp.js"
         },
         {
           "id": 0,

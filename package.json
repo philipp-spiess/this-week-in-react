@@ -33,7 +33,7 @@
     "mjml": "^4.3.1",
     "open-graph-scraper": "^3.6.0",
     "prettier": "^1.16.1",
-    "serve": "^10.1.1",
+    "serve": "^10.1.2",
     "truncate": "^2.0.1"
   }
 }

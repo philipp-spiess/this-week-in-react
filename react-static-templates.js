@@ -1,5 +1,5 @@
 
-import universal, { setHasBabelPlugin } from '/Users/philippspiess/dev/this-week-in-react/node_modules/react-static/node_modules/react-universal-component/dist/index.js'
+import universal, { setHasBabelPlugin } from '/Users/philipp/dev/this-week-in-react/node_modules/react-static/node_modules/react-universal-component/dist/index.js'
 
 
 setHasBabelPlugin()

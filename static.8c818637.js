@@ -110,7 +110,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 37);
+/******/ 	return __webpack_require__(__webpack_require__.s = 35);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -992,7 +992,7 @@ exports.cleanSlashes = exports.trimDoubleSlashes = exports.trimTrailingSlashes =
 
 var _regenerator = _interopRequireDefault(__webpack_require__(5));
 
-var _swimmer = __webpack_require__(39);
+var _swimmer = __webpack_require__(37);
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : {
@@ -1533,7 +1533,7 @@ var _utils = __webpack_require__(16);
 
 var requireById = function requireById(id) {
   if (!(0, _utils.isWebpack)() && typeof id === 'string') {
-    return __webpack_require__(43)("" + id);
+    return __webpack_require__(41)("" + id);
   }
 
   return __webpack_require__('' + id);
@@ -1785,15 +1785,15 @@ Object.keys(_browser).forEach(function (key) {
 
 var _scrollTo = _interopRequireDefault(__webpack_require__(25));
 
-var _RouteData = _interopRequireWildcard(__webpack_require__(47));
+var _RouteData = _interopRequireWildcard(__webpack_require__(45));
 
-var _SiteData = _interopRequireWildcard(__webpack_require__(48));
+var _SiteData = _interopRequireWildcard(__webpack_require__(46));
 
-var _Prefetch = _interopRequireDefault(__webpack_require__(49));
+var _Prefetch = _interopRequireDefault(__webpack_require__(47));
 
 var _Routes = _interopRequireDefault(__webpack_require__(27));
 
-var _Root = _interopRequireDefault(__webpack_require__(50));
+var _Root = _interopRequireDefault(__webpack_require__(48));
 
 function _interopRequireWildcard(obj) {
   if (obj && obj.__esModule) {
@@ -1894,23 +1894,23 @@ module.exports = require("@reach/router");
 
 "use strict";
 
-// EXTERNAL MODULE: /Users/philippspiess/dev/this-week-in-react/src/containers/App.css
-var App = __webpack_require__(53);
+// EXTERNAL MODULE: /Users/philipp/dev/this-week-in-react/src/containers/App.css
+var App = __webpack_require__(51);
 
-// CONCATENATED MODULE: /Users/philippspiess/dev/this-week-in-react/src/util/clicky.js
+// CONCATENATED MODULE: /Users/philipp/dev/this-week-in-react/src/util/clicky.js
 function clicky(){window.clicky_site_ids=[101142968];var s=document.createElement("script");s.type="text/javascript";s.async=true;s.src="//static.getclicky.com/js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(s);}
 // EXTERNAL MODULE: external "react-helmet"
 var external_react_helmet_ = __webpack_require__(9);
 
-// EXTERNAL MODULE: /Users/philippspiess/dev/this-week-in-react/src/images/favicon.png
+// EXTERNAL MODULE: /Users/philipp/dev/this-week-in-react/src/images/favicon.png
 var favicon = __webpack_require__(31);
 var favicon_default = /*#__PURE__*/__webpack_require__.n(favicon);
 
-// EXTERNAL MODULE: /Users/philippspiess/dev/this-week-in-react/src/images/logo.png
+// EXTERNAL MODULE: /Users/philipp/dev/this-week-in-react/src/images/logo.png
 var logo = __webpack_require__(32);
 var logo_default = /*#__PURE__*/__webpack_require__.n(logo);
 
-// EXTERNAL MODULE: /Users/philippspiess/dev/this-week-in-react/src/images/logo-with-bg.jpg
+// EXTERNAL MODULE: /Users/philipp/dev/this-week-in-react/src/images/logo-with-bg.jpg
 var logo_with_bg = __webpack_require__(33);
 var logo_with_bg_default = /*#__PURE__*/__webpack_require__.n(logo_with_bg);
 
@@ -1918,27 +1918,25 @@ var logo_with_bg_default = /*#__PURE__*/__webpack_require__.n(logo_with_bg);
 var external_react_ = __webpack_require__(0);
 var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
 
-// EXTERNAL MODULE: /Users/philippspiess/dev/this-week-in-react/src/images/telegram.svg
-var telegram = __webpack_require__(34);
-var telegram_default = /*#__PURE__*/__webpack_require__.n(telegram);
+// EXTERNAL MODULE: /Users/philipp/dev/this-week-in-react/src/images/telegram.svg
+var telegram = __webpack_require__(53);
 
-// EXTERNAL MODULE: /Users/philippspiess/dev/this-week-in-react/src/images/twitter-card.png
+// EXTERNAL MODULE: /Users/philipp/dev/this-week-in-react/src/images/twitter-card.png
 var twitter_card = __webpack_require__(19);
 var twitter_card_default = /*#__PURE__*/__webpack_require__.n(twitter_card);
 
-// EXTERNAL MODULE: /Users/philippspiess/dev/this-week-in-react/src/images/twitter.svg
-var twitter = __webpack_require__(35);
-var twitter_default = /*#__PURE__*/__webpack_require__.n(twitter);
+// EXTERNAL MODULE: /Users/philipp/dev/this-week-in-react/src/images/twitter.svg
+var twitter = __webpack_require__(54);
 
 // EXTERNAL MODULE: external "react-mailchimp-subscribe"
-var external_react_mailchimp_subscribe_ = __webpack_require__(36);
+var external_react_mailchimp_subscribe_ = __webpack_require__(34);
 var external_react_mailchimp_subscribe_default = /*#__PURE__*/__webpack_require__.n(external_react_mailchimp_subscribe_);
 
-// CONCATENATED MODULE: /Users/philippspiess/dev/this-week-in-react/src/containers/SubscribeForm.js
-var url="https://this-week-in-react.us19.list-manage.com/subscribe/post?u=155aa5558694a008de40fe987&amp;id=9921ef9d30";function SubscribeForm(){return external_react_default.a.createElement(external_react_mailchimp_subscribe_default.a,{url:url,render:function render(props){var status=props.status,message=props.message,subscribe=props.subscribe;var emailRef=external_react_default.a.createRef();var submit=function submit(){return emailRef.current&&emailRef.current.checkValidity()&&subscribe({EMAIL:emailRef.current.value});};return external_react_default.a.createElement("div",{className:"form-wrapper"},status==="sending"&&external_react_default.a.createElement("div",{className:"form-info"},"Subscribing\u2026"),status==="error"&&external_react_default.a.createElement("div",{className:"form-info",dangerouslySetInnerHTML:{__html:message.replace('0 - ','')}}),status==="success"&&external_react_default.a.createElement("div",{className:"form-info",dangerouslySetInnerHTML:{__html:message}}),external_react_default.a.createElement("form",{onSubmit:function onSubmit(e){return e.preventDefault();}},external_react_default.a.createElement("input",{ref:emailRef,type:"email",placeholder:"Your email",required:true}),external_react_default.a.createElement("button",{onClick:submit},"Subscribe")),external_react_default.a.createElement("div",{className:"form-info"},"No Spam. Unsubscribe at any time."));}});}
-// CONCATENATED MODULE: /Users/philippspiess/dev/this-week-in-react/src/containers/Layout.js
+// CONCATENATED MODULE: /Users/philipp/dev/this-week-in-react/src/containers/SubscribeForm.js
+var url="https://this-week-in-react.us19.list-manage.com/subscribe/post?u=155aa5558694a008de40fe987&amp;id=9921ef9d30";function SubscribeForm(){return external_react_default.a.createElement(external_react_mailchimp_subscribe_default.a,{url:url,render:function render(props){var status=props.status,message=props.message,subscribe=props.subscribe;var emailRef=external_react_default.a.createRef();var submit=function submit(){return emailRef.current&&emailRef.current.checkValidity()&&subscribe({EMAIL:emailRef.current.value});};return external_react_default.a.createElement("div",{className:"form-wrapper"},status==="sending"&&external_react_default.a.createElement("div",{className:"form-info"},"Subscribing\u2026"),status==="error"&&external_react_default.a.createElement("div",{className:"form-info",dangerouslySetInnerHTML:{__html:message.replace("0 - ","")}}),status==="success"&&external_react_default.a.createElement("div",{className:"form-info",dangerouslySetInnerHTML:{__html:message}}),external_react_default.a.createElement("form",{onSubmit:function onSubmit(e){return e.preventDefault();}},external_react_default.a.createElement("input",{ref:emailRef,type:"email",placeholder:"Your email",required:true}),external_react_default.a.createElement("button",{onClick:submit},"Subscribe")),external_react_default.a.createElement("div",{className:"form-info"},"No Spam. Unsubscribe at any time."));}});}
+// CONCATENATED MODULE: /Users/philipp/dev/this-week-in-react/src/containers/Layout.js
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Layout_Layout; });
-function _typeof(obj){if(typeof Symbol==="function"&&typeof Symbol.iterator==="symbol"){_typeof=function _typeof(obj){return typeof obj;};}else{_typeof=function _typeof(obj){return obj&&typeof Symbol==="function"&&obj.constructor===Symbol&&obj!==Symbol.prototype?"symbol":typeof obj;};}return _typeof(obj);}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}function _createClass(Constructor,protoProps,staticProps){if(protoProps)_defineProperties(Constructor.prototype,protoProps);if(staticProps)_defineProperties(Constructor,staticProps);return Constructor;}function _possibleConstructorReturn(self,call){if(call&&(_typeof(call)==="object"||typeof call==="function")){return call;}return _assertThisInitialized(self);}function _assertThisInitialized(self){if(self===void 0){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return self;}function _getPrototypeOf(o){_getPrototypeOf=Object.setPrototypeOf?Object.getPrototypeOf:function _getPrototypeOf(o){return o.__proto__||Object.getPrototypeOf(o);};return _getPrototypeOf(o);}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function");}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,writable:true,configurable:true}});if(superClass)_setPrototypeOf(subClass,superClass);}function _setPrototypeOf(o,p){_setPrototypeOf=Object.setPrototypeOf||function _setPrototypeOf(o,p){o.__proto__=p;return o;};return _setPrototypeOf(o,p);}var Layout_Layout=/*#__PURE__*/function(_React$Component){_inherits(Layout,_React$Component);function Layout(){_classCallCheck(this,Layout);return _possibleConstructorReturn(this,_getPrototypeOf(Layout).apply(this,arguments));}_createClass(Layout,[{key:"componentDidMount",value:function componentDidMount(){clicky();}},{key:"render",value:function render(){return external_react_default.a.createElement("div",null,external_react_default.a.createElement(external_react_helmet_["Helmet"],null,external_react_default.a.createElement("title",null,"This Week in React"),external_react_default.a.createElement("meta",{charset:"UTF-8"}),external_react_default.a.createElement("meta",{name:"viewport",content:"width=device-width, initial-scale=1.0"}),external_react_default.a.createElement("meta",{name:"twitter:card",content:"summary_large_image"}),external_react_default.a.createElement("meta",{name:"twitter:site",content:"@PhilippSpiess"}),external_react_default.a.createElement("meta",{name:"twitter:title",content:"This Week in React \u269B\uFE0F"}),external_react_default.a.createElement("meta",{name:"twitter:description",content:"Regular coverage of interesting pull requests, discussions, and RFCs around React Core and React DOM."}),external_react_default.a.createElement("meta",{name:"twitter:image",content:twitter_card_default.a}),external_react_default.a.createElement("meta",{name:"og:image",content:twitter_card_default.a}),external_react_default.a.createElement("link",{rel:"icon",type:"image/png",href:favicon_default.a}),external_react_default.a.createElement("link",{href:"https://fonts.googleapis.com/css?family=Merriweather",rel:"stylesheet"})),external_react_default.a.createElement("div",{className:"container"},external_react_default.a.createElement("div",{className:"left"},external_react_default.a.createElement("img",{src:logo_with_bg_default.a,hidden:true,style:{display:"none"},lazyload:true}),external_react_default.a.createElement("img",{src:logo_default.a,width:180,className:"logo",alt:"This Week in React"}),external_react_default.a.createElement("p",{className:"pitch"},"Regular coverage of interesting pull requests, discussions, and RFCs around React Core and React DOM."),external_react_default.a.createElement(SubscribeForm,null),external_react_default.a.createElement("div",{className:"separator"},"or"),external_react_default.a.createElement("div",{className:"social"},external_react_default.a.createElement("ul",null,external_react_default.a.createElement("li",null,external_react_default.a.createElement("a",{href:"https://twitter.com/PhilippSpiess"},external_react_default.a.createElement("span",{className:"button-icon"},external_react_default.a.createElement("img",{src:twitter_default.a,width:"30px",alt:"Twitter"})),"Follow on Twitter")),external_react_default.a.createElement("li",null,external_react_default.a.createElement("a",{href:"https://t.me/this_week_in_react"},external_react_default.a.createElement("span",{className:"button-icon"},external_react_default.a.createElement("img",{src:telegram_default.a,width:"30px",alt:"Telegram"})),"Read on Telegram")))),external_react_default.a.createElement("p",{className:"curated-by"},"Curated with"," ",external_react_default.a.createElement("span",{role:"img","aria-label":"love"},"\u2764\uFE0F")," ","by ",external_react_default.a.createElement("a",{href:"https://philippspiess.com"},"Philipp Spiess"))),external_react_default.a.createElement("div",{className:"right"},this.props.children)));}}]);return Layout;}(external_react_default.a.Component);
+function _typeof(obj){if(typeof Symbol==="function"&&typeof Symbol.iterator==="symbol"){_typeof=function _typeof(obj){return typeof obj;};}else{_typeof=function _typeof(obj){return obj&&typeof Symbol==="function"&&obj.constructor===Symbol&&obj!==Symbol.prototype?"symbol":typeof obj;};}return _typeof(obj);}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}function _createClass(Constructor,protoProps,staticProps){if(protoProps)_defineProperties(Constructor.prototype,protoProps);if(staticProps)_defineProperties(Constructor,staticProps);return Constructor;}function _possibleConstructorReturn(self,call){if(call&&(_typeof(call)==="object"||typeof call==="function")){return call;}return _assertThisInitialized(self);}function _assertThisInitialized(self){if(self===void 0){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return self;}function _getPrototypeOf(o){_getPrototypeOf=Object.setPrototypeOf?Object.getPrototypeOf:function _getPrototypeOf(o){return o.__proto__||Object.getPrototypeOf(o);};return _getPrototypeOf(o);}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function");}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,writable:true,configurable:true}});if(superClass)_setPrototypeOf(subClass,superClass);}function _setPrototypeOf(o,p){_setPrototypeOf=Object.setPrototypeOf||function _setPrototypeOf(o,p){o.__proto__=p;return o;};return _setPrototypeOf(o,p);}var Layout_Layout=/*#__PURE__*/function(_React$Component){_inherits(Layout,_React$Component);function Layout(){_classCallCheck(this,Layout);return _possibleConstructorReturn(this,_getPrototypeOf(Layout).apply(this,arguments));}_createClass(Layout,[{key:"componentDidMount",value:function componentDidMount(){clicky();}},{key:"render",value:function render(){return external_react_default.a.createElement("div",null,external_react_default.a.createElement(external_react_helmet_["Helmet"],null,external_react_default.a.createElement("title",null,"This Week in React"),external_react_default.a.createElement("meta",{charset:"UTF-8"}),external_react_default.a.createElement("meta",{name:"viewport",content:"width=device-width, initial-scale=1.0"}),external_react_default.a.createElement("meta",{name:"twitter:card",content:"summary_large_image"}),external_react_default.a.createElement("meta",{name:"twitter:site",content:"@PhilippSpiess"}),external_react_default.a.createElement("meta",{name:"twitter:title",content:"This Week in React \u269B\uFE0F"}),external_react_default.a.createElement("meta",{name:"twitter:description",content:"Regular coverage of interesting pull requests, discussions, and RFCs around React Core and React DOM."}),external_react_default.a.createElement("meta",{name:"twitter:image",content:twitter_card_default.a}),external_react_default.a.createElement("meta",{name:"og:image",content:twitter_card_default.a}),external_react_default.a.createElement("link",{rel:"icon",type:"image/png",href:favicon_default.a}),external_react_default.a.createElement("link",{href:"https://fonts.googleapis.com/css?family=Merriweather",rel:"stylesheet"})),external_react_default.a.createElement("div",{className:"container"},external_react_default.a.createElement("div",{className:"left"},external_react_default.a.createElement("img",{src:logo_with_bg_default.a,hidden:true,style:{display:"none"},lazyload:true}),external_react_default.a.createElement("img",{src:logo_default.a,width:180,className:"logo",alt:"This Week in React"}),external_react_default.a.createElement("p",{className:"pitch"},"This website contains a backup of the React newsletters I curated between 2018 and 2019. It's been an amazing journey with you all, but this newsletter is no longer maintained.",external_react_default.a.createElement("br",null),external_react_default.a.createElement("br",null),"If you're interested in React news, I recommend you to check out the fantastic"," ",external_react_default.a.createElement("a",{href:"https://thisweekinreact.com/"},"This Week In React")," ","curated by S\xE9bastien Lorber.",external_react_default.a.createElement("br",null)),external_react_default.a.createElement("p",{className:"curated-by"},external_react_default.a.createElement("span",{role:"img","aria-label":"love"},"\u2764\uFE0F")," ",external_react_default.a.createElement("a",{href:"https://philippspiess.com"},"Philipp"))),external_react_default.a.createElement("div",{className:"right"},this.props.children)));}}]);return Layout;}(external_react_default.a.Component);
 
 /***/ }),
 /* 15 */
@@ -1972,7 +1970,7 @@ var _createClass = function () {
   };
 }();
 
-var _requireUniversalModule = __webpack_require__(42);
+var _requireUniversalModule = __webpack_require__(40);
 
 Object.defineProperty(exports, 'CHUNK_NAMES', {
   enumerable: true,
@@ -1987,7 +1985,7 @@ Object.defineProperty(exports, 'MODULE_IDS', {
   }
 });
 
-var _reportChunks = __webpack_require__(44);
+var _reportChunks = __webpack_require__(42);
 
 Object.defineProperty(exports, 'ReportChunks', {
   enumerable: true,
@@ -2004,7 +2002,7 @@ var _propTypes = __webpack_require__(24);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _hoistNonReactStatics = __webpack_require__(45);
+var _hoistNonReactStatics = __webpack_require__(43);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
@@ -2666,7 +2664,7 @@ module.exports = __webpack_require__.p + "static/twitter-card.b8a791b8.png";
 __webpack_require__.r(__webpack_exports__);
 // Imports
 // Plugins
-var plugins=[{location:"/Users/philippspiess/dev/this-week-in-react",plugins:[],hooks:{}}];// Export em!
+var plugins=[{location:"/Users/philipp/dev/this-week-in-react",plugins:[],hooks:{}}];// Export em!
 /* harmony default export */ __webpack_exports__["default"] = (plugins);
 
 /***/ }),
@@ -2695,7 +2693,7 @@ exports.default = onVisible;
 
 if (typeof document !== 'undefined') {
   // Polyfill that shiz!
-  __webpack_require__(40); // Do manual polling for intersections every second. This isn't very fast
+  __webpack_require__(38); // Do manual polling for intersections every second. This isn't very fast
   // but should handle most edge cases for now
 
 
@@ -2753,9 +2751,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var path__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(path__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(12);
 /* harmony import */ var babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _Users_philippspiess_dev_this_week_in_react_node_modules_react_static_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(15);
-/* harmony import */ var _Users_philippspiess_dev_this_week_in_react_node_modules_react_static_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Users_philippspiess_dev_this_week_in_react_node_modules_react_static_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_2__);
-Object(_Users_philippspiess_dev_this_week_in_react_node_modules_react_static_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_2__["setHasBabelPlugin"])();var universalOptions={loading:function loading(){return null;},error:function error(props){console.error(props.error);return React.createElement("div",null,"An error occurred loading this page's template. More information is available in the console.");}};var t_0=_Users_philippspiess_dev_this_week_in_react_node_modules_react_static_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_2___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({id:"../src/containers/404",load:function load(){return Promise.all([Promise.resolve(/* import() | src-containers-404 */).then(__webpack_require__.bind(null, 29))]).then(function(proms){return proms[0];});},path:function path(){return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname,'../src/containers/404');},resolve:function resolve(){return /*require.resolve*/(29);},chunkName:function chunkName(){return"src-containers-404";}}),universalOptions);var t_1=_Users_philippspiess_dev_this_week_in_react_node_modules_react_static_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_2___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({id:"../src/containers/Issue",load:function load(){return Promise.all([Promise.resolve(/* import() | src-containers-Issue */).then(__webpack_require__.bind(null, 30))]).then(function(proms){return proms[0];});},path:function path(){return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname,'../src/containers/Issue');},resolve:function resolve(){return /*require.resolve*/(30);},chunkName:function chunkName(){return"src-containers-Issue";}}),universalOptions);// Template Map
+/* harmony import */ var _Users_philipp_dev_this_week_in_react_node_modules_react_static_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(15);
+/* harmony import */ var _Users_philipp_dev_this_week_in_react_node_modules_react_static_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Users_philipp_dev_this_week_in_react_node_modules_react_static_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_2__);
+Object(_Users_philipp_dev_this_week_in_react_node_modules_react_static_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_2__["setHasBabelPlugin"])();var universalOptions={loading:function loading(){return null;},error:function error(props){console.error(props.error);return React.createElement("div",null,"An error occurred loading this page's template. More information is available in the console.");}};var t_0=_Users_philipp_dev_this_week_in_react_node_modules_react_static_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_2___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({id:"../src/containers/404",load:function load(){return Promise.all([Promise.resolve(/* import() | src-containers-404 */).then(__webpack_require__.bind(null, 29))]).then(function(proms){return proms[0];});},path:function path(){return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname,'../src/containers/404');},resolve:function resolve(){return /*require.resolve*/(29);},chunkName:function chunkName(){return"src-containers-404";}}),universalOptions);var t_1=_Users_philipp_dev_this_week_in_react_node_modules_react_static_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_2___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({id:"../src/containers/Issue",load:function load(){return Promise.all([Promise.resolve(/* import() | src-containers-Issue */).then(__webpack_require__.bind(null, 30))]).then(function(proms){return proms[0];});},path:function path(){return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname,'../src/containers/Issue');},resolve:function resolve(){return /*require.resolve*/(30);},chunkName:function chunkName(){return"src-containers-Issue";}}),universalOptions);// Template Map
 /* harmony default export */ __webpack_exports__["default"] = ({'../src/containers/404':t_0,'../src/containers/Issue':t_1});var notFoundTemplate="../src/containers/404";
 /* WEBPACK VAR INJECTION */}.call(this, "/"))
 
@@ -3487,31 +3485,19 @@ module.exports = __webpack_require__.p + "static/logo-with-bg.15043812.jpg";
 /* 34 */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjEwMDBweCIgd2lkdGg9IjkyMS4zMzMzMTI5ODgyODEycHgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPGc+CiAgICA8cGF0aCBmaWxsPSJ3aGl0ZSIgZD0iTTg5NCAxMzBjOS4zMzMgLTIuNjY3IDE2LjY2NyAtMS42NjcgMjIgM2M1LjMzMyA0LjY2NyA2LjY2NyAxMSA0IDE5Yy0xLjMzMyA0IC0yNS4zMzMgMTA3LjMzMyAtNzIgMzEwYy00Ni42NjcgMjAyLjY2NyAtNzEuMzMzIDMwOCAtNzQgMzE2Yy0xLjMzMyA5LjMzMyAtNiAxNS42NjcgLTE0IDE5Yy04IDMuMzMzIC0xNiAzIC0yNCAtMWMwIDAgLTI0OCAtMTM0IC0yNDggLTEzNGMwIDAgLTMwIC0xNiAtMzAgLTE2YzAgMCAyMiAtMjYgMjIgLTI2YzI1OC42NjcgLTI4MCAzOTAgLTQyMiAzOTQgLTQyNmMyLjY2NyAtMi42NjcgMi4zMzMgLTUuNjY3IC0xIC05Yy0zLjMzMyAtMy4zMzMgLTYuMzMzIC0zLjY2NyAtOSAtMWMwIDAgLTU1MCA0MDIgLTU1MCA0MDJjMCAwIC0xMTIgLTQ0IC0xMTIgLTQ0YzAgMCAtMTkwIC03NiAtMTkwIC03NmMtOCAtMi42NjcgLTEyIC02LjY2NyAtMTIgLTEyYzAgLTUuMzMzIDQgLTkuMzMzIDEyIC0xMmM1LjMzMyAtMi42NjcgMTUyLjMzMyAtNTUgNDQxIC0xNTdjMjg4LjY2NyAtMTAyIDQzNS42NjcgLTE1My42NjcgNDQxIC0xNTVjMCAwIDAgMCAwIDBtLTU4MiA3MjhjMCAwIDAgLTIwNCAwIC0yMDRjMCAwIDE2MCA4MiAxNjAgODJjLTg2LjY2NyA3Ny4zMzMgLTEzNCAxMjAgLTE0MiAxMjhjLTEyIDkuMzMzIC0xOCA3LjMzMyAtMTggLTZjMCAwIDAgMCAwIDAiIC8+CiAgPC9nPgo8L3N2Zz4K"
-
-/***/ }),
-/* 35 */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjEwMDBweCIgd2lkdGg9IjkyMHB4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxnPgogICAgPHBhdGggZmlsbD0id2hpdGUiIGQ9Ik05MjAgMjE0Yy0yNCAzNiAtNTUuMzMzIDY4LjY2NyAtOTQgOThjMCAwIDAgMjQgMCAyNGMwIDg2LjY2NyAtMjAgMTcwIC02MCAyNTBjLTQwIDgwIC0xMDIgMTQ3LjY2NyAtMTg2IDIwM2MtODQgNTUuMzMzIC0xODAuNjY3IDgzIC0yOTAgODNjLTEwNi42NjcgMCAtMjAzLjMzMyAtMjggLTI5MCAtODRjOS4zMzMgMS4zMzMgMjQuNjY3IDIgNDYgMmM4OCAwIDE2NiAtMjYuNjY3IDIzNCAtODBjLTQxLjMzMyAtMS4zMzMgLTc4IC0xNCAtMTEwIC0zOGMtMzIgLTI0IC01NCAtNTUuMzMzIC02NiAtOTRjNi42NjcgMi42NjcgMTggNCAzNCA0YzE3LjMzMyAwIDM0IC0yIDUwIC02Yy00NCAtOS4zMzMgLTgwIC0zMS4zMzMgLTEwOCAtNjZjLTI4IC0zNC42NjcgLTQyIC03NC42NjcgLTQyIC0xMjBjMCAwIDAgLTIgMCAtMmMyNCAxMy4zMzMgNTIgMjEuMzMzIDg0IDI0Yy01NiAtMzguNjY3IC04NCAtOTEuMzMzIC04NCAtMTU4YzAgLTMyIDguNjY3IC02My4zMzMgMjYgLTk0YzEwMi42NjcgMTI1LjMzMyAyMzIuNjY3IDE5MC42NjcgMzkwIDE5NmMtNCAtMTIgLTYgLTI2IC02IC00MmMwIC01MiAxOC4zMzMgLTk2LjMzMyA1NSAtMTMzYzM2LjY2NyAtMzYuNjY3IDgxLjY2NyAtNTUgMTM1IC01NWM1NC42NjcgMCAxMDAgMTkuMzMzIDEzNiA1OGM0MCAtOCA4MCAtMjIuNjY3IDEyMCAtNDRjLTEzLjMzMyA0NCAtNDAuNjY3IDc4LjY2NyAtODIgMTA0YzM3LjMzMyAtNS4zMzMgNzMuMzMzIC0xNS4zMzMgMTA4IC0zMGMwIDAgMCAwIDAgMCIgLz4KICA8L2c+Cjwvc3ZnPgo="
-
-/***/ }),
-/* 36 */
-/***/ (function(module, exports) {
-
 module.exports = require("react-mailchimp-subscribe");
 
 /***/ }),
-/* 37 */
+/* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(38);
-__webpack_require__(41);
-module.exports = __webpack_require__(46);
+__webpack_require__(36);
+__webpack_require__(39);
+module.exports = __webpack_require__(44);
 
 
 /***/ }),
-/* 38 */
+/* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3533,7 +3519,7 @@ var _require = __webpack_require__(4),
 registerPlugins(plugins);
 
 if (typeof document !== 'undefined' && module && module.hot) {
-  module.hot.accept("/Users/philippspiess/dev/this-week-in-react/dist/react-static-browser-plugins.js", function () {
+  module.hot.accept("/Users/philipp/dev/this-week-in-react/dist/react-static-browser-plugins.js", function () {
     registerPlugins(__webpack_require__(20).default);
   });
 }
@@ -3557,19 +3543,19 @@ if (typeof document !== 'undefined' && module && module.hot) {
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(2)(module)))
 
 /***/ }),
-/* 39 */
+/* 37 */
 /***/ (function(module, exports) {
 
 module.exports = require("swimmer");
 
 /***/ }),
-/* 40 */
+/* 38 */
 /***/ (function(module, exports) {
 
 module.exports = require("intersection-observer");
 
 /***/ }),
-/* 41 */
+/* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3586,7 +3572,7 @@ var _require2 = __webpack_require__(4),
 registerTemplates(templates, notFoundTemplate);
 
 if (typeof document !== 'undefined' && module && module.hot) {
-  module.hot.accept("/Users/philippspiess/dev/this-week-in-react/dist/react-static-templates.js", function () {
+  module.hot.accept("/Users/philipp/dev/this-week-in-react/dist/react-static-templates.js", function () {
     var _require3 = __webpack_require__(23),
         templates = _require3.default,
         notFoundTemplate = _require3.notFoundTemplate;
@@ -3597,7 +3583,7 @@ if (typeof document !== 'undefined' && module && module.hot) {
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(2)(module)))
 
 /***/ }),
-/* 42 */
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3807,7 +3793,7 @@ var getConfig = function getConfig(isDynamic, universalConfig, options, props) {
 };
 
 /***/ }),
-/* 43 */
+/* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -3836,10 +3822,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 43;
+webpackContext.id = 41;
 
 /***/ }),
-/* 44 */
+/* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3948,13 +3934,13 @@ ReportChunks.childContextTypes = {
 exports.default = ReportChunks;
 
 /***/ }),
-/* 45 */
+/* 43 */
 /***/ (function(module, exports) {
 
 module.exports = require("hoist-non-react-statics");
 
 /***/ }),
-/* 46 */
+/* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4044,7 +4030,7 @@ exports.default = _default2;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(2)(module)))
 
 /***/ }),
-/* 47 */
+/* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4407,7 +4393,7 @@ function withRouteData(Comp) {
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(2)(module)))
 
 /***/ }),
-/* 48 */
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4771,7 +4757,7 @@ function withSiteData(Comp) {
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(2)(module)))
 
 /***/ }),
-/* 49 */
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5121,7 +5107,7 @@ _defineProperty(Prefetch, "defaultProps", {
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(2)(module)))
 
 /***/ }),
-/* 50 */
+/* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5142,9 +5128,9 @@ var _ = __webpack_require__(4);
 
 var _utils = __webpack_require__(6);
 
-var _ErrorBoundary = _interopRequireDefault(__webpack_require__(51));
+var _ErrorBoundary = _interopRequireDefault(__webpack_require__(49));
 
-var _HashScroller = _interopRequireDefault(__webpack_require__(52));
+var _HashScroller = _interopRequireDefault(__webpack_require__(50));
 
 var _StaticInfo = __webpack_require__(8);
 
@@ -5459,7 +5445,7 @@ exports.default = _default2;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(2)(module)))
 
 /***/ }),
-/* 51 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5700,7 +5686,7 @@ exports.default = ErrorBoundary;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(2)(module)))
 
 /***/ }),
-/* 52 */
+/* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5970,17 +5956,17 @@ exports.default = RouterScroller;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(2)(module)))
 
 /***/ }),
-/* 53 */
+/* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(54)(false);
+exports = module.exports = __webpack_require__(52)(false);
 // Module
-exports.push([module.i, "html,\nbody {\n  min-height: 100%;\n  margin: 0;\n  font-family: \"Merriweather\", serif;\n  font-size: 18px;\n  line-height: 2;\n}\n\n.container {\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-direction: column;\n      flex-direction: column;\n}\n\n.left {\n  min-height: 100vh;\n  background: -webkit-linear-gradient(40deg, #420096 0%, #00025c 100%);\n  background: -o-linear-gradient(40deg, #420096 0%, #00025c 100%);\n  background: linear-gradient(50deg, #420096 0%, #00025c 100%);\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-align: center;\n      align-items: center;\n  -ms-flex-direction: column;\n      flex-direction: column;\n  font-family: \"Merriweather\", serif;\n  color: white;\n}\n\n.left .logo {\n  max-width: 50%;\n  margin-top: 50px;\n}\n\n.left p,\n.left .form-wrapper {\n  max-width: 450px;\n  width: 80%;\n  line-height: 2;\n}\n\n.form-wrapper {\n  margin: 20px 0;\n}\n\n.form-info {\n  text-align: center;\n  font-size: 0.8rem;\n}\n\n.left p {\n  margin-top: 50px;\n}\n\n.right {\n  min-height: 100vh;\n  background: -webkit-linear-gradient(320deg, #fff2e1 -10%, #ffe2b9 100%);\n  background: -o-linear-gradient(320deg, #fff2e1 -10%, #ffe2b9 100%);\n  background: linear-gradient(130deg, #fff2e1 -10%, #ffe2b9 100%);\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-align: center;\n      align-items: center;\n  -ms-flex-pack: center;\n      justify-content: center;\n  -ms-flex-direction: column;\n      flex-direction: column;\n  color: #00025c;\n  font-family: -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;\n}\n\n.right-header {\n  border: none;\n  margin: 20px 0;\n  margin-bottom: 0;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-align: center;\n      align-items: center;\n  color: white;\n  padding: 10px 20px;\n  background: -webkit-linear-gradient(84deg, #420096 -0%, #00025c 150%);\n  background: -o-linear-gradient(84deg, #420096 -0%, #00025c 150%);\n  background: linear-gradient(6deg, #420096 -0%, #00025c 150%);\n}\n\n.current-issue {\n  margin: 0;\n  padding: 0;\n}\n\n.current-issue h1 {\n  margin: 0;\n  line-height: 1.5rem;\n  font-size: 1.5rem;\n  margin: 10px 0;\n}\n\n.current-issue h2 {\n  margin: 10px 0;\n  font-size: 1rem;\n  font-weight: normal;\n  line-height: 1rem;\n}\n\n.right-header .spacer {\n  -ms-flex-positive: 1;\n      flex-grow: 1;\n}\n\n.right-header nav {\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-wrap: wrap;\n      flex-wrap: wrap;\n  -ms-flex-pack: end;\n      justify-content: flex-end;\n}\n\n.right-header a {\n  margin-left: 10px;\n  font-size: 1rem;\n}\n\n.pitch {\n  max-width: 500px;\n  width: 80%;\n  text-align: left;\n}\n\na {\n  color: white;\n  -webkit-transition: color 100ms ease-out;\n  -o-transition: color 100ms ease-out;\n  transition: color 100ms ease-out;\n}\n\na:hover {\n  color: #ffac40;\n}\n\n.issues {\n  margin-top: 20px;\n}\n\n.issues ol {\n  list-style-type: none;\n  padding: 0;\n  color: white;\n}\n\n.issues li {\n  text-align: center;\n}\n\n.issues a {\n  text-decoration: none;\n  border-bottom: 1px solid white;\n  color: white;\n}\n\nform {\n  text-align: center;\n  display: -ms-flexbox;\n  display: flex;\n}\n\ninput[type=\"email\"],\nbutton {\n  margin: 10px 0;\n  font-family: \"Merriweather\", serif;\n  font-size: 18px;\n}\n\ninput[type=\"email\"] {\n  width: 100%;\n  border-radius: 3px;\n  border: 1px solid #080048;\n  padding: 10px 20px;\n  -ms-flex-positive: 1;\n      flex-grow: 1;\n  border-top-right-radius: 0;\n  border-bottom-right-radius: 0;\n  -webkit-transition: -webkit-box-shadow 250ms ease-in, -webkit-transform 250ms ease-in;\n  transition: -webkit-box-shadow 250ms ease-in, -webkit-transform 250ms ease-in;\n  -o-transition: box-shadow 250ms ease-in, transform 250ms ease-in;\n  transition: box-shadow 250ms ease-in, transform 250ms ease-in;\n  transition: box-shadow 250ms ease-in, transform 250ms ease-in, -webkit-box-shadow 250ms ease-in, -webkit-transform 250ms ease-in;\n}\n\ninput[type=\"email\"]:hover,\ninput[type=\"email\"]:active,\ninput[type=\"email\"]:focus {\n  -webkit-box-shadow: 0 24px 48px 10px rgba(35, 51, 64, 0.35);\n          box-shadow: 0 24px 48px 10px rgba(35, 51, 64, 0.35);\n  -webkit-transform: translateY(-2px);\n      -ms-transform: translateY(-2px);\n          transform: translateY(-2px);\n}\n\nbutton {\n  background-color: #ffcf82;\n  border-radius: 3px;\n  color: #00025c;\n  text-decoration: none;\n  border: 1px solid #080048;\n  margin: 10px 0;\n  cursor: pointer;\n  padding: 10px 20px;\n  border-top-left-radius: 0;\n  border-bottom-left-radius: 0;\n  text-shadow: 0 0 5px #ffe3b0;\n\n  -webkit-transition: -webkit-box-shadow 250ms ease-in, -webkit-transform 250ms ease-in;\n\n  transition: -webkit-box-shadow 250ms ease-in, -webkit-transform 250ms ease-in;\n\n  -o-transition: box-shadow 250ms ease-in, transform 250ms ease-in;\n\n  transition: box-shadow 250ms ease-in, transform 250ms ease-in;\n\n  transition: box-shadow 250ms ease-in, transform 250ms ease-in, -webkit-box-shadow 250ms ease-in, -webkit-transform 250ms ease-in;\n}\n\nbutton:hover,\nbutton:active,\nbutton:focus {\n  -webkit-box-shadow: 0 24px 48px 10px rgba(35, 51, 64, 0.35);\n          box-shadow: 0 24px 48px 10px rgba(35, 51, 64, 0.35);\n  -webkit-transform: translateY(-2px);\n      -ms-transform: translateY(-2px);\n          transform: translateY(-2px);\n  color: #00025c;\n}\n\n.button .button-icon {\n  padding-left: 10px;\n}\n\n.curated-by {\n  text-align: center;\n  font-size: 0.8rem;\n  margin: 10px 0;\n  margin-bottom: 50px;\n  margin-top: 30px !important;\n}\n\n.separator {\n}\n\n.social ul {\n  list-style-type: none;\n  padding: 0;\n  margin: 0;\n}\n\n.social {\n  margin: 10px 0;\n}\n\n.social .button-icon {\n  position: relative;\n  top: 5px;\n  margin-right: 15px;\n}\n\n.preview,\n.right-header {\n  width: calc(100% - 40px); max-width: 600px;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n}\n\n.preview {\n  border: none;\n  margin-bottom: 20px;\n  -webkit-box-shadow: 0 24px 48px 10px rgba(35, 51, 64, 0.15);\n          box-shadow: 0 24px 48px 10px rgba(35, 51, 64, 0.15);\n}\n\n@media only screen and (max-width: 800px) {\n  .container {\n    -ms-flex-direction: column;\n        flex-direction: column;\n  }\n\n  .left,\n  .right {\n    min-height: 50vh;\n  }\n\n  .preview,\n  .right-header {\n    width: 100%;\n    max-width: 500px;\n  }\n}\n\n@media only screen and (min-width: 801px) {\n  .container {\n    -ms-flex-direction: row;\n        flex-direction: row;\n  }\n\n  .left {\n    width: 40vw;\n    max-width: 600px;\n  }\n\n  .right {\n    -ms-flex-positive: 1;\n        flex-grow: 1;\n  }\n\n  .left {\n    background: -webkit-linear-gradient(40deg, #4e0096, #00025c 80%);\n    background: -o-linear-gradient(40deg, #4e0096, #00025c 80%);\n    background: linear-gradient(50deg, #4e0096, #00025c 80%);\n    background-size: 100% 100vh;\n    background-attachment: fixed;\n  }\n}\n", ""]);
+exports.push([module.i, "html,\nbody {\n  min-height: 100%;\n  margin: 0;\n  font-family: \"Merriweather\", serif;\n  font-size: 18px;\n  line-height: 2;\n}\n\n.container {\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-direction: column;\n      flex-direction: column;\n}\n\n.left {\n  min-height: 100vh;\n  background: -webkit-linear-gradient(40deg, #420096 0%, #00025c 100%);\n  background: -o-linear-gradient(40deg, #420096 0%, #00025c 100%);\n  background: linear-gradient(50deg, #420096 0%, #00025c 100%);\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-align: center;\n      align-items: center;\n  -ms-flex-direction: column;\n      flex-direction: column;\n  font-family: \"Merriweather\", serif;\n  color: white;\n}\n\n.left .logo {\n  max-width: 50%;\n  margin-top: 50px;\n}\n\n.left p,\n.left .form-wrapper {\n  max-width: 450px;\n  width: 80%;\n  line-height: 2;\n}\n\n.form-wrapper {\n  margin: 20px 0;\n}\n\n.form-info {\n  text-align: center;\n  font-size: 0.8rem;\n}\n\n.left p {\n  margin-top: 50px;\n}\n\n.right {\n  min-height: 100vh;\n  background: -webkit-linear-gradient(320deg, #fff2e1 -10%, #ffe2b9 100%);\n  background: -o-linear-gradient(320deg, #fff2e1 -10%, #ffe2b9 100%);\n  background: linear-gradient(130deg, #fff2e1 -10%, #ffe2b9 100%);\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-align: center;\n      align-items: center;\n  -ms-flex-pack: center;\n      justify-content: center;\n  -ms-flex-direction: column;\n      flex-direction: column;\n  color: #00025c;\n  font-family: -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;\n}\n\n.right-header {\n  border: none;\n  margin: 20px 0;\n  margin-bottom: 0;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-align: center;\n      align-items: center;\n  color: white;\n  padding: 10px 20px;\n  background: -webkit-linear-gradient(84deg, #420096 -0%, #00025c 150%);\n  background: -o-linear-gradient(84deg, #420096 -0%, #00025c 150%);\n  background: linear-gradient(6deg, #420096 -0%, #00025c 150%);\n}\n\n.current-issue {\n  margin: 0;\n  padding: 0;\n}\n\n.current-issue h1 {\n  margin: 0;\n  line-height: 1.5rem;\n  font-size: 1.5rem;\n  margin: 10px 0;\n}\n\n.current-issue h2 {\n  margin: 10px 0;\n  font-size: 1rem;\n  font-weight: normal;\n  line-height: 1rem;\n}\n\n.right-header .spacer {\n  -ms-flex-positive: 1;\n      flex-grow: 1;\n}\n\n.right-header nav {\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-wrap: wrap;\n      flex-wrap: wrap;\n  -ms-flex-pack: end;\n      justify-content: flex-end;\n}\n\n.right-header a {\n  margin-left: 10px;\n  font-size: 1rem;\n}\n\n.pitch {\n  max-width: 500px;\n  width: 80%;\n  text-align: left;\n}\n\na {\n  color: white;\n  -webkit-transition: color 100ms ease-out;\n  -o-transition: color 100ms ease-out;\n  transition: color 100ms ease-out;\n}\n\na:hover {\n  color: #ffac40;\n}\n\n.issues {\n  margin-top: 20px;\n}\n\n.issues ol {\n  list-style-type: none;\n  padding: 0;\n  color: white;\n}\n\n.issues li {\n  text-align: center;\n}\n\n.issues a {\n  text-decoration: none;\n  border-bottom: 1px solid white;\n  color: white;\n}\n\nform {\n  text-align: center;\n  display: -ms-flexbox;\n  display: flex;\n}\n\ninput[type=\"email\"],\nbutton {\n  margin: 10px 0;\n  font-family: \"Merriweather\", serif;\n  font-size: 18px;\n}\n\ninput[type=\"email\"] {\n  width: 100%;\n  border-radius: 3px;\n  border: 1px solid #080048;\n  padding: 10px 20px;\n  -ms-flex-positive: 1;\n      flex-grow: 1;\n  border-top-right-radius: 0;\n  border-bottom-right-radius: 0;\n  -webkit-transition: -webkit-box-shadow 250ms ease-in, -webkit-transform 250ms ease-in;\n  transition: -webkit-box-shadow 250ms ease-in, -webkit-transform 250ms ease-in;\n  -o-transition: box-shadow 250ms ease-in, transform 250ms ease-in;\n  transition: box-shadow 250ms ease-in, transform 250ms ease-in;\n  transition: box-shadow 250ms ease-in, transform 250ms ease-in, -webkit-box-shadow 250ms ease-in, -webkit-transform 250ms ease-in;\n}\n\ninput[type=\"email\"]:hover,\ninput[type=\"email\"]:active,\ninput[type=\"email\"]:focus {\n  -webkit-box-shadow: 0 24px 48px 10px rgba(35, 51, 64, 0.35);\n          box-shadow: 0 24px 48px 10px rgba(35, 51, 64, 0.35);\n  -webkit-transform: translateY(-2px);\n      -ms-transform: translateY(-2px);\n          transform: translateY(-2px);\n}\n\nbutton {\n  background-color: #ffcf82;\n  border-radius: 3px;\n  color: #00025c;\n  text-decoration: none;\n  border: 1px solid #080048;\n  margin: 10px 0;\n  cursor: pointer;\n  padding: 10px 20px;\n  border-top-left-radius: 0;\n  border-bottom-left-radius: 0;\n  text-shadow: 0 0 5px #ffe3b0;\n\n  -webkit-transition: -webkit-box-shadow 250ms ease-in, -webkit-transform 250ms ease-in;\n\n  transition: -webkit-box-shadow 250ms ease-in, -webkit-transform 250ms ease-in;\n\n  -o-transition: box-shadow 250ms ease-in, transform 250ms ease-in;\n\n  transition: box-shadow 250ms ease-in, transform 250ms ease-in;\n\n  transition: box-shadow 250ms ease-in, transform 250ms ease-in, -webkit-box-shadow 250ms ease-in, -webkit-transform 250ms ease-in;\n}\n\nbutton:hover,\nbutton:active,\nbutton:focus {\n  -webkit-box-shadow: 0 24px 48px 10px rgba(35, 51, 64, 0.35);\n          box-shadow: 0 24px 48px 10px rgba(35, 51, 64, 0.35);\n  -webkit-transform: translateY(-2px);\n      -ms-transform: translateY(-2px);\n          transform: translateY(-2px);\n  color: #00025c;\n}\n\n.button .button-icon {\n  padding-left: 10px;\n}\n\n.curated-by {\n  text-align: center;\n  margin: 10px 0;\n  margin-bottom: 50px;\n  margin-top: 30px !important;\n}\n\n.separator {\n}\n\n.social ul {\n  list-style-type: none;\n  padding: 0;\n  margin: 0;\n}\n\n.social {\n  margin: 10px 0;\n}\n\n.social .button-icon {\n  position: relative;\n  top: 5px;\n  margin-right: 15px;\n}\n\n.preview,\n.right-header {\n  width: calc(100% - 40px);\n  max-width: 600px;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n}\n\n.preview {\n  border: none;\n  margin-bottom: 20px;\n  -webkit-box-shadow: 0 24px 48px 10px rgba(35, 51, 64, 0.15);\n          box-shadow: 0 24px 48px 10px rgba(35, 51, 64, 0.15);\n}\n\n@media only screen and (max-width: 800px) {\n  .container {\n    -ms-flex-direction: column;\n        flex-direction: column;\n  }\n\n  .left,\n  .right {\n    min-height: 50vh;\n  }\n\n  .preview,\n  .right-header {\n    width: 100%;\n    max-width: 500px;\n  }\n}\n\n@media only screen and (min-width: 801px) {\n  .container {\n    -ms-flex-direction: row;\n        flex-direction: row;\n  }\n\n  .left {\n    width: 40vw;\n    max-width: 600px;\n  }\n\n  .right {\n    -ms-flex-positive: 1;\n        flex-grow: 1;\n  }\n\n  .left {\n    background: -webkit-linear-gradient(40deg, #4e0096, #00025c 80%);\n    background: -o-linear-gradient(40deg, #4e0096, #00025c 80%);\n    background: linear-gradient(50deg, #4e0096, #00025c 80%);\n    background-size: 100% 100vh;\n    background-attachment: fixed;\n  }\n}\n", ""]);
 
 
 
 /***/ }),
-/* 54 */
+/* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6071,6 +6057,18 @@ function toComment(sourceMap) {
 }
 
 /***/ }),
+/* 53 */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjEwMDBweCIgd2lkdGg9IjkyMS4zMzMzMTI5ODgyODEycHgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPGc+CiAgICA8cGF0aCBmaWxsPSJ3aGl0ZSIgZD0iTTg5NCAxMzBjOS4zMzMgLTIuNjY3IDE2LjY2NyAtMS42NjcgMjIgM2M1LjMzMyA0LjY2NyA2LjY2NyAxMSA0IDE5Yy0xLjMzMyA0IC0yNS4zMzMgMTA3LjMzMyAtNzIgMzEwYy00Ni42NjcgMjAyLjY2NyAtNzEuMzMzIDMwOCAtNzQgMzE2Yy0xLjMzMyA5LjMzMyAtNiAxNS42NjcgLTE0IDE5Yy04IDMuMzMzIC0xNiAzIC0yNCAtMWMwIDAgLTI0OCAtMTM0IC0yNDggLTEzNGMwIDAgLTMwIC0xNiAtMzAgLTE2YzAgMCAyMiAtMjYgMjIgLTI2YzI1OC42NjcgLTI4MCAzOTAgLTQyMiAzOTQgLTQyNmMyLjY2NyAtMi42NjcgMi4zMzMgLTUuNjY3IC0xIC05Yy0zLjMzMyAtMy4zMzMgLTYuMzMzIC0zLjY2NyAtOSAtMWMwIDAgLTU1MCA0MDIgLTU1MCA0MDJjMCAwIC0xMTIgLTQ0IC0xMTIgLTQ0YzAgMCAtMTkwIC03NiAtMTkwIC03NmMtOCAtMi42NjcgLTEyIC02LjY2NyAtMTIgLTEyYzAgLTUuMzMzIDQgLTkuMzMzIDEyIC0xMmM1LjMzMyAtMi42NjcgMTUyLjMzMyAtNTUgNDQxIC0xNTdjMjg4LjY2NyAtMTAyIDQzNS42NjcgLTE1My42NjcgNDQxIC0xNTVjMCAwIDAgMCAwIDBtLTU4MiA3MjhjMCAwIDAgLTIwNCAwIC0yMDRjMCAwIDE2MCA4MiAxNjAgODJjLTg2LjY2NyA3Ny4zMzMgLTEzNCAxMjAgLTE0MiAxMjhjLTEyIDkuMzMzIC0xOCA3LjMzMyAtMTggLTZjMCAwIDAgMCAwIDAiIC8+CiAgPC9nPgo8L3N2Zz4K"
+
+/***/ }),
+/* 54 */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjEwMDBweCIgd2lkdGg9IjkyMHB4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxnPgogICAgPHBhdGggZmlsbD0id2hpdGUiIGQ9Ik05MjAgMjE0Yy0yNCAzNiAtNTUuMzMzIDY4LjY2NyAtOTQgOThjMCAwIDAgMjQgMCAyNGMwIDg2LjY2NyAtMjAgMTcwIC02MCAyNTBjLTQwIDgwIC0xMDIgMTQ3LjY2NyAtMTg2IDIwM2MtODQgNTUuMzMzIC0xODAuNjY3IDgzIC0yOTAgODNjLTEwNi42NjcgMCAtMjAzLjMzMyAtMjggLTI5MCAtODRjOS4zMzMgMS4zMzMgMjQuNjY3IDIgNDYgMmM4OCAwIDE2NiAtMjYuNjY3IDIzNCAtODBjLTQxLjMzMyAtMS4zMzMgLTc4IC0xNCAtMTEwIC0zOGMtMzIgLTI0IC01NCAtNTUuMzMzIC02NiAtOTRjNi42NjcgMi42NjcgMTggNCAzNCA0YzE3LjMzMyAwIDM0IC0yIDUwIC02Yy00NCAtOS4zMzMgLTgwIC0zMS4zMzMgLTEwOCAtNjZjLTI4IC0zNC42NjcgLTQyIC03NC42NjcgLTQyIC0xMjBjMCAwIDAgLTIgMCAtMmMyNCAxMy4zMzMgNTIgMjEuMzMzIDg0IDI0Yy01NiAtMzguNjY3IC04NCAtOTEuMzMzIC04NCAtMTU4YzAgLTMyIDguNjY3IC02My4zMzMgMjYgLTk0YzEwMi42NjcgMTI1LjMzMyAyMzIuNjY3IDE5MC42NjcgMzkwIDE5NmMtNCAtMTIgLTYgLTI2IC02IC00MmMwIC01MiAxOC4zMzMgLTk2LjMzMyA1NSAtMTMzYzM2LjY2NyAtMzYuNjY3IDgxLjY2NyAtNTUgMTM1IC01NWM1NC42NjcgMCAxMDAgMTkuMzMzIDEzNiA1OGM0MCAtOCA4MCAtMjIuNjY3IDEyMCAtNDRjLTEzLjMzMyA0NCAtNDAuNjY3IDc4LjY2NyAtODIgMTA0YzM3LjMzMyAtNS4zMzMgNzMuMzMzIC0xNS4zMzMgMTA4IC0zMGMwIDAgMCAwIDAgMCIgLz4KICA8L2c+Cjwvc3ZnPgo="
+
+/***/ }),
 /* 55 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6088,9 +6086,9 @@ var external_react_dom_default = /*#__PURE__*/__webpack_require__.n(external_rea
 // EXTERNAL MODULE: ../lib/index.js
 var lib = __webpack_require__(10);
 
-// CONCATENATED MODULE: /Users/philippspiess/dev/this-week-in-react/src/App.js
+// CONCATENATED MODULE: /Users/philipp/dev/this-week-in-react/src/App.js
 var App_App=function App(){return external_react_default.a.createElement(lib["Root"],{disableScroller:true},external_react_default.a.createElement("div",{className:"content"},external_react_default.a.createElement(lib["Routes"],null)));};/* harmony default export */ var src_App = (App_App);
-// CONCATENATED MODULE: /Users/philippspiess/dev/this-week-in-react/src/index.js
+// CONCATENATED MODULE: /Users/philipp/dev/this-week-in-react/src/index.js
 // Your top level component
 // Export your top level component as JSX (for static rendering)
 /* harmony default export */ var src = __webpack_exports__["default"] = (src_App);// Render your app
@@ -6100,4 +6098,4 @@ src_render(src_App);}
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.a1633fd7.js.map
+//# sourceMappingURL=static.8c818637.js.map

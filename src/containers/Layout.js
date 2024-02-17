@@ -57,9 +57,16 @@ export default class Layout extends React.Component {
             />
 
             <p className="pitch">
-              This website contains a backup of the React newsletters I curated between 2018 and 2019. It's been an amazing journey with you all, but this newsletter is no longer maintained.<br/>
-              <br/>
-              If you're interested in React news, I recommend you to check out the fantastic <a href="https://thisweekinreact.com/">This Week In React</a> curated by Sébastien Lorber.<br/>
+              This website contains a backup of the React newsletters I curated
+              between 2018 and 2019. It's been an amazing journey with you all,
+              but this newsletter is no longer maintained.
+              <br />
+              <br />
+              If you're interested in React news, I recommend you to check out
+              the fantastic{" "}
+              <a href="https://thisweekinreact.com/">This Week In React</a>{" "}
+              curated by Sébastien Lorber.
+              <br />
             </p>
 
             <p className="curated-by">

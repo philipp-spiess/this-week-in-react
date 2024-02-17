@@ -26,7 +26,9 @@ export default function SubscribeForm() {
             {status === "error" && (
               <div
                 className="form-info"
-                dangerouslySetInnerHTML={{ __html: message.replace('0 - ','') }}
+                dangerouslySetInnerHTML={{
+                  __html: message.replace("0 - ", "")
+                }}
               />
             )}
             {status === "success" && (
@@ -44,9 +46,7 @@ export default function SubscribeForm() {
               />
               <button onClick={submit}>Subscribe</button>
             </form>
-            <div className="form-info">
-              No Spam. Unsubscribe at any time.
-            </div>
+            <div className="form-info">No Spam. Unsubscribe at any time.</div>
           </div>
         );
       }}

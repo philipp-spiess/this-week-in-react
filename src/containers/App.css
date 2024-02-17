@@ -224,7 +224,8 @@ button:focus {
 
 .preview,
 .right-header {
-  width: calc(100% - 40px); max-width: 600px;
+  width: calc(100% - 40px);
+  max-width: 600px;
   box-sizing: border-box;
 }
 

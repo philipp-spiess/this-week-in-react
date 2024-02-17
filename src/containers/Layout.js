@@ -57,40 +57,16 @@ export default class Layout extends React.Component {
             />
 
             <p className="pitch">
-              Regular coverage of interesting pull requests, discussions, and
-              RFCs around React Core and React DOM.
+              This website contains a backup of the React newsletters I curated between 2018 and 2019. It's been an amazing journey with you all, but this newsletter is no longer maintained.<br/>
+              <br/>
+              If you're interested in React news, I recommend you to check out the fantastic <a href="https://thisweekinreact.com/">This Week In React</a> curated by Sébastien Lorber.<br/>
             </p>
 
-            <SubscribeForm />
-
-            <div className="separator">or</div>
-
-            <div className="social">
-              <ul>
-                <li>
-                  <a href="https://twitter.com/PhilippSpiess">
-                    <span className="button-icon">
-                      <img src={TwitterSvg} width="30px" alt="Twitter" />
-                    </span>
-                    Follow on Twitter
-                  </a>
-                </li>
-                <li>
-                  <a href="https://t.me/this_week_in_react">
-                    <span className="button-icon">
-                      <img src={TelegramSvg} width="30px" alt="Telegram" />
-                    </span>
-                    Read on Telegram
-                  </a>
-                </li>
-              </ul>
-            </div>
             <p className="curated-by">
-              Curated with{" "}
               <span role="img" aria-label="love">
                 ❤️
               </span>{" "}
-              by <a href="https://philippspiess.com">Philipp Spiess</a>
+              <a href="https://philippspiess.com">Philipp</a>
             </p>
           </div>
 
